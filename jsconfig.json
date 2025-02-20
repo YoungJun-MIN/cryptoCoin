@@ -1,0 +1,11 @@
+{
+  "compilerOptions": {
+    "baseUrl": "src",  // src 폴더를 기준 경로로 설정
+    "paths": {
+      "@/*": ["*"],  // @는 src 폴더 내 모든 파일을 참조
+      "@assets/*": ["assets/*"],  // @assets는 src/assets 폴더를 참조
+      "@components/*": ["components/*"]  // @components는 src/components 폴더를 참조
+    }
+  },
+  "include": ["src/**/*"]  // src 폴더 내 모든 파일 포함
+}
