@@ -7,21 +7,24 @@ import Trade from "@components/Main/Trade";
 
 function App() {
   return (
-    <Router>
-      <Header></Header>
-      <div className="dashboard">
-        <Sidebar></Sidebar>
-        <main className="dashboard__main">
-          <Routes>
-            <Route path="/" element={<Dashboard />}></Route>
-            <Route path="/profile" element={<Profile />}></Route>
-            <Route path="/trade" element={<Trade />}></Route>
-          </Routes>
-          {/* <div className="dashboard__content"></div>
-          <div className="dashboard__content"></div> */}
-        </main>
-      </div>
-    </Router>
+    <>
+      <Router>
+        <Header></Header>
+        <div className="dashboard">
+          <Sidebar></Sidebar>
+          <main className="dashboard__main">
+            <Routes>
+              <Route path="/" element={<Dashboard />}></Route>
+              <Route path="/profile" element={<Profile />}></Route>
+              <Route path="/trade" element={<Trade />}></Route>
+            </Routes>
+            {/* <div className="dashboard__content"></div>
+            <div className="dashboard__content"></div> */}
+          </main>
+        </div>
+      </Router>    
+    </>
+
   )
 }
 

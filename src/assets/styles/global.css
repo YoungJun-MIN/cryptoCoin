@@ -15,12 +15,22 @@
   --accent-yellow: #FFC107; /* 예시로 추가한 것 */
 }
 
+[data-theme="light"] {
+  --background-color: var(--neutral-white);
+  --text-color: var(--neutral-dark-blue);
+}
+
+[data-theme="dark"] {
+  --background-color: var(--neutral-dark-blue);
+  --text-color: var(--neutral-white);
+}
+
 #root {
   height: 100vh;
-  background-color: var(--neutral-dark-blue);
+  background-color: var(--background-color);
   display: grid;
   grid-template-rows: 60px 1fr;
-  color: var(--neutral-white);
+  color: var(--text-color);
 }
 
 .dashboard {
@@ -44,11 +54,15 @@ nav {
   outline: none; /* 포커스를 받을 때 기본 외곽선 없애기 (원한다면) */
 }
 
-button:focus {
-  outline: 2px solid #fff; /* 포커스를 받을 때 파란색 외곽선으로 표시 */
+a:focus-visible, button:focus-visible {
+  outline: 2px solid var(--primary-purple-dark); /* 포커스를 받을 때 파란색 외곽선으로 표시 */
 }
 
 .a-reset {
   text-decoration: none;  /* 밑줄 제거 */
   color: inherit;         /* 텍스트 색상 상속 (부모 요소의 색상을 따르게 설정) */
+}
+
+.theme-icon {
+  fill: var(--text-color);
 }
