@@ -4,6 +4,7 @@ import {BrowserRouter as Router, Routes, Route, Link } from "react-router-dom";
 import Dashboard from "@components/Main/Dashboard";
 import Profile from "@components/Main/Profile";
 import Trade from "@components/Main/Trade";
+
 function App() {
   return (
     <Router>

@@ -6,7 +6,7 @@ export default function Sidebar() {
       <nav className="dashboard__nav">
         <ul className={`${styles.ul} dashboard__nav-list`}>
           <li className="dashboard__nav-item">
-            <Link to="/">Dashboard</Link>
+            <Link className="dashboard__nav-link" to="/">Dashboard</Link>
           </li>
           <li>
             <Link to="/profile">profile</Link>
