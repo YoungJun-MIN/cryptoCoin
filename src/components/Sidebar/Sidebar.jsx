@@ -3,16 +3,16 @@ import {BrowserRouter as Router, Routes, Route, Link } from "react-router-dom";
 export default function Sidebar() {
   return(
     <>
-      <nav className="dashboard__nav">
+      <nav className={`${styles.dashboard__nav} dashboard__nav`}>
         <ul className={`${styles.ul} dashboard__nav-list`}>
           <li className="dashboard__nav-item">
-            <Link className="dashboard__nav-link" to="/">Dashboard</Link>
+            <Link className={`${styles.dashboard__navLink} a-reset dashboard__nav-link`} to="/">Dashboard</Link>
           </li>
           <li>
-            <Link to="/profile">profile</Link>
+            <Link className={`${styles.dashboard__navLink} a-reset dashboard__nav-link`} to="/profile">profile</Link>
           </li>
           <li>
-            <Link to="/trade">Trade</Link>
+            <Link className={`${styles.dashboard__navLink} a-reset dashboard__nav-link`} to="/trade">Trade</Link>
           </li>
         </ul>
       </nav>

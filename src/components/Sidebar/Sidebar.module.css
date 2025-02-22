@@ -1,8 +1,13 @@
+.dashboard__nav {
+  padding: 0px 0px 0px 30px;
+}
 .ul {
   display: flex;
   flex-direction: column;
+  gap: 10px;
 }
 
-.dashboard__nav-link {
-  
+.dashboard__navLink {
+  font-size:1.3rem;
+  font-weight: 600;
 }
