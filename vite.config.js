@@ -9,7 +9,8 @@ export default defineConfig({
     alias: {
       '@': path.resolve(__dirname, 'src'), // @를 src 폴더로 설정
       '@assets': path.resolve(__dirname, 'src/assets'), // @assets를 src/assets 폴더로 설정
-      '@components': path.resolve(__dirname, 'src/components') // @components를 src/components 폴더로 설정
+      '@components': path.resolve(__dirname, 'src/components'), // @components를 src/components 폴더로 설정
+      '@redux': path.resolve(__dirname, 'src/redux')
     }
   }
 })

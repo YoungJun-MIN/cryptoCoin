@@ -1,11 +1,15 @@
 import styles from "@components/CoinDetail/CoinDetail.module.css"
+import { useSelector } from "react-redux"
+const selectCoinData = (state) => state.coinData;
 export default function CoinDetail() {
+  const coinData = useSelector(selectCoinData);
+  console.log(`coinData: `, coinData);
   return (
-    <section class={`${styles.coinDetail} coinDetail`}>
-      <header class="coinDetail__header">
+    <section className={`${styles.coinDetail} coinDetail`}>
+      <header className="coinDetail__header">
         <h2 className="coinDetail__title">Bitcoin <span className="coinDetail__ticker">BTC</span></h2>
       </header>
-      <article class="coinDetail__price">
+      <article className="coinDetail__price">
         <h3 className="coinDetail__price-value">$95,532,58 USD</h3>
         <span className="coinDetail__price-change">-1.26% (24H)</span>
         <p className="coinDetail__btc">
