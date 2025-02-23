@@ -39,14 +39,10 @@
   grid-template-columns: 200px 1fr;
 }
 
-header {
-  /* background-color: yellow; */
+.dashboard__main {
+  display: grid;
+  grid-template-columns: 7fr 3fr;
 }
-
-nav {
-  /* background-color: brown; */
-}
-
 .button-reset {
   cursor: pointer;
   font: inherit;

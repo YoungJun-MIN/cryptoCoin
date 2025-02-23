@@ -4,7 +4,7 @@ import {BrowserRouter as Router, Routes, Route, Link } from "react-router-dom";
 import Dashboard from "@components/Main/Dashboard";
 import Profile from "@components/Main/Profile";
 import Trade from "@components/Main/Trade";
-
+import CoinDetail from "./components/CoinDetail/CoinDetail";
 function App() {
   return (
     <>
@@ -14,7 +14,7 @@ function App() {
           <Sidebar></Sidebar>
           <main className="dashboard__main">
             <Routes>
-              <Route path="/" element={<Dashboard />}></Route>
+              <Route path="/" element={<CoinDetail />}></Route>
               <Route path="/profile" element={<Profile />}></Route>
               <Route path="/trade" element={<Trade />}></Route>
             </Routes>
