@@ -12,6 +12,8 @@ export default defineConfig({
       '@components': path.resolve(__dirname, 'src/components'), // @components를 src/components 폴더로 설정
       '@redux': path.resolve(__dirname, 'src/redux'),
       '@api': path.resolve(__dirname, 'src/api'),
+      '@hooks': path.resolve(__dirname, 'src/hooks'),
+      '@utils': path.resolve(__dirname, 'src/utils'),
     }
   }
 })

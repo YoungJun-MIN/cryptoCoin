@@ -2,15 +2,17 @@ import { useEffect, useRef } from "react"
 import { useSelector } from "react-redux"
 import { select, scaleTime, timeParse, extent, scaleLinear, min, max, line, area, curveLinear } from "d3";
 import priceData from "@api/price.json"
+import useResizeObserver from "@hooks/useResizeObserver"
 const selectPriceData = (state) => state.coinData;
 export default function Chart() {
   const coinData = useSelector(selectPriceData);
   const svgRef = useRef();
   const wrapperRef = useRef();
+  const dimensions = useResizeObserver(wrapperRef);
   useEffect(() => {
     const svg = select(svgRef.current);
     const svgContent = svg.select(".chart__content");
-    const { width, height } = wrapperRef.current.getBoundingClientRect();
+    const { width, height } = dimensions || wrapperRef.current.getBoundingClientRect();
     console.log(width);
     console.log(height);
     const xScale = scaleTime()
@@ -30,7 +32,7 @@ export default function Chart() {
           return price;
         })
       ])
-      .range([height - 10, 10]);
+      .range([height - 0, 0]);
 
     const lineGenerator = line()
       .x((item) => {
@@ -74,10 +76,10 @@ export default function Chart() {
     .attr("stroke-width", 2)
     .attr("fill", "none")
     .attr("d", lineGenerator)
-  }, [])
+  }, [dimensions])
   return (
     <>
-      <div id="chart__container" ref={wrapperRef}>
+      <div id="chart__wrapper" ref={wrapperRef}>
         <svg ref={svgRef} width="100%" height="100%">
           <defs>
             <linearGradient id="gradienta" x1="0%" y1="0%" x2="0%" y2="100%">
