@@ -1,9 +1,10 @@
 import styles from "@components/CoinDetail/CoinDetail.module.css"
+import Chart from "@components/Chart/Chart"
 import { useSelector } from "react-redux"
 const selectCoinData = (state) => state.coinData;
 export default function CoinDetail() {
   const coinData = useSelector(selectCoinData);
-  console.log(`coinData: `, coinData);
+  // console.log(`coinData: `, coinData);
   return (
     <section className={`${styles.coinDetail} coinDetail`}>
       <header className="coinDetail__header">
@@ -21,8 +22,8 @@ export default function CoinDetail() {
         <button className="coinDetail__chart-time">1H</button>
         <button className="coinDetail__chart-time">24H</button>
       </article>
-      <article>
-        chart
+      <article className="coinDetail__chart">
+        <Chart />
       </article>
       <article className="coinDetail__stats">
         <div className="coinDetail__stat">

@@ -3,7 +3,7 @@ import styles from "@components/Header/Header.module.css"
 import { useTheme } from "@/context/ThemeContext"
 export default function Header() {
   const { theme, toggleTheme } = useTheme();
-  console.log(`theme: ${theme}`)
+  // console.log(`theme: ${theme}`)
   return(
     <>
       <header className={`${styles.header} header`}>

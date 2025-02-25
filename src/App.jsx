@@ -4,20 +4,28 @@ import {BrowserRouter as Router, Routes, Route, Link } from "react-router-dom";
 import Dashboard from "@components/Main/Dashboard";
 import Profile from "@components/Main/Profile";
 import Trade from "@components/Main/Trade";
-import CoinDetail from "@components/CoinDetail/CoinDetail";
 import { initializeCoinData } from "@/redux/store";
 import { useEffect, useState } from "react";
 import { useDispatch } from "react-redux"
-
+import Crypto from "./api/crypto";
 function App() {
   const [loading, setLoading] = useState(true);
   const dispatch = useDispatch();
   useEffect(() => {
-    console.log(`삽입@`)
-    dispatch(initializeCoinData({user: 'Min', age:{num: 25}}));
-    setLoading(false);
+    const loadCoinData = async() => {
+      try {
+        const crypto = new Crypto();
+        const data = await crypto.fetchInitialData();
+        console.log(data);
+        dispatch(initializeCoinData(data));
+        setLoading(false);
+      } catch(error) {
+        console.error(`Error fetching data: `, error);
+      }
+    }
+    // loadCoinData();
   }, [])
-  if(loading) return <p>Loading...</p>
+  // if(loading) return <p>Loading...</p>
   return (
     <>
       <Router>
