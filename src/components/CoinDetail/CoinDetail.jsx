@@ -7,7 +7,7 @@ export default function CoinDetail() {
   // console.log(`coinData: `, coinData);
   return (
     <section className={`${styles.coinDetail} coinDetail`}>
-      <header className="coinDetail__header">
+      {/* <header className="coinDetail__header">
         <h2 className="coinDetail__title">Bitcoin <span className="coinDetail__ticker">BTC</span></h2>
       </header>
       <article className="coinDetail__price">
@@ -21,11 +21,11 @@ export default function CoinDetail() {
       <article className="coinDetail__timeframe">
         <button className="coinDetail__chart-time">1H</button>
         <button className="coinDetail__chart-time">24H</button>
-      </article>
-      <article className="coinDetail__chart">
+      </article> */}
+      <article className={`coinDetail__chart ${styles.coinDetailChart}`}>
         <Chart />
       </article>
-      <article className="coinDetail__stats">
+      {/* <article className="coinDetail__stats">
         <div className="coinDetail__stat">
           <span className="coinDetail__stat-label">Market Cap (USD)</span>
           <span className="coinDetail__stat-value">$1,893.97 B</span>
@@ -46,7 +46,7 @@ export default function CoinDetail() {
           <span className="coinDetail__stat-label">Total Supply (USD)</span>
           <span className="coinDetail__stat-value">$19.83 M BTC</span>
         </div>
-      </article>
+      </article> */}
     </section>
   )
 }
