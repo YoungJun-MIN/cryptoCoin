@@ -8,9 +8,9 @@ import store from "@redux/store"
 createRoot(document.getElementById('root')).render(
   <ThemeProvider>
     <Provider store={store}>
-      <StrictMode>
+      {/* <StrictMode>      </StrictMode> */}
         <App />
-      </StrictMode>
+
     </Provider>
   </ThemeProvider>
 )

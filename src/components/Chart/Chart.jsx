@@ -7,6 +7,8 @@ import styles from '@components/Chart/Chart.module.css';
 const selectPriceData = (state) => state.coinData;
 export default function Chart() {
   const coinData = useSelector(selectPriceData);
+  const {coinPrice, topCoinsUSD, topCoinsBTC} = coinData;
+  const {prices} = coinPrice;
   const svgRef = useRef();
   const wrapperRef = useRef();
   const dimensions = useResizeObserver(wrapperRef);
@@ -18,7 +20,7 @@ export default function Chart() {
     const innerWidth = width - margin.right - margin.left;
     const innerHeight = height - margin.top - margin.bottom;
     const xScale = scaleTime()
-      .domain(extent(priceData, (item) => {
+      .domain(extent(prices, (item) => {
           const [timeStamp] = item;
           return new Date(timeStamp)
         }
@@ -26,10 +28,10 @@ export default function Chart() {
       .range([0, innerWidth - 0]);
 
     const yScale = scaleLinear()
-      .domain([min(priceData, (item) => {
+      .domain([min(prices, (item) => {
           const [, price] = item;
           return price * 0.99;
-        }), max(priceData, (item) => {
+        }), max(prices, (item) => {
           const [,price] = item;
           return price * 1.01;
         })
@@ -72,8 +74,10 @@ export default function Chart() {
       .attr("transform", `translate(0, ${innerHeight})`)
       .call(xAxis);
 
-    const yAxis = axisLeft(yScale).ticks(5).tickSize(-innerWidth).tickPadding(10);
-    // const yAxis = axisLeft(yScale).tickValues(yScale.ticks(5));
+    const yAxis = axisLeft(yScale)
+      .ticks(5)
+      .tickSize(-innerWidth) // 눈금선 길이 설정 (가로 길이)
+      .tickPadding(10); // 눈금선과 레이블 사이에 10px 간격 추가
     svg.select(".y-axis")
     .call(yAxis)
     // .selectAll(".domain, .tick line") // y축 선과 눈금선 동시에 선택
@@ -86,7 +90,7 @@ export default function Chart() {
 
     svgContent
     .selectAll(".myArea")
-    .data([priceData])
+    .data([prices])
     .join("path")
     .attr("class", "myArea")
     .attr("stroke", "none")
@@ -96,22 +100,22 @@ export default function Chart() {
 
     svgContent
     .selectAll(".myLine")
-    .data([priceData])
+    .data([prices])
     .join("path")
     .attr("class", "myLine")
-    .attr("stroke", "red")
+    .attr("stroke", "#664DFF")
     .attr("stroke-width", 2)
     .attr("fill", "none")
     .attr("d", lineGenerator)
-  }, [dimensions])
+  }, [coinData, dimensions])
   return (
     <>
       <div id="chart__wrapper" className={`${styles.chartWrapper}`} ref={wrapperRef}>
         <svg ref={svgRef} className={`${styles.svg}`}>
           <defs>
             <linearGradient id="gradienta" x1="0%" y1="0%" x2="0%" y2="100%">
-              <stop offset="0%" style={{ stopColor: "#84CBFF", stopOpacity: 0.5 }} />
-              <stop offset="100%" style={{ stopColor: "#DCDCDC", stopOpacity: 0 }} />
+            <stop offset="0%" style={{ stopColor: "#A1B0FC", stopOpacity: 0.7 }} />
+            <stop offset="100%" style={{ stopColor: "#D0B5FF", stopOpacity: 0 }} />
             </linearGradient>
           </defs>
           <g className={`chart__content`}></g>

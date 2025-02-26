@@ -1,11 +1,55 @@
 .coinDetail {
-  background-color: orange;
-  /* display: flex;
+  display: flex;
   flex-direction: column;
-  justify-content: space-around; */
+  justify-content: space-around;
+  gap: 10px;
+  padding: 0px 10px;
 }
 
 .coinDetailChart {
   width: 100%;
   height: 100%;
+}
+
+.coinDetailHeader {
+  display: flex;
+  gap: 200px;
+  /* background-color: orange; */
+}
+
+.coinDetailTitle {
+  font-size: 2rem;
+}
+
+.coinDetailTicker {
+  font-size: 1rem;
+  color: var(--neutral-gray);
+}
+
+.coinDetailPrice {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.priceWrapper {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.priceValue {
+  font-size: 2rem;
+}
+
+.timeframe {
+  margin-top: 10px;
+  display: flex;
+  justify-content: space-between;
+  font-size: 0.8rem;
+  color: var(--neutral-gray);
+}
+
+.chartTime {
+  color: var(--neutral-gray);
 }

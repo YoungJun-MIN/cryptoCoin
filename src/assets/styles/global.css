@@ -10,7 +10,7 @@
   --neutral-dark-blue: #0A1223;
   --neutral-deep-blue: #0E1527;
   --neutral-navy: #182542;
-
+  --neutral-gray: #5D667B;
   /* Accent Colors */
   --accent-yellow: #FFC107; /* 예시로 추가한 것 */
 }
@@ -62,4 +62,9 @@ a:focus-visible, button:focus-visible {
 
 .theme-icon {
   fill: var(--text-color);
+}
+
+.active {
+  font-weight: 600;
+  color: var(--primary-purple-dark);
 }

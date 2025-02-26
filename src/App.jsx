@@ -7,7 +7,8 @@ import Trade from "@components/Main/Trade";
 import { initializeCoinData } from "@/redux/store";
 import { useEffect, useState } from "react";
 import { useDispatch } from "react-redux"
-import Crypto from "./api/crypto";
+import Crypto from "@api/crypto";
+import testData from "@api/testData"
 function App() {
   const [loading, setLoading] = useState(true);
   const dispatch = useDispatch();
@@ -24,8 +25,11 @@ function App() {
       }
     }
     // loadCoinData();
+    console.log(testData);
+    dispatch(initializeCoinData(testData));
+    setLoading(false);
   }, [])
-  // if(loading) return <p>Loading...</p>
+  if(loading) return <p>Loading...</p>
   return (
     <>
       <Router>
