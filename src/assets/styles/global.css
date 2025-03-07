@@ -68,3 +68,11 @@ a:focus-visible, button:focus-visible {
   font-weight: 600;
   color: var(--primary-purple-dark);
 }
+
+.price-up {
+  color: #008000; /* 초록색 */
+}
+
+.price-down {
+  color: #d32f2f; /* 빨간색 */
+}

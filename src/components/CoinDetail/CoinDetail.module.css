@@ -13,12 +13,13 @@
 
 .coinDetailHeader {
   display: flex;
-  gap: 200px;
-  /* background-color: orange; */
+  margin-right: 100px;
+  /* gap: 300px; */
 }
 
 .coinDetailTitle {
   font-size: 2rem;
+  flex-grow: 1;
 }
 
 .coinDetailTicker {
@@ -28,8 +29,13 @@
 
 .coinDetailPrice {
   display: flex;
+  /* flex-shrink: 0; */
   flex-direction: column;
   gap: 10px;
+}
+
+.priceChange {
+  font-size: 1.3rem;
 }
 
 .priceWrapper {
@@ -40,6 +46,34 @@
 
 .priceValue {
   font-size: 2rem;
+}
+
+.pricePercentage {
+  font-weight: 600;
+}
+
+.priceTime {
+  font-size: 1rem;
+  margin-left: 10px;
+}
+
+.btcWrapper {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.btcPercentage {
+  font-weight: 600;
+}
+
+.btcValue {
+  color:#5D667B
+}
+
+.btcTime {
+  font-size: 0.8rem;
+  margin-left: 10px;
 }
 
 .timeframe {

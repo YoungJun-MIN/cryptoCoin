@@ -1,27 +1,54 @@
 import styles from "@components/CoinDetail/CoinDetail.module.css"
 import Chart from "@components/Chart/Chart"
-import { useSelector } from "react-redux"
+import { useSelector, shallowEqual } from "react-redux"
+import { createSelector } from 'reselect'
 import { useState } from "react";
-const selectCoinData = (state) => state.coinData;
-export default function CoinDetail() {
-  const coinData = useSelector(selectCoinData);
-  const timeOptions = ['1H', '24H'];
+import { formatCurrency } from "@/utils/formatCurrency";
+
+const selectTopCoins = (currency) => createSelector(
+  (state) => state.coinData[`topCoins${currency}`],
+  (topCoins) => Object.fromEntries(topCoins.map((coin) => [coin.id, coin]))
+)
+
+
+export default function CoinDetail({ selectedCoin }) {
   const [selectedTime, setSelectedTime] = useState('24H');
+  const timeOptions = ['1H', '24H'];
+  const topCoinsBTC = useSelector(selectTopCoins("BTC"));
+  const topCoinsUSD = useSelector(selectTopCoins("USD"));
+  const selectedCoinBTC = topCoinsBTC[selectedCoin];
+  const selectedCoinUSD = topCoinsUSD[selectedCoin];
+  const { name: nameUSD, symbol: symbolUSD, current_price: current_priceUSD } = selectedCoinUSD;
+  const { current_price: current_priceBTC } = selectedCoinBTC;
+  const priceChangeClass = (selectedCoinUSD[`price_change_percentage_${selectedTime}`].includes("-")) ? `price-down` :
+  (selectedCoinUSD[`price_change_percentage_${selectedTime}`].includes("0.00")) ? `` : `price-up`;
+  const btcChangeClass = (selectedCoinBTC[`price_change_percentage_${selectedTime}`].includes("-")) ? `price-down`: 
+  (selectedCoinBTC[`price_change_percentage_${selectedTime}`].includes("0.00")) ? `` : `price-up`;
   const handleButtonClick = (time) => {
+    if(selectedTime === time) return;
     setSelectedTime(time);
   }
   return (
     <section className={`${styles.coinDetail} coinDetail`}>
       <header className={`${styles.coinDetailHeader} coinDetail__header`}>
-        <h2 className={`${styles.coinDetailTitle} coinDetail__title`}>Bitcoin <span className={`${styles.coinDetailTicker} coinDetail__ticker`}>BTC</span></h2>
+        <h2 className={`${styles.coinDetailTitle} coinDetail__title`}>{nameUSD} <span className={`${styles.coinDetailTicker} coinDetail__ticker`}>{symbolUSD}</span></h2>
         <div className={`${styles.coinDetailPrice} coinDetail__price`}>
           <div className={`${styles.priceWrapper} coinDetail__price-wrapper`}>
-            <h3 className={`${styles.priceValue} coinDetail__price-value`}>$95,532,58 USD</h3>
-            <span className="coinDetail__price-change">-1.26% (24H)</span>
+            <h3 className={`${styles.priceValue} coinDetail__price-value`}>${formatCurrency(current_priceUSD)} USD</h3>
+            <span className={`${styles.priceChange} coinDetail__price-change`}>
+              <span className={`${styles.pricePercentage} ${priceChangeClass} coinDetail__price-percentage`}>
+                {selectedCoinUSD[`price_change_percentage_${selectedTime}`]}%
+              </span>
+              <span className={`${styles.priceTime} coinDetail__price-time`}>{`(${selectedTime})`}</span>
+            </span>
           </div>
-          <div className="coinDetail__btc">
-            <span className="coinDetail__btc-value">1.00 BTC</span>
-            <span className="coinDetail__btc-change">+0.00% (24H)</span>
+          <div className={`${styles.btcWrapper} coinDetail__btc-wrapper`}>
+            <span className={`${styles.btcValue} coinDetail__btc-value`}>{current_priceBTC} BTC</span>
+            <span className="coinDetail__btc-change">
+              <span className={`${styles.btcPercentage} ${btcChangeClass} coinDetail__btc-percentage`}>
+                {selectedCoinBTC[`price_change_percentage_${selectedTime}`]}%</span> 
+              <span className={`${styles.btcTime} coinDetail__btc-time`}>{`(${selectedTime})`}</span>
+            </span>
           </div>
         </div>
       </header>

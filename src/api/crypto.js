@@ -22,24 +22,32 @@ export default class Crypto {
     const response = await fetch(`${this.httpClient}/${markets}/?vs_currency=${vs_currency}&order=${order}&per_page=${per_page}&page=${page}&price_change_percentage=${price_change_percentage}`);
     
     const data = await response.json();
-    return data;
+    return this.renameAndModifyPriceChanges(data);
   }
-  // async fetchDaysDataForCoins(coins, days = 1) {
-  //   const ids = ['bitcoin', 'ethereum','ripple', "tether", "binancecoin", "solana", "usd-coin", "dogecoin", "cardano", "staked-ether"];
-  //   const api = {
-  //     market_chart: "market_chart",
-  //     vs_currency: "usd",
-  //   }
-  //   const { market_chart, vs_currency } = api;
-  //   const result = await Promise.all(
-  //     ids.map(async (id) => {
-  //         const response = await fetch(`${this.httpClient}/${id}/market_chart?vs_currency=${vs_currency}&days=${days}`)
-  //         const data = await response.json();
-  //         return {[id]: data}; 
-  //     })
-  //   )
-  //   return result;
-  // }
+  renameAndModifyPriceChanges(data) {
+    const modifedData = data.map((item) => {
+      const { 
+        price_change_percentage_1h_in_currency,
+        price_change_percentage_24h_in_currency,
+        price_change_percentage_7d_in_currency,
+        ...rest
+      } = item;
+      return {
+        ...rest,
+        price_change_percentage_1H: this.formatWithSign(price_change_percentage_1h_in_currency),
+        price_change_percentage_24H: this.formatWithSign(price_change_percentage_24h_in_currency),
+        price_change_percentage_7D: this.formatWithSign(price_change_percentage_7d_in_currency),
+      };
+    })
+
+    return modifedData;
+  }
+
+  formatWithSign(value) {
+    if(value.toString().includes("0.00")) return "0.00";
+    if(value <= 0) return value.toFixed(2);
+    return `+${value.toFixed(2)}`;
+  }
   async fetchDaysDataForCoins(coinId = 'bitcoin', days = 1) {
     const api = {
       market_chart: "market_chart",

@@ -5,3789 +5,3745 @@
             "symbol": "btc",
             "name": "Bitcoin",
             "image": "https://coin-images.coingecko.com/coins/images/1/large/bitcoin.png?1696501400",
-            "current_price": 83846,
-            "market_cap": 1662505708877,
+            "current_price": 89482,
+            "market_cap": 1784662851090,
             "market_cap_rank": 1,
-            "fully_diluted_valuation": 1662505708877,
-            "total_volume": 51860926506,
-            "high_24h": 89278,
-            "low_24h": 83724,
-            "price_change_24h": -3095.8451377560996,
-            "price_change_percentage_24h": -3.56083,
-            "market_cap_change_24h": -63784153512.443115,
-            "market_cap_change_percentage_24h": -3.69487,
-            "circulating_supply": 19829468,
-            "total_supply": 19829468,
+            "fully_diluted_valuation": 1784662851090,
+            "total_volume": 63252636694,
+            "high_24h": 91291,
+            "low_24h": 84972,
+            "price_change_24h": -1712.6875151991117,
+            "price_change_percentage_24h": -1.87806,
+            "market_cap_change_24h": -17924841760.867676,
+            "market_cap_change_percentage_24h": -0.99439,
+            "circulating_supply": 19833525,
+            "total_supply": 19833525,
             "max_supply": 21000000,
             "ath": 108786,
-            "ath_change_percentage": -22.85577,
+            "ath_change_percentage": -16.93675,
             "ath_date": "2025-01-20T09:11:54.494Z",
             "atl": 67.81,
-            "atl_change_percentage": 123661.96902,
+            "atl_change_percentage": 133157.82117,
             "atl_date": "2013-07-06T00:00:00.000Z",
             "roi": null,
-            "last_updated": "2025-02-26T18:57:41.237Z",
-            "price_change_percentage_1h_in_currency": -2.393307529693515,
-            "price_change_percentage_24h_in_currency": -3.5608323044533305,
-            "price_change_percentage_7d_in_currency": -13.011081941485738
+            "last_updated": "2025-03-07T15:19:30.006Z",
+            "price_change_percentage_1H": "-0.18",
+            "price_change_percentage_24H": "-1.88",
+            "price_change_percentage_7D": "+8.70"
         },
         {
             "id": "ethereum",
             "symbol": "eth",
             "name": "Ethereum",
             "image": "https://coin-images.coingecko.com/coins/images/279/large/ethereum.png?1696501628",
-            "current_price": 2283.07,
-            "market_cap": 275444939785,
+            "current_price": 2211.55,
+            "market_cap": 267806301925,
             "market_cap_rank": 2,
-            "fully_diluted_valuation": 275444939785,
-            "total_volume": 24542614568,
-            "high_24h": 2523.96,
-            "low_24h": 2275.88,
-            "price_change_24h": -134.9774718556605,
-            "price_change_percentage_24h": -5.58209,
-            "market_cap_change_24h": -16142298742.980286,
-            "market_cap_change_percentage_24h": -5.53601,
-            "circulating_supply": 120575923.6066293,
-            "total_supply": 120575923.6066293,
+            "fully_diluted_valuation": 267806301925,
+            "total_volume": 22216118953,
+            "high_24h": 2270.74,
+            "low_24h": 2104.64,
+            "price_change_24h": -53.97442190505262,
+            "price_change_percentage_24h": -2.38243,
+            "market_cap_change_24h": -3876245321.4709473,
+            "market_cap_change_percentage_24h": -1.42676,
+            "circulating_supply": 120597393.2372512,
+            "total_supply": 120597393.2372512,
             "max_supply": null,
             "ath": 4878.26,
-            "ath_change_percentage": -53.08773,
+            "ath_change_percentage": -54.41032,
             "ath_date": "2021-11-10T14:24:19.604Z",
             "atl": 0.432979,
-            "atl_change_percentage": 528448.3852,
+            "atl_change_percentage": 513547.09542,
             "atl_date": "2015-10-20T00:00:00.000Z",
             "roi": {
-                "times": 35.36371654911905,
+                "times": 32.026011978422304,
                 "currency": "btc",
-                "percentage": 3536.371654911905
+                "percentage": 3202.6011978422307
             },
-            "last_updated": "2025-02-26T18:57:46.567Z",
-            "price_change_percentage_1h_in_currency": -3.391198795824419,
-            "price_change_percentage_24h_in_currency": -5.582085589409239,
-            "price_change_percentage_7d_in_currency": -15.79760460924327
-        },
-        {
-            "id": "tether",
-            "symbol": "usdt",
-            "name": "Tether",
-            "image": "https://coin-images.coingecko.com/coins/images/325/large/Tether.png?1696501661",
-            "current_price": 0.998924,
-            "market_cap": 141951187067,
-            "market_cap_rank": 3,
-            "fully_diluted_valuation": 141951187067,
-            "total_volume": 95299221033,
-            "high_24h": 0.999377,
-            "low_24h": 0.998488,
-            "price_change_24h": 0.00010507,
-            "price_change_percentage_24h": 0.01052,
-            "market_cap_change_24h": -231949131.97824097,
-            "market_cap_change_percentage_24h": -0.16313,
-            "circulating_supply": 142104224084.4939,
-            "total_supply": 142104224084.4939,
-            "max_supply": null,
-            "ath": 1.32,
-            "ath_change_percentage": -24.49359,
-            "ath_date": "2018-07-24T00:00:00.000Z",
-            "atl": 0.572521,
-            "atl_change_percentage": 74.49521,
-            "atl_date": "2015-03-02T00:00:00.000Z",
-            "roi": null,
-            "last_updated": "2025-02-26T18:57:43.596Z",
-            "price_change_percentage_1h_in_currency": -0.003543512226588857,
-            "price_change_percentage_24h_in_currency": 0.010519543103734671,
-            "price_change_percentage_7d_in_currency": -0.09138398670864792
+            "last_updated": "2025-03-07T15:19:26.069Z",
+            "price_change_percentage_1H": "+0.68",
+            "price_change_percentage_24H": "-2.38",
+            "price_change_percentage_7D": "+1.81"
         },
         {
             "id": "ripple",
             "symbol": "xrp",
             "name": "XRP",
             "image": "https://coin-images.coingecko.com/coins/images/44/large/xrp-symbol-white-128.png?1696501442",
-            "current_price": 2.16,
-            "market_cap": 125519962882,
-            "market_cap_rank": 4,
-            "fully_diluted_valuation": 216803717108,
-            "total_volume": 6891622189,
-            "high_24h": 2.36,
-            "low_24h": 2.17,
-            "price_change_24h": -0.038554453225396745,
-            "price_change_percentage_24h": -1.75046,
-            "market_cap_change_24h": -2056160994.9330444,
-            "market_cap_change_percentage_24h": -1.61171,
-            "circulating_supply": 57887806032,
-            "total_supply": 99986418374,
+            "current_price": 2.53,
+            "market_cap": 147026612152,
+            "market_cap_rank": 3,
+            "fully_diluted_valuation": 253679492911,
+            "total_volume": 6949474946,
+            "high_24h": 2.63,
+            "low_24h": 2.41,
+            "price_change_24h": -0.09230163378647749,
+            "price_change_percentage_24h": -3.52581,
+            "market_cap_change_24h": -4183125766.6695557,
+            "market_cap_change_percentage_24h": -2.76644,
+            "circulating_supply": 57949738512,
+            "total_supply": 99986390660,
             "max_supply": 100000000000,
             "ath": 3.4,
-            "ath_change_percentage": -35.95612,
+            "ath_change_percentage": -25.20877,
             "ath_date": "2018-01-07T00:00:00.000Z",
             "atl": 0.00268621,
-            "atl_change_percentage": 80925.00535,
+            "atl_change_percentage": 94522.00238,
             "atl_date": "2014-05-22T00:00:00.000Z",
             "roi": null,
-            "last_updated": "2025-02-26T18:57:49.423Z",
-            "price_change_percentage_1h_in_currency": -2.2903206301803896,
-            "price_change_percentage_24h_in_currency": -1.750461227238855,
-            "price_change_percentage_7d_in_currency": -19.26019168835108
+            "last_updated": "2025-03-07T15:19:31.484Z",
+            "price_change_percentage_1H": "+0.01",
+            "price_change_percentage_24H": "-3.53",
+            "price_change_percentage_7D": "+19.81"
+        },
+        {
+            "id": "tether",
+            "symbol": "usdt",
+            "name": "Tether",
+            "image": "https://coin-images.coingecko.com/coins/images/325/large/Tether.png?1696501661",
+            "current_price": 1,
+            "market_cap": 142810175009,
+            "market_cap_rank": 4,
+            "fully_diluted_valuation": 142810175009,
+            "total_volume": 82320509078,
+            "high_24h": 1,
+            "low_24h": 0.999805,
+            "price_change_24h": 0.00020144,
+            "price_change_percentage_24h": 0.02015,
+            "market_cap_change_24h": 102796867,
+            "market_cap_change_percentage_24h": 0.07203,
+            "circulating_supply": 142799794449.0176,
+            "total_supply": 142799794449.0176,
+            "max_supply": null,
+            "ath": 1.32,
+            "ath_change_percentage": -24.41597,
+            "ath_date": "2018-07-24T00:00:00.000Z",
+            "atl": 0.572521,
+            "atl_change_percentage": 74.67459,
+            "atl_date": "2015-03-02T00:00:00.000Z",
+            "roi": null,
+            "last_updated": "2025-03-07T15:19:22.183Z",
+            "price_change_percentage_1H": "0.00",
+            "price_change_percentage_24H": "+0.02",
+            "price_change_percentage_7D": "+0.08"
         },
         {
             "id": "binancecoin",
             "symbol": "bnb",
             "name": "BNB",
             "image": "https://coin-images.coingecko.com/coins/images/825/large/bnb-icon2_2x.png?1696501970",
-            "current_price": 595.73,
-            "market_cap": 87134782574,
+            "current_price": 603.22,
+            "market_cap": 88335820953,
             "market_cap_rank": 5,
-            "fully_diluted_valuation": 87134782574,
-            "total_volume": 1128727648,
-            "high_24h": 630.37,
-            "low_24h": 595.04,
-            "price_change_24h": -15.354299485287356,
-            "price_change_percentage_24h": -2.51264,
-            "market_cap_change_24h": -2071320832.0287018,
-            "market_cap_change_percentage_24h": -2.32195,
+            "fully_diluted_valuation": 88335820953,
+            "total_volume": 932206957,
+            "high_24h": 610.9,
+            "low_24h": 576.38,
+            "price_change_24h": 0.56929,
+            "price_change_percentage_24h": 0.09446,
+            "market_cap_change_24h": 776367149,
+            "market_cap_change_percentage_24h": 0.88667,
             "circulating_supply": 145887575.79,
             "total_supply": 145887575.79,
             "max_supply": 200000000,
             "ath": 788.84,
-            "ath_change_percentage": -24.75519,
+            "ath_change_percentage": -23.22018,
             "ath_date": "2024-12-04T10:35:25.220Z",
             "atl": 0.0398177,
-            "atl_change_percentage": 1490603.68998,
+            "atl_change_percentage": 1521014.44734,
             "atl_date": "2017-10-19T00:00:00.000Z",
             "roi": null,
-            "last_updated": "2025-02-26T18:57:41.237Z",
-            "price_change_percentage_1h_in_currency": -1.9668604146875917,
-            "price_change_percentage_24h_in_currency": -2.5126387667818575,
-            "price_change_percentage_7d_in_currency": -9.193482096468244
+            "last_updated": "2025-03-07T15:19:29.464Z",
+            "price_change_percentage_1H": "+0.02",
+            "price_change_percentage_24H": "+0.09",
+            "price_change_percentage_7D": "+3.53"
         },
         {
             "id": "solana",
             "symbol": "sol",
             "name": "Solana",
             "image": "https://coin-images.coingecko.com/coins/images/4128/large/solana.png?1718769756",
-            "current_price": 130.93,
-            "market_cap": 65435799931,
+            "current_price": 145.68,
+            "market_cap": 74087288986,
             "market_cap_rank": 6,
-            "fully_diluted_valuation": 78134198045,
-            "total_volume": 4959149381,
-            "high_24h": 146.29,
-            "low_24h": 130.93,
-            "price_change_24h": -9.88387953085828,
-            "price_change_percentage_24h": -7.01926,
-            "market_cap_change_24h": -4424766241.406746,
-            "market_cap_change_percentage_24h": -6.33371,
-            "circulating_supply": 498287498.4407314,
-            "total_supply": 594984612.8212882,
+            "fully_diluted_valuation": 86740537796,
+            "total_volume": 5860794536,
+            "high_24h": 149.72,
+            "low_24h": 135.24,
+            "price_change_24h": -3.351846151988866,
+            "price_change_percentage_24h": -2.24903,
+            "market_cap_change_24h": -1278944790.9860382,
+            "market_cap_change_percentage_24h": -1.69697,
+            "circulating_supply": 508705760.5203175,
+            "total_supply": 595586798.3762153,
             "max_supply": null,
             "ath": 293.31,
-            "ath_change_percentage": -55.26002,
+            "ath_change_percentage": -49.99559,
             "ath_date": "2025-01-19T11:15:27.957Z",
             "atl": 0.500801,
-            "atl_change_percentage": 26103.55571,
+            "atl_change_percentage": 29186.85606,
             "atl_date": "2020-05-11T19:35:23.449Z",
             "roi": null,
-            "last_updated": "2025-02-26T18:57:39.761Z",
-            "price_change_percentage_1h_in_currency": -2.186357644046942,
-            "price_change_percentage_24h_in_currency": -7.019261966746823,
-            "price_change_percentage_7d_in_currency": -23.442853434403105
+            "last_updated": "2025-03-07T15:19:24.325Z",
+            "price_change_percentage_1H": "+0.73",
+            "price_change_percentage_24H": "-2.25",
+            "price_change_percentage_7D": "+0.67"
         },
         {
             "id": "usd-coin",
             "symbol": "usdc",
             "name": "USDC",
             "image": "https://coin-images.coingecko.com/coins/images/6319/large/usdc.png?1696506694",
-            "current_price": 0.99969,
-            "market_cap": 56147800913,
+            "current_price": 0.999883,
+            "market_cap": 57442795814,
             "market_cap_rank": 7,
-            "fully_diluted_valuation": 56152851701,
-            "total_volume": 12440998835,
-            "high_24h": 0.999987,
-            "low_24h": 0.999725,
-            "price_change_24h": -0.000214894506600283,
-            "price_change_percentage_24h": -0.02149,
-            "market_cap_change_24h": -133021843.97799683,
-            "market_cap_change_percentage_24h": -0.23635,
-            "circulating_supply": 56163570715.30514,
-            "total_supply": 56168622922.46995,
+            "fully_diluted_valuation": 57448692823,
+            "total_volume": 9124246842,
+            "high_24h": 0.999964,
+            "low_24h": 0.999775,
+            "price_change_24h": 0.00000369,
+            "price_change_percentage_24h": 0.00037,
+            "market_cap_change_24h": 216109944,
+            "market_cap_change_percentage_24h": 0.37764,
+            "circulating_supply": 57449511487.05565,
+            "total_supply": 57455409185.43099,
             "max_supply": null,
             "ath": 1.17,
-            "ath_change_percentage": -14.73873,
+            "ath_change_percentage": -14.73905,
             "ath_date": "2019-05-08T00:40:28.300Z",
             "atl": 0.877647,
-            "atl_change_percentage": 13.92559,
+            "atl_change_percentage": 13.92517,
             "atl_date": "2023-03-11T08:02:13.981Z",
             "roi": null,
-            "last_updated": "2025-02-26T18:57:44.605Z",
-            "price_change_percentage_1h_in_currency": -0.02123458733997229,
-            "price_change_percentage_24h_in_currency": -0.02149148994159973,
-            "price_change_percentage_7d_in_currency": -0.01909126588743379
-        },
-        {
-            "id": "dogecoin",
-            "symbol": "doge",
-            "name": "Dogecoin",
-            "image": "https://coin-images.coingecko.com/coins/images/5/large/dogecoin.png?1696501409",
-            "current_price": 0.197044,
-            "market_cap": 29263986604,
-            "market_cap_rank": 8,
-            "fully_diluted_valuation": 29294134625,
-            "total_volume": 1977470726,
-            "high_24h": 0.213542,
-            "low_24h": 0.197475,
-            "price_change_24h": -0.006697238850439158,
-            "price_change_percentage_24h": -3.28713,
-            "market_cap_change_24h": -974609830.2156029,
-            "market_cap_change_percentage_24h": -3.22307,
-            "circulating_supply": 148057346383.7052,
-            "total_supply": 148209876383.7052,
-            "max_supply": null,
-            "ath": 0.731578,
-            "ath_change_percentage": -72.85206,
-            "ath_date": "2021-05-08T05:08:23.458Z",
-            "atl": 0.0000869,
-            "atl_change_percentage": 228438.29735,
-            "atl_date": "2015-05-06T00:00:00.000Z",
-            "roi": null,
-            "last_updated": "2025-02-26T18:57:42.388Z",
-            "price_change_percentage_1h_in_currency": -2.430732197791515,
-            "price_change_percentage_24h_in_currency": -3.2871252803643447,
-            "price_change_percentage_7d_in_currency": -22.24324318482951
+            "last_updated": "2025-03-07T15:19:23.808Z",
+            "price_change_percentage_1H": "0.00",
+            "price_change_percentage_24H": "0.00",
+            "price_change_percentage_7D": "0.00"
         },
         {
             "id": "cardano",
             "symbol": "ada",
             "name": "Cardano",
             "image": "https://coin-images.coingecko.com/coins/images/975/large/cardano.png?1696502090",
-            "current_price": 0.639287,
-            "market_cap": 23057570170,
-            "market_cap_rank": 9,
-            "fully_diluted_valuation": 28875070133,
-            "total_volume": 860783870,
-            "high_24h": 0.693371,
-            "low_24h": 0.638374,
-            "price_change_24h": -0.01934939931977131,
-            "price_change_percentage_24h": -2.9378,
-            "market_cap_change_24h": -639945113.4963646,
-            "market_cap_change_percentage_24h": -2.70047,
-            "circulating_supply": 35933788312.87728,
+            "current_price": 0.872477,
+            "market_cap": 31526392289,
+            "market_cap_rank": 8,
+            "fully_diluted_valuation": 39463361324,
+            "total_volume": 2971295583,
+            "high_24h": 0.937513,
+            "low_24h": 0.823151,
+            "price_change_24h": -0.06355238186235224,
+            "price_change_percentage_24h": -6.78957,
+            "market_cap_change_24h": -1807036545.9696007,
+            "market_cap_change_percentage_24h": -5.42109,
+            "circulating_supply": 35949488472.41836,
             "total_supply": 45000000000,
             "max_supply": 45000000000,
             "ath": 3.09,
-            "ath_change_percentage": -79.34817,
+            "ath_change_percentage": -71.51021,
             "ath_date": "2021-09-02T06:00:10.474Z",
             "atl": 0.01925275,
-            "atl_change_percentage": 3211.23507,
+            "atl_change_percentage": 4467.94311,
             "atl_date": "2020-03-13T02:22:55.044Z",
             "roi": null,
-            "last_updated": "2025-02-26T18:57:41.077Z",
-            "price_change_percentage_1h_in_currency": -2.5930003399661823,
-            "price_change_percentage_24h_in_currency": -2.9377977886772673,
-            "price_change_percentage_7d_in_currency": -16.703933494631126
+            "last_updated": "2025-03-07T15:19:29.115Z",
+            "price_change_percentage_1H": "+0.11",
+            "price_change_percentage_24H": "-6.79",
+            "price_change_percentage_7D": "+40.51"
         },
         {
-            "id": "staked-ether",
-            "symbol": "steth",
-            "name": "Lido Staked Ether",
-            "image": "https://coin-images.coingecko.com/coins/images/13442/large/steth_logo.png?1696513206",
-            "current_price": 2286.92,
-            "market_cap": 21485582640,
-            "market_cap_rank": 10,
-            "fully_diluted_valuation": 21485665711,
-            "total_volume": 149330678,
-            "high_24h": 2521.55,
-            "low_24h": 2293.84,
-            "price_change_24h": -123.0565656427575,
-            "price_change_percentage_24h": -5.10614,
-            "market_cap_change_24h": -1160066151.56353,
-            "market_cap_change_percentage_24h": -5.12269,
-            "circulating_supply": 9397419.769834997,
-            "total_supply": 9397456.103587033,
+            "id": "dogecoin",
+            "symbol": "doge",
+            "name": "Dogecoin",
+            "image": "https://coin-images.coingecko.com/coins/images/5/large/dogecoin.png?1696501409",
+            "current_price": 0.205273,
+            "market_cap": 30569850626,
+            "market_cap_rank": 9,
+            "fully_diluted_valuation": 30575088339,
+            "total_volume": 1753923532,
+            "high_24h": 0.20828,
+            "low_24h": 0.191304,
+            "price_change_24h": -0.00237624267600689,
+            "price_change_percentage_24h": -1.14435,
+            "market_cap_change_24h": -42329483.61929703,
+            "market_cap_change_percentage_24h": -0.13828,
+            "circulating_supply": 148305166383.7053,
+            "total_supply": 148330576383.7052,
             "max_supply": null,
-            "ath": 4829.57,
-            "ath_change_percentage": -52.56277,
-            "ath_date": "2021-11-10T14:40:47.256Z",
-            "atl": 482.9,
-            "atl_change_percentage": 374.43206,
-            "atl_date": "2020-12-22T04:08:21.854Z",
+            "ath": 0.731578,
+            "ath_change_percentage": -71.73968,
+            "ath_date": "2021-05-08T05:08:23.458Z",
+            "atl": 0.0000869,
+            "atl_change_percentage": 237802.58564,
+            "atl_date": "2015-05-06T00:00:00.000Z",
             "roi": null,
-            "last_updated": "2025-02-26T18:57:49.871Z",
-            "price_change_percentage_1h_in_currency": -3.433694184659876,
-            "price_change_percentage_24h_in_currency": -5.106136452660052,
-            "price_change_percentage_7d_in_currency": -15.478506110664824
+            "last_updated": "2025-03-07T15:19:31.408Z",
+            "price_change_percentage_1H": "-0.17",
+            "price_change_percentage_24H": "-1.14",
+            "price_change_percentage_7D": "+6.21"
+        },
+        {
+            "id": "tron",
+            "symbol": "trx",
+            "name": "TRON",
+            "image": "https://coin-images.coingecko.com/coins/images/1094/large/tron-logo.png?1696502193",
+            "current_price": 0.244753,
+            "market_cap": 21125153980,
+            "market_cap_rank": 10,
+            "fully_diluted_valuation": 21125155685,
+            "total_volume": 718347225,
+            "high_24h": 0.247608,
+            "low_24h": 0.234403,
+            "price_change_24h": 0.00230118,
+            "price_change_percentage_24h": 0.94913,
+            "market_cap_change_24h": 306383864,
+            "market_cap_change_percentage_24h": 1.47167,
+            "circulating_supply": 86048604077.19145,
+            "total_supply": 86048611022.19429,
+            "max_supply": null,
+            "ath": 0.431288,
+            "ath_change_percentage": -43.11606,
+            "ath_date": "2024-12-04T00:10:40.323Z",
+            "atl": 0.00180434,
+            "atl_change_percentage": 13496.86096,
+            "atl_date": "2017-11-12T00:00:00.000Z",
+            "roi": {
+                "times": 127.81725056728858,
+                "currency": "usd",
+                "percentage": 12781.725056728857
+            },
+            "last_updated": "2025-03-07T15:19:29.529Z",
+            "price_change_percentage_1H": "+0.07",
+            "price_change_percentage_24H": "+0.95",
+            "price_change_percentage_7D": "+7.39"
         }
     ],
     "coinPrice": {
         "prices": [
             [
-                1740510028890,
-                86941.61569710268
+                1741274484939,
+                91194.38578260585
             ],
             [
-                1740510319335,
-                87079.73930457982
+                1741274765807,
+                90850.12949486359
             ],
             [
-                1740510646169,
-                87160.65479042113
+                1741275120032,
+                90769.6004973006
             ],
             [
-                1740510979437,
-                86692.72018027761
+                1741275344281,
+                90802.7701313158
             ],
             [
-                1740511244399,
-                86653.21393862985
+                1741275655242,
+                91291.32124846877
             ],
             [
-                1740511597955,
-                86590.36113520684
+                1741275937540,
+                91214.76797642544
             ],
             [
-                1740511830052,
-                86808.79882006673
+                1741276236749,
+                91039.01499770794
             ],
             [
-                1740512161499,
-                86837.24142180385
+                1741276574920,
+                90693.31795750844
             ],
             [
-                1740512477347,
-                87159.72632099944
+                1741276895492,
+                90861.77724655948
             ],
             [
-                1740512737228,
-                87315.64862387821
+                1741277166686,
+                90975.81551374556
             ],
             [
-                1740513056600,
-                87488.46258062024
+                1741277504612,
+                90954.23099353377
             ],
             [
-                1740513416539,
-                87705.8078311143
+                1741277782050,
+                90688.73039044144
             ],
             [
-                1740513666078,
-                87837.98611845393
+                1741278177546,
+                90618.41115109045
             ],
             [
-                1740514006277,
-                87750.27946844172
+                1741278365932,
+                90309.32002815888
             ],
             [
-                1740514263723,
-                87856.91177549987
+                1741278703210,
+                90161.77925044326
             ],
             [
-                1740514570455,
-                87781.81459257063
+                1741278930670,
+                90275.60677072998
             ],
             [
-                1740514902333,
-                87971.87025464009
+                1741279242052,
+                90157.83347632726
             ],
             [
-                1740515178570,
-                88638.2881021456
+                1741279539048,
+                90177.13737374714
             ],
             [
-                1740515513605,
-                88565.34794475857
+                1741279832019,
+                90348.28955914613
             ],
             [
-                1740515750914,
-                88916.5614568078
+                1741280171216,
+                89683.49031440438
             ],
             [
-                1740516080180,
-                88380.86056461491
+                1741280500973,
+                89179.709402802
             ],
             [
-                1740516368533,
-                88063.52136402421
+                1741280736528,
+                88376.11449099529
             ],
             [
-                1740516665114,
-                88158.93818103643
+                1741281061573,
+                88948.0022679882
             ],
             [
-                1740516952156,
-                87993.87345456623
+                1741281404838,
+                88698.45902662858
             ],
             [
-                1740517226118,
-                88056.54698126936
+                1741281648920,
+                88636.24838740761
             ],
             [
-                1740517571737,
-                88248.73348777644
+                1741281991396,
+                88817.71732317403
             ],
             [
-                1740517897470,
-                87792.58956173895
+                1741282222603,
+                88743.02468775799
             ],
             [
-                1740518124636,
-                87829.31155065112
+                1741282611162,
+                88789.54040256562
             ],
             [
-                1740518466557,
-                87963.0556655027
+                1741282835807,
+                88371.24358202054
             ],
             [
-                1740518792683,
-                88152.27792071186
+                1741283134529,
+                88543.89089141418
             ],
             [
-                1740519043360,
-                88237.90881767227
+                1741283450526,
+                88020.18582608692
             ],
             [
-                1740519325571,
-                88127.26485368847
+                1741283806095,
+                88297.10262677082
             ],
             [
-                1740519684567,
-                88100.37104251873
+                1741284110172,
+                88708.49343349146
             ],
             [
-                1740519941593,
-                88430.33085910384
+                1741284350381,
+                88647.72782696952
             ],
             [
-                1740520244300,
-                88499.10476461203
+                1741284688446,
+                88556.33381395132
             ],
             [
-                1740520596215,
-                88694.94488756332
+                1741285003696,
+                88722.08687970357
             ],
             [
-                1740520918651,
-                88745.68346298444
+                1741285263088,
+                88852.55944003782
             ],
             [
-                1740521162052,
-                89142.8156418093
+                1741285596899,
+                88798.54425766358
             ],
             [
-                1740521560693,
-                89045.96612552319
+                1741285843005,
+                88453.48421394371
             ],
             [
-                1740521809751,
-                88960.15781497603
+                1741286170139,
+                88701.30363483392
             ],
             [
-                1740522059535,
-                88946.0924891177
+                1741286492939,
+                88351.33854455476
             ],
             [
-                1740522396574,
-                88821.41299388449
+                1741286756062,
+                88221.91975060568
             ],
             [
-                1740522635353,
-                88794.29831602603
+                1741287097268,
+                88353.32736484542
             ],
             [
-                1740522953707,
-                88925.6335827492
+                1741287335255,
+                88548.06043716127
             ],
             [
-                1740523267275,
-                88609.1747803741
+                1741287667968,
+                88396.31309600835
             ],
             [
-                1740523547888,
-                88531.58597823212
+                1741287996559,
+                88207.6620695072
             ],
             [
-                1740523894586,
-                88803.14414309911
+                1741288287993,
+                88175.00489729577
             ],
             [
-                1740524175027,
-                88720.92634814975
+                1741288550901,
+                88316.3051988333
             ],
             [
-                1740524505551,
-                88761.69943506437
+                1741288890064,
+                88081.44334343637
             ],
             [
-                1740524821053,
-                89006.72620143932
+                1741289147662,
+                88187.58407474722
             ],
             [
-                1740525112895,
-                88954.87698394284
+                1741289431794,
+                88129.79347607684
             ],
             [
-                1740525358131,
-                88954.45217284332
+                1741289724271,
+                88101.16520226261
             ],
             [
-                1740525687244,
-                89010.20482706143
+                1741290041696,
+                88193.10107972966
             ],
             [
-                1740525931738,
-                88980.64782828752
+                1741290324832,
+                88662.38771822744
             ],
             [
-                1740526344870,
-                88963.62825165382
+                1741290683529,
+                89233.93095754822
             ],
             [
-                1740526613917,
-                88810.18571115602
+                1741290963752,
+                89057.38701611568
             ],
             [
-                1740526871115,
-                88687.12664244715
+                1741291527025,
+                88918.39020833044
             ],
             [
-                1740527138251,
-                88736.85637740554
+                1741291907046,
+                88950.19493747086
             ],
             [
-                1740527427364,
-                88709.52705535128
+                1741292115661,
+                89161.30280524696
             ],
             [
-                1740527792841,
-                88755.7693356979
+                1741292457295,
+                89196.0957525108
             ],
             [
-                1740528110990,
-                88477.01949768413
+                1741292796128,
+                88916.30386014025
             ],
             [
-                1740528349493,
-                88463.02814951622
+                1741293024573,
+                89030.5987722323
             ],
             [
-                1740528689036,
-                88403.11374788325
+                1741293377546,
+                89151.89553213087
             ],
             [
-                1740528964374,
-                88392.09882796387
+                1741293695314,
+                89096.0710483349
             ],
             [
-                1740529252756,
-                88186.39969853305
+                1741293946125,
+                88616.42578841942
             ],
             [
-                1740529581921,
-                88288.22457511965
+                1741294283854,
+                88937.87073058459
             ],
             [
-                1740529828956,
-                88372.3976648091
+                1741294592341,
+                89159.83502593123
             ],
             [
-                1740530130690,
-                88293.78293203533
+                1741294847948,
+                89144.13673375164
             ],
             [
-                1740530461726,
-                88131.35023328697
+                1741295181026,
+                89223.70150499536
             ],
             [
-                1740530758342,
-                88069.0533689688
+                1741295500072,
+                89282.10236876128
             ],
             [
-                1740531079770,
-                88061.34346484079
+                1741295801204,
+                89732.23568722096
             ],
             [
-                1740531322219,
-                88045.21204983271
+                1741296059694,
+                89674.54517945224
             ],
             [
-                1740531711078,
-                88069.93671790925
+                1741296388496,
+                89464.68823345266
             ],
             [
-                1740532072552,
-                88129.4582649271
+                1741296629078,
+                89340.25210097896
             ],
             [
-                1740532264127,
-                88276.72940227768
+                1741296931424,
+                89245.35668898711
             ],
             [
-                1740532591054,
-                88236.58100214545
+                1741297246416,
+                89293.53733853588
             ],
             [
-                1740532830522,
-                88252.36464503848
+                1741297561451,
+                89227.87676623683
             ],
             [
-                1740533172200,
-                88152.89852608055
+                1741297850504,
+                89267.02413677874
             ],
             [
-                1740533517377,
-                88274.95593839411
+                1741298191276,
+                89473.73012513855
             ],
             [
-                1740533744142,
-                88381.93712222434
+                1741298436964,
+                89469.52920050574
             ],
             [
-                1740534041501,
-                88187.25486828657
+                1741298772309,
+                90519.26296839473
             ],
             [
-                1740534331935,
-                88245.91980604058
+                1741299172891,
+                90503.99894519927
             ],
             [
-                1740534683047,
-                88413.44571528738
+                1741299409660,
+                90267.09954382388
             ],
             [
-                1740534990201,
-                88657.31331182747
+                1741299793480,
+                89708.20732434712
             ],
             [
-                1740535299659,
-                88582.89007988699
+                1741299983701,
+                89702.56765755483
             ],
             [
-                1740535523934,
-                88482.37987028077
+                1741300254919,
+                89813.06317040234
             ],
             [
-                1740535858608,
-                88449.39118981067
+                1741300525623,
+                89687.70749873907
             ],
             [
-                1740536161401,
-                88623.31804921625
+                1741300904383,
+                90085.99051605674
             ],
             [
-                1740536486359,
-                88696.67711506627
+                1741301122825,
+                90479.74046367397
             ],
             [
-                1740536800699,
-                88722.65032871338
+                1741301458869,
+                90546.90555540178
             ],
             [
-                1740537065113,
-                88749.43477768112
+                1741301804100,
+                90423.02823395192
             ],
             [
-                1740537381036,
-                88576.29299619287
+                1741302115371,
+                90284.71211612487
             ],
             [
-                1740537707550,
-                88663.88292433033
+                1741302342421,
+                90450.752622387
             ],
             [
-                1740537960790,
-                88580.63536001572
+                1741302669973,
+                90108.21911213521
             ],
             [
-                1740538256350,
-                88604.08254935418
+                1741302992670,
+                90281.64519148931
             ],
             [
-                1740538592833,
-                88952.42031283508
+                1741303312918,
+                90438.14958736928
             ],
             [
-                1740538907511,
-                88975.84526324221
+                1741303534296,
+                90519.35492622764
             ],
             [
-                1740539212755,
-                89010.2709977032
+                1741303879182,
+                90352.21074820447
             ],
             [
-                1740539440059,
-                89147.94133258217
+                1741304166780,
+                90521.35144486088
             ],
             [
-                1740539766331,
-                89182.29088094461
+                1741304492422,
+                90515.66150816335
             ],
             [
-                1740540092407,
-                89277.74312120263
+                1741304737830,
+                90232.44431848468
             ],
             [
-                1740540315618,
-                89209.24178913873
+                1741305054016,
+                89999.1071779096
             ],
             [
-                1740540651810,
-                89074.29903842403
+                1741305375093,
+                90001.40087607042
             ],
             [
-                1740540981403,
-                88941.65379098509
+                1741305667775,
+                89924.21242214506
             ],
             [
-                1740541285832,
-                88935.90696881316
+                1741305945015,
+                90121.26863410343
             ],
             [
-                1740541529249,
-                88894.14150322512
+                1741306285006,
+                89892.57948689247
             ],
             [
-                1740541883358,
-                88922.79784542795
+                1741306611813,
+                88608.54643230142
             ],
             [
-                1740542200076,
-                88824.83594640835
+                1741306839130,
+                88236.69096966652
             ],
             [
-                1740542508430,
-                88841.50115326102
+                1741307158498,
+                87064.09217139245
             ],
             [
-                1740542736160,
-                88849.42547092162
+                1741307494762,
+                86856.72779621236
             ],
             [
-                1740543070472,
-                88884.8550237444
+                1741307715947,
+                86916.83195035296
             ],
             [
-                1740543323730,
-                88836.87824308859
+                1741308044433,
+                85667.68590199084
             ],
             [
-                1740543713497,
-                88915.65804616244
+                1741308364475,
+                85837.65750732507
             ],
             [
-                1740543990259,
-                88965.51844899512
+                1741308668175,
+                85468.24515589027
             ],
             [
-                1740544241020,
-                89076.8961278738
+                1741308996528,
+                84971.89849539682
             ],
             [
-                1740544541275,
-                89060.96929241596
+                1741309261244,
+                85590.46644276992
             ],
             [
-                1740544867736,
-                89031.07653117464
+                1741309572299,
+                85845.56152374753
             ],
             [
-                1740545158253,
-                89025.70191655678
+                1741309901913,
+                86245.2945729704
             ],
             [
-                1740545477285,
-                88903.61093815127
+                1741310141483,
+                86524.63611519206
             ],
             [
-                1740545814358,
-                88795.63868458313
+                1741310465144,
+                87395.7678053321
             ],
             [
-                1740546062698,
-                88627.54762623741
+                1741310721785,
+                87118.44652800405
             ],
             [
-                1740546359927,
-                88578.64528647764
+                1741311029955,
+                87156.02706497874
             ],
             [
-                1740546703905,
-                88750.4539129431
+                1741311413373,
+                86920.43074155657
             ],
             [
-                1740546941439,
-                88723.75094258231
+                1741311659931,
+                87266.24117891552
             ],
             [
-                1740547277327,
-                88620.53094710519
+                1741311983884,
+                88490.88263609413
             ],
             [
-                1740547577485,
-                88730.83599959135
+                1741312244653,
+                88352.22106962399
             ],
             [
-                1740547864846,
-                88752.81603843582
+                1741312548697,
+                87935.81840443469
             ],
             [
-                1740548196851,
-                88595.83427837622
+                1741312884368,
+                88065.84191323837
             ],
             [
-                1740548475975,
-                88609.20880856023
+                1741313152544,
+                88160.61388633553
             ],
             [
-                1740548741965,
-                88684.3801039797
+                1741313555956,
+                88208.67013429104
             ],
             [
-                1740549091086,
-                88672.06388361433
+                1741313759325,
+                88112.97571696837
             ],
             [
-                1740549405986,
-                88437.05893392072
+                1741314031233,
+                87875.42985154335
             ],
             [
-                1740549649200,
-                88377.108768736
+                1741314355891,
+                87540.42146790933
             ],
             [
-                1740549972494,
-                88625.65288538425
+                1741314676619,
+                87495.23925708918
             ],
             [
-                1740550231873,
-                88546.49028076029
+                1741314934508,
+                87746.92191912382
             ],
             [
-                1740550572860,
-                88542.53104370325
+                1741315230223,
+                88205.46286349047
             ],
             [
-                1740550903073,
-                88717.9808107228
+                1741315547074,
+                87902.9893234886
             ],
             [
-                1740551130244,
-                88609.89330566284
+                1741315878761,
+                87607.03170069764
             ],
             [
-                1740551488472,
-                88622.96284569419
+                1741316128254,
+                87520.06754902907
             ],
             [
-                1740551741593,
-                88753.63780280213
+                1741316445776,
+                87271.80248912342
             ],
             [
-                1740552101097,
-                88621.08094365573
+                1741316805538,
+                87363.87581343229
             ],
             [
-                1740552335942,
-                88638.82429619141
+                1741317024098,
+                87394.20242476392
             ],
             [
-                1740552684940,
-                88777.05531183176
+                1741317336539,
+                87595.46641533259
             ],
             [
-                1740552970790,
-                88778.01078901782
+                1741317679787,
+                87523.91533690807
             ],
             [
-                1740553304961,
-                88840.60470116032
+                1741318002158,
+                87524.74514549239
             ],
             [
-                1740553550822,
-                88829.00914641502
+                1741318256493,
+                87508.35806323968
             ],
             [
-                1740553888220,
-                88777.95630448849
+                1741318565497,
+                87370.10938356063
             ],
             [
-                1740554138549,
-                89074.39046272232
+                1741318910183,
+                87164.70076086209
             ],
             [
-                1740554462124,
-                88960.4637724778
+                1741319164836,
+                87075.40859473335
             ],
             [
-                1740554808528,
-                88950.60035816813
+                1741319497862,
+                86927.35761215963
             ],
             [
-                1740555066222,
-                88940.09992987732
+                1741319738108,
+                87068.38206617706
             ],
             [
-                1740555380966,
-                88648.22773217094
+                1741320065838,
+                86964.43669048644
             ],
             [
-                1740555690136,
-                88559.12078107521
+                1741320406582,
+                87042.73344323806
             ],
             [
-                1740555960049,
-                88468.42791714103
+                1741320644524,
+                87127.73903135149
             ],
             [
-                1740556287225,
-                88530.56497568327
+                1741320979182,
+                87163.6396993538
             ],
             [
-                1740556551506,
-                88670.48114606676
+                1741321228278,
+                87223.36791054679
             ],
             [
-                1740556888238,
-                88672.10610119285
+                1741321560125,
+                87436.12837904453
             ],
             [
-                1740557209413,
-                88605.31802829092
+                1741321889621,
+                87545.96766150875
             ],
             [
-                1740557461605,
-                88262.79829423908
+                1741322206171,
+                87669.54903251848
             ],
             [
-                1740557770941,
-                88262.17487612984
+                1741322448366,
+                87826.22557842953
             ],
             [
-                1740558096338,
-                88222.07837228106
+                1741322795341,
+                87743.65994524164
             ],
             [
-                1740558402149,
-                88272.22386246933
+                1741323192267,
+                87569.1922431696
             ],
             [
-                1740558660046,
-                88354.79240796082
+                1741323340148,
+                87590.53139316158
             ],
             [
-                1740558961556,
-                88306.33577935005
+                1741323669295,
+                87679.70424451
             ],
             [
-                1740559289177,
-                88341.10310849243
+                1741324001662,
+                87814.53181605812
             ],
             [
-                1740559530780,
-                88403.114189167
+                1741324305423,
+                88011.3785792442
             ],
             [
-                1740559839645,
-                88426.22234899408
+                1741324536357,
+                87890.41111647799
             ],
             [
-                1740560189918,
-                88485.30949205333
+                1741324864229,
+                88065.8019594699
             ],
             [
-                1740560505328,
-                88447.98677406105
+                1741325197429,
+                88403.00670810208
             ],
             [
-                1740560758070,
-                88578.30481989731
+                1741325426941,
+                88382.88976013398
             ],
             [
-                1740561101890,
-                88535.37918791438
+                1741325747012,
+                88235.06918528485
             ],
             [
-                1740561375913,
-                88602.79889742612
+                1741326106485,
+                88115.5756785173
             ],
             [
-                1740561689252,
-                88818.77324090501
+                1741326411652,
+                88354.79019052372
             ],
             [
-                1740561952279,
-                88945.93212171512
+                1741326701233,
+                88305.57505810911
             ],
             [
-                1740562294654,
-                88813.01973071325
+                1741326927257,
+                88258.51066032593
             ],
             [
-                1740562547305,
-                88920.49327352131
+                1741327546679,
+                88124.75812755647
             ],
             [
-                1740562842801,
-                89019.88971734313
+                1741327880429,
+                88099.09429046806
             ],
             [
-                1740563156685,
-                89094.37324627707
+                1741328188510,
+                88078.84904943303
             ],
             [
-                1740563424479,
-                89039.50368851627
+                1741328507302,
+                88216.81630958262
             ],
             [
-                1740563812505,
-                89150.49528111878
+                1741328797486,
+                88026.95828166317
             ],
             [
-                1740564078763,
-                89035.46679968933
+                1741329110378,
+                88041.25015213975
             ],
             [
-                1740564384131,
-                88948.28936259738
+                1741329338308,
+                87981.19611789667
             ],
             [
-                1740564662679,
-                88939.81022551595
+                1741329664227,
+                87935.92459817397
             ],
             [
-                1740564947045,
-                88981.06069789722
+                1741329985404,
+                87921.56586010776
             ],
             [
-                1740565311276,
-                88859.89276900752
+                1741330279073,
+                88278.89319769225
             ],
             [
-                1740565556156,
-                88882.58753716415
+                1741330543375,
+                88314.21615036289
             ],
             [
-                1740565936226,
-                88948.4723897586
+                1741331162942,
+                88148.03578541937
             ],
             [
-                1740566171130,
-                89031.28046649623
+                1741331465147,
+                88491.97341111572
             ],
             [
-                1740566501966,
-                89107.58500442056
+                1741331794251,
+                88558.01770106444
             ],
             [
-                1740566791539,
-                89070.72502358649
+                1741332045684,
+                88495.15050861608
             ],
             [
-                1740567103355,
-                88991.83089560771
+                1741332361705,
+                88469.52672015698
             ],
             [
-                1740567407047,
-                89115.58753286733
+                1741332693295,
+                88440.4001707721
             ],
             [
-                1740567699240,
-                89191.07152838832
+                1741332946575,
+                88325.56970079025
             ],
             [
-                1740567957674,
-                89158.90373775114
+                1741333287677,
+                88170.62760176254
             ],
             [
-                1740568231971,
-                89040.25906588206
+                1741333602671,
+                88232.6610550385
             ],
             [
-                1740568548010,
-                89152.62057745145
+                1741333833158,
+                88261.11914187907
             ],
             [
-                1740568824752,
-                89098.30108867935
+                1741334159022,
+                88223.10935680504
             ],
             [
-                1740569128871,
-                89105.32734931204
+                1741334485590,
+                88320.92622329212
             ],
             [
-                1740569509014,
-                88835.55656965787
+                1741334797301,
+                88309.08721529596
             ],
             [
-                1740569751768,
-                88731.96211688282
+                1741335033167,
+                88136.96311018484
             ],
             [
-                1740570087630,
-                88607.12035476752
+                1741335380515,
+                88124.45790570129
             ],
             [
-                1740570359981,
-                88687.29012360539
+                1741335690025,
+                88150.37291100682
             ],
             [
-                1740570676019,
-                88670.15316235951
+                1741335928864,
+                88102.60539534531
             ],
             [
-                1740571000858,
-                88649.90823488863
+                1741336265673,
+                88115.64087381001
             ],
             [
-                1740571248475,
-                88591.27153709585
+                1741336594495,
+                88090.13652142603
             ],
             [
-                1740571571523,
-                88369.0124639307
+                1741336830460,
+                88066.08514591263
             ],
             [
-                1740571897490,
-                88406.48085830061
+                1741337177870,
+                88130.60522006861
             ],
             [
-                1740572168886,
-                88370.28686019259
+                1741337490971,
+                88376.5376147023
             ],
             [
-                1740572439890,
-                88222.02716642637
+                1741337746307,
+                88242.46139447358
             ],
             [
-                1740572785578,
-                88259.18553537363
+                1741338079751,
+                88405.65836333216
             ],
             [
-                1740573040342,
-                88295.33537262036
+                1741338394634,
+                88553.31536053453
             ],
             [
-                1740573355726,
-                88287.47667994339
+                1741338624587,
+                88449.74295453214
             ],
             [
-                1740573678280,
-                88343.65749089525
+                1741338964414,
+                88663.04895868064
             ],
             [
-                1740573956865,
-                88157.61815545194
+                1741339305177,
+                88602.3618766165
             ],
             [
-                1740574381164,
-                87784.2707172241
+                1741339561667,
+                88856.6837376087
             ],
             [
-                1740574553777,
-                87632.3361237518
+                1741339825699,
+                89156.07744354599
             ],
             [
-                1740574903552,
-                87915.24559540932
+                1741340150036,
+                89555.26319631796
             ],
             [
-                1740575131357,
-                87760.24110289534
+                1741340470317,
+                89143.73262989474
             ],
             [
-                1740575480008,
-                87740.29957466928
+                1741340723874,
+                88959.37199898709
             ],
             [
-                1740575723518,
-                87672.86738278292
+                1741341052781,
+                89156.60757724571
             ],
             [
-                1740576080416,
-                87459.57011991627
+                1741341407013,
+                88984.58461304783
             ],
             [
-                1740576323527,
-                87824.1239511934
+                1741341638973,
+                88924.81213521794
             ],
             [
-                1740576653743,
-                87718.22665137584
+                1741341989421,
+                88789.0851874245
             ],
             [
-                1740577016755,
-                87785.46840286232
+                1741342220332,
+                88962.24906117062
             ],
             [
-                1740577262214,
-                87715.14764287004
+                1741342548545,
+                88937.91902699476
             ],
             [
-                1740577544420,
-                87603.60941503376
+                1741342861125,
+                89108.73200205415
             ],
             [
-                1740577892700,
-                87503.50780456934
+                1741343166562,
+                89106.39873317683
             ],
             [
-                1740578144324,
-                87439.80874327067
+                1741343487096,
+                89010.73764646899
             ],
             [
-                1740578493809,
-                86973.31331258506
+                1741343746942,
+                89083.33081418331
             ],
             [
-                1740578741200,
-                86615.04722891233
+                1741344071408,
+                89213.13800226094
             ],
             [
-                1740579151380,
-                86314.18122329476
+                1741344330011,
+                89174.88491821603
             ],
             [
-                1740579331768,
-                86408.70164336004
+                1741344654132,
+                89242.2566618013
             ],
             [
-                1740579680691,
-                86126.88677202049
+                1741344999368,
+                89283.87748303845
             ],
             [
-                1740580016220,
-                85445.78662441112
+                1741345276504,
+                89233.05038411486
             ],
             [
-                1740580285919,
-                85776.04773431768
+                1741345576475,
+                89111.65620602341
             ],
             [
-                1740580556532,
-                85830.32358736862
+                1741345859395,
+                89165.70925376161
             ],
             [
-                1740580896569,
-                86613.52092945628
+                1741346208984,
+                89193.84422169998
             ],
             [
-                1740581145614,
-                86683.23173125158
+                1741346445359,
+                89288.11033384106
             ],
             [
-                1740581512312,
-                87180.79387744961
+                1741346805256,
+                89191.21129194528
             ],
             [
-                1740581778618,
-                87502.76214821034
+                1741347108467,
+                89070.16047182352
             ],
             [
-                1740582057734,
-                87527.16336925325
+                1741347366041,
+                89053.89422758133
             ],
             [
-                1740582317409,
-                87648.25718757942
+                1741347705550,
+                89077.23383423028
             ],
             [
-                1740582656223,
-                87902.85228838702
+                1741347959616,
+                89010.44565151082
             ],
             [
-                1740583008470,
-                88223.72404893624
+                1741348282860,
+                88934.20717136082
             ],
             [
-                1740583278605,
-                88062.79403827911
+                1741348609001,
+                88902.02000740796
             ],
             [
-                1740583518886,
-                87805.2570092172
+                1741349224117,
+                89072.88860728624
             ],
             [
-                1740583874846,
-                87642.77462915554
+                1741349559461,
+                89204.37742657661
             ],
             [
-                1740584217510,
-                87825.68718743899
+                1741349739683,
+                89228.10129550751
             ],
             [
-                1740584443438,
-                87882.30877661033
+                1741350070192,
+                89045.85043180076
             ],
             [
-                1740584783916,
-                87619.42922355079
+                1741350406470,
+                89100.19321000397
             ],
             [
-                1740585090894,
-                87686.09278912227
+                1741350636764,
+                89183.37071293373
             ],
             [
-                1740585347794,
-                87602.03089158259
+                1741350979397,
+                89106.17005961073
             ],
             [
-                1740585625061,
-                87384.08580336162
+                1741351306034,
+                88879.25989227167
             ],
             [
-                1740585971649,
-                87465.21552561912
+                1741351597561,
+                88559.58658651302
             ],
             [
-                1740586229720,
-                87464.59069290955
+                1741351828786,
+                88702.30725974696
             ],
             [
-                1740586576655,
-                86704.23570695567
+                1741352181967,
+                88836.00854419585
             ],
             [
-                1740586830011,
-                86312.09318128016
+                1741352463158,
+                89125.67845016974
             ],
             [
-                1740587173101,
-                86588.89746662737
+                1741352800732,
+                89104.76796704133
             ],
             [
-                1740587484340,
-                86754.16270683367
+                1741353101776,
+                89470.13100994877
             ],
             [
-                1740587802674,
-                86738.24708340819
+                1741353342138,
+                89675.14281245768
             ],
             [
-                1740588078427,
-                87107.01944007026
+                1741353684292,
+                89295.48094027503
             ],
             [
-                1740588364041,
-                87085.31933328065
+                1741353998231,
+                89352.96173737483
             ],
             [
-                1740588642626,
-                86968.46689128366
+                1741354248429,
+                89408.447623339
             ],
             [
-                1740588926284,
-                86950.97916917148
+                1741354568439,
+                89816.0458019457
             ],
             [
-                1740589285652,
-                86693.74231687622
+                1741354823581,
+                90203.54963800948
             ],
             [
-                1740589540451,
-                86897.2211047732
+                1741355180721,
+                90113.74070548479
             ],
             [
-                1740589905510,
-                87043.29036347831
+                1741355521267,
+                89722.19379504512
             ],
             [
-                1740590178219,
-                87148.43733331749
+                1741355752387,
+                89699.82423294657
             ],
             [
-                1740590510546,
-                86590.67150538706
+                1741356031791,
+                89244.5516035285
             ],
             [
-                1740590777767,
-                86862.28615081037
+                1741356356029,
+                89635.9564086791
             ],
             [
-                1740591047657,
-                86860.57343091106
+                1741356694903,
+                89637.89663468384
             ],
             [
-                1740591342365,
-                86565.12540560492
+                1741356935694,
+                89517.56631139787
             ],
             [
-                1740591648703,
-                86222.29912036273
+                1741357260430,
+                89643.26794976219
             ],
             [
-                1740591963261,
-                86553.7888544267
+                1741357537139,
+                89267.01693821976
             ],
             [
-                1740592292964,
-                86253.64655122907
+                1741357830768,
+                88963.04723616922
             ],
             [
-                1740592551963,
-                85746.32329687443
+                1741358211769,
+                89167.66103541308
             ],
             [
-                1740592876379,
-                85901.66149196563
+                1741358509862,
+                89235.6046415853
             ],
             [
-                1740593209053,
-                86106.25508758229
+                1741358792576,
+                90281.98146660489
             ],
             [
-                1740593550256,
-                86406.3109054296
+                1741359112213,
+                90753.43814080983
             ],
             [
-                1740593804623,
-                86254.27067141568
+                1741359376681,
+                90940.26839762268
             ],
             [
-                1740594065333,
-                85714.92661725418
+                1741359708432,
+                90408.10873144864
             ],
             [
-                1740594318285,
-                85874.73947767331
+                1741359997781,
+                90647.79774677548
             ],
             [
-                1740594689746,
-                85356.78392029135
+                1741360284392,
+                90564.76425144341
             ],
             [
-                1740594919936,
-                84951.0781756633
+                1741360558595,
+                89983.519085892
             ],
             [
-                1740595334294,
-                83724.33851515914
-            ],
-            [
-                1740595555292,
-                84445.99787348708
-            ],
-            [
-                1740595819564,
-                84442.47557408585
-            ],
-            [
-                1740596181428,
-                83813.498510243
-            ],
-            [
-                1740596250000,
-                83845.90875108697
+                1741360770000,
+                89481.69826740674
             ]
         ],
         "market_caps": [
             [
-                1740510028890,
-                1726153569197.384
+                1741274484939,
+                1809919653276.756
             ],
             [
-                1740510319335,
-                1725243227453.2803
+                1741274765807,
+                1806707883653.8196
             ],
             [
-                1740510646169,
-                1728462240808.5789
+                1741275120032,
+                1800407435737.892
             ],
             [
-                1740510979437,
-                1722370119095.3042
+                1741275344281,
+                1800407435737.892
             ],
             [
-                1740511244399,
-                1717568036952.806
+                1741275655242,
+                1807171280424.272
             ],
             [
-                1740511597955,
-                1716105952993.5068
+                1741275937540,
+                1810205331037.055
             ],
             [
-                1740511830052,
-                1720944669701.8765
+                1741276236749,
+                1806434761973.7554
             ],
             [
-                1740512161499,
-                1723145502830.7441
+                1741276574920,
+                1798830358492.215
             ],
             [
-                1740512477347,
-                1724186952918.2441
+                1741276895492,
+                1800546745551.1528
             ],
             [
-                1740512737228,
-                1731062936302.6487
+                1741277166686,
+                1802188590311.1367
             ],
             [
-                1740513056600,
-                1732347570257.9941
+                1741277504612,
+                1801512765823.2437
             ],
             [
-                1740513416539,
-                1737963341360.1938
+                1741277782050,
+                1798757741885.4534
             ],
             [
-                1740513666078,
-                1742579467273.5596
+                1741278177546,
+                1797938512409.8882
             ],
             [
-                1740514006277,
-                1736102468780.3408
+                1741278365932,
+                1795274369285.1892
             ],
             [
-                1740514263723,
-                1743026506152.958
+                1741278703210,
+                1787368578126.486
             ],
             [
-                1740514570455,
-                1740736081113.4976
+                1741278930670,
+                1787368578126.486
             ],
             [
-                1740514902333,
-                1744606347984.7734
+                1741279242052,
+                1788658553682.4272
             ],
             [
-                1740515178570,
-                1744606347984.7734
+                1741279539048,
+                1788239152229.6035
             ],
             [
-                1740515513605,
-                1756158309958.3223
+                1741279832019,
+                1791030294319.0818
             ],
             [
-                1740515750914,
-                1756158309958.3223
+                1741280171216,
+                1788126264368.6858
             ],
             [
-                1740516080180,
-                1763896995117.609
+                1741280500973,
+                1768922049739.676
             ],
             [
-                1740516368533,
-                1752350916220.636
+                1741280736528,
+                1761289904221.3906
             ],
             [
-                1740516665114,
-                1747828449698.5344
+                1741281061573,
+                1754065589035.5874
             ],
             [
-                1740516952156,
-                1748142364674.2288
+                1741281404838,
+                1759622478010.2317
             ],
             [
-                1740517226118,
-                1745380635964.7517
+                1741281648920,
+                1756062274847.4033
             ],
             [
-                1740517571737,
-                1748210129684.4062
+                1741281991396,
+                1764550788894.4763
             ],
             [
-                1740517897470,
-                1741116124716.0803
+                1741282222603,
+                1761893729815.6301
             ],
             [
-                1740518124636,
-                1741116124716.0803
+                1741282611162,
+                1761673370511.1123
             ],
             [
-                1740518466557,
-                1742525753803.5881
+                1741282835807,
+                1752679116914.0542
             ],
             [
-                1740518792683,
-                1746490071631.0916
+                1741283134529,
+                1757100401310.3171
             ],
             [
-                1740519043360,
-                1749931346918.498
+                1741283450526,
+                1747232134921.4314
             ],
             [
-                1740519325571,
-                1748435745689.6287
+                1741283806095,
+                1747039916384.6133
             ],
             [
-                1740519684567,
-                1745705991219.2527
+                1741284110172,
+                1759366904953.5957
             ],
             [
-                1740519941593,
-                1748310849111.5327
+                1741284350381,
+                1759366904953.5957
             ],
             [
-                1740520244300,
-                1754764073270.0508
+                1741284688446,
+                1759366904953.5957
             ],
             [
-                1740520596215,
-                1754082278982.9348
+                1741285003696,
+                1756188892120.6675
             ],
             [
-                1740520918651,
-                1758403458023.832
+                1741285263088,
+                1760927503212.976
             ],
             [
-                1740521162052,
-                1760128275966.8276
+                1741285596899,
+                1762527401220.8772
             ],
             [
-                1740521560693,
-                1768442678225.8413
+                1741285843005,
+                1759029175401.5552
             ],
             [
-                1740521809751,
-                1768442678225.8413
+                1741286170139,
+                1759275986649.7917
             ],
             [
-                1740522059535,
-                1765084348881.479
+                1741286492939,
+                1754309754606.4402
             ],
             [
-                1740522396574,
-                1760702130132.1453
+                1741286756062,
+                1748735875910.8416
             ],
             [
-                1740522635353,
-                1763214214194.9753
+                1741287097268,
+                1752751296783.13
             ],
             [
-                1740522953707,
-                1762162464114.9995
+                1741287335255,
+                1752324794626.084
             ],
             [
-                1740523267275,
-                1762835794497.4536
+                1741287667968,
+                1754812554593.9468
             ],
             [
-                1740523547888,
-                1757979618634.763
+                1741287996559,
+                1748096377745.2148
             ],
             [
-                1740523894586,
-                1753883014495.3916
+                1741288287993,
+                1749659702683.5483
             ],
             [
-                1740524175027,
-                1760695032097.9622
+                1741288550901,
+                1751646704223.276
             ],
             [
-                1740524505551,
-                1759458170835.2932
+                1741288890064,
+                1748613945020.8599
             ],
             [
-                1740524821053,
-                1759775902216.9827
+                1741289147662,
+                1748787459464.239
             ],
             [
-                1740525112895,
-                1765012928241.922
+                1741289431794,
+                1749979388039.2678
             ],
             [
-                1740525358131,
-                1764843221876.7893
+                1741289724271,
+                1743265396057.8894
             ],
             [
-                1740525687244,
-                1763525886502.4119
+                1741290041696,
+                1749147002679.4402
             ],
             [
-                1740525931738,
-                1764403205533.6458
+                1741290324832,
+                1758934510897.1147
             ],
             [
-                1740526344870,
-                1763860873298.7444
+                1741290683529,
+                1761100096603.72
             ],
             [
-                1740526613917,
-                1764282454799.8743
+                1741290963752,
+                1771499571198.773
             ],
             [
-                1740526871115,
-                1758323246669.1008
+                1741291527025,
+                1763684219535.558
             ],
             [
-                1740527138251,
-                1758823846881.908
+                1741291907046,
+                1764435626632.8171
             ],
             [
-                1740527427364,
-                1757211324287.89
+                1741292115661,
+                1767141723065.8567
             ],
             [
-                1740527792841,
-                1759750360550.3337
+                1741292457295,
+                1767796278696.7485
             ],
             [
-                1740528110990,
-                1759265618039.977
+                1741292796128,
+                1762796154115.6086
             ],
             [
-                1740528349493,
-                1754641969936.6802
+                1741293024573,
+                1765524339254.9062
             ],
             [
-                1740528689036,
-                1754641969936.6802
+                1741293377546,
+                1765843276052.4956
             ],
             [
-                1740528964374,
-                1754641969936.6802
+                1741293695314,
+                1769003702170.9355
             ],
             [
-                1740529252756,
-                1752552007241.582
+                1741293946125,
+                1757545080536.2354
             ],
             [
-                1740529581921,
-                1749400562395.875
+                1741294283854,
+                1760512623225.9763
             ],
             [
-                1740529828956,
-                1752103930097.0444
+                1741294592341,
+                1765172290816.545
             ],
             [
-                1740530130690,
-                1752103930097.0444
+                1741294847948,
+                1769227045806.434
             ],
             [
-                1740530461726,
-                1750625324730.0132
+                1741295181026,
+                1769633422167.5981
             ],
             [
-                1740530758342,
-                1747563682415.2163
+                1741295500072,
+                1771334816849.4683
             ],
             [
-                1740531079770,
-                1746577156859.4453
+                1741295801204,
+                1771429873993.6313
             ],
             [
-                1740531322219,
-                1746102714170.586
+                1741296059694,
+                1778989420936.745
             ],
             [
-                1740531711078,
-                1746445613391.0212
+                1741296388496,
+                1774465997418.396
             ],
             [
-                1740532072552,
-                1747554285065.7288
+                1741296629078,
+                1774465997418.396
             ],
             [
-                1740532264127,
-                1747554285065.7288
+                1741296931424,
+                1769656803048.6584
             ],
             [
-                1740532591054,
-                1750611962334.8513
+                1741297246416,
+                1770974698864.6514
             ],
             [
-                1740532830522,
-                1750361459240.4878
+                1741297561451,
+                1769894653685.9517
             ],
             [
-                1740533172200,
-                1747966860622.686
+                1741297850504,
+                1770348455598.954
             ],
             [
-                1740533517377,
-                1748349928260.2993
+                1741298191276,
+                1774824987189.4678
             ],
             [
-                1740533744142,
-                1751060544970.6707
+                1741298436964,
+                1775588184990.663
             ],
             [
-                1740534041501,
-                1751925046122.3167
+                1741298772309,
+                1800080641888.4226
             ],
             [
-                1740534331935,
-                1749870267048.7644
+                1741299172891,
+                1794929892786.5903
             ],
             [
-                1740534683047,
-                1752615328285.0046
+                1741299409660,
+                1795070596447.0442
             ],
             [
-                1740534990201,
-                1755253023601.506
+                1741299793480,
+                1786690988059.3396
             ],
             [
-                1740535299659,
-                1759436697765.123
+                1741299983701,
+                1779632159756.7234
             ],
             [
-                1740535523934,
-                1756440199115.4873
+                1741300254919,
+                1782345565344.0986
             ],
             [
-                1740535858608,
-                1752663390842.0278
+                1741300525623,
+                1780906427539.9312
             ],
             [
-                1740536161401,
-                1755245956149.684
+                1741300904383,
+                1786465362877.948
             ],
             [
-                1740536486359,
-                1757989445825.2634
+                1741301122825,
+                1794457927540.744
             ],
             [
-                1740536800699,
-                1758123088514.65
+                1741301458869,
+                1792521238589.0403
             ],
             [
-                1740537065113,
-                1758873084332.6543
+                1741301804100,
+                1798822934486.3362
             ],
             [
-                1740537381036,
-                1757826050594.3386
+                1741302115371,
+                1790638839415.8406
             ],
             [
-                1740537707550,
-                1755816455791.158
+                1741302342421,
+                1790638839415.8406
             ],
             [
-                1740537960790,
-                1757990745671.3616
+                1741302669973,
+                1787732765544.653
             ],
             [
-                1740538256350,
-                1757557716519.751
+                1741302992670,
+                1788945578400.6548
             ],
             [
-                1740538592833,
-                1760267007482.6272
+                1741303312918,
+                1793432172899.1978
             ],
             [
-                1740538907511,
-                1764698654606.8562
+                1741303534296,
+                1793432172899.1978
             ],
             [
-                1740539212755,
-                1766530843184.0618
+                1741303879182,
+                1792540121023.036
             ],
             [
-                1740539440059,
-                1765793057477.948
+                1741304166780,
+                1794530133025.0457
             ],
             [
-                1740539766331,
-                1769763249529.058
+                1741304492422,
+                1795566177462.1418
             ],
             [
-                1740540092407,
-                1769825783947.5293
+                1741304737830,
+                1795292547787.6423
             ],
             [
-                1740540315618,
-                1768468057711.9485
+                1741305054016,
+                1785983207556.5444
             ],
             [
-                1740540651810,
-                1765091345842.4338
+                1741305375093,
+                1782785866811.654
             ],
             [
-                1740540981403,
-                1764481859492.8074
+                1741305667775,
+                1783490195339.4204
             ],
             [
-                1740541285832,
-                1763234790898.1587
+                1741305945015,
+                1783490195339.4204
             ],
             [
-                1740541529249,
-                1762800840025.274
+                1741306285006,
+                1783490195339.4204
             ],
             [
-                1740541883358,
-                1764089709429.1677
+                1741306611813,
+                1791666416923.5095
             ],
             [
-                1740542200076,
-                1761777317546.8176
+                1741306839130,
+                1760588112517.0469
             ],
             [
-                1740542508430,
-                1760882538800.2239
+                1741307158498,
+                1720452210279.2603
             ],
             [
-                1740542736160,
-                1762066490935.6587
+                1741307494762,
+                1721788131888.9185
             ],
             [
-                1740543070472,
-                1762862268893.865
+                1741307715947,
+                1724855455204.4087
             ],
             [
-                1740543323730,
-                1762862268893.865
+                1741308044433,
+                1715351056795.0337
             ],
             [
-                1740543713497,
-                1763195729714.0977
+                1741308364475,
+                1706177210188.5422
             ],
             [
-                1740543990259,
-                1764020896955.2422
+                1741308668175,
+                1701924892466.3147
             ],
             [
-                1740544241020,
-                1764020896955.2422
+                1741308996528,
+                1685691044721.9258
             ],
             [
-                1740544541275,
-                1766005753897.712
+                1741309261244,
+                1693961769430.976
             ],
             [
-                1740544867736,
-                1764727840142.7327
+                1741309572299,
+                1701651753455.4146
             ],
             [
-                1740545158253,
-                1765482529494.1716
+                1741309901913,
+                1710528197137.0317
             ],
             [
-                1740545477285,
-                1763093256678.9487
+                1741310141483,
+                1710528197137.0317
             ],
             [
-                1740545814358,
-                1760214517484.0273
+                1741310465144,
+                1724196477227.3914
             ],
             [
-                1740546062698,
-                1757125704428.4404
+                1741310721785,
+                1731444816545.5806
             ],
             [
-                1740546359927,
-                1756432925134.457
+                1741311029955,
+                1729804961226.825
             ],
             [
-                1740546703905,
-                1760261697275.678
+                1741311413373,
+                1723242271886.9421
             ],
             [
-                1740546941439,
-                1760261697275.678
+                1741311659931,
+                1729716161815.7822
             ],
             [
-                1740547277327,
-                1759363607481.1997
+                1741311983884,
+                1748985989821.4026
             ],
             [
-                1740547577485,
-                1757266538713.0452
+                1741312244653,
+                1759122972146.837
             ],
             [
-                1740547864846,
-                1760106919822.6296
+                1741312548697,
+                1744056851609.9458
             ],
             [
-                1740548196851,
-                1759088312730.7798
+                1741312884368,
+                1744132910123.6284
             ],
             [
-                1740548475975,
-                1756822984584.9014
+                1741313152544,
+                1746163163098.5208
             ],
             [
-                1740548741965,
-                1757247046102.0205
+                1741313555956,
+                1746937197204.1897
             ],
             [
-                1740549091086,
-                1758540062422.299
+                1741313759325,
+                1749163224111.1172
             ],
             [
-                1740549405986,
-                1753708770056.1602
+                1741314031233,
+                1742712128438.2368
             ],
             [
-                1740549649200,
-                1753708770056.1602
+                1741314355891,
+                1734612449150.4856
             ],
             [
-                1740549972494,
-                1752354278085.0537
+                1741314676619,
+                1734393788899.1057
             ],
             [
-                1740550231873,
-                1752354278085.0537
+                1741314934508,
+                1735393476176.0361
             ],
             [
-                1740550572860,
-                1752354278085.0537
+                1741315230223,
+                1744739411691.5662
             ],
             [
-                1740550903073,
-                1757379523971.3171
+                1741315547074,
+                1746952268595.3145
             ],
             [
-                1740551130244,
-                1757219419981.9116
+                1741315878761,
+                1740501221184.0554
             ],
             [
-                1740551488472,
-                1757406386385.4097
+                1741316128254,
+                1737559802765.5364
             ],
             [
-                1740551741593,
-                1757406386385.4097
+                1741316445776,
+                1731743047672.3867
             ],
             [
-                1740552101097,
-                1757937472589.2153
+                1741316805538,
+                1733386754993.6782
             ],
             [
-                1740552335942,
-                1757937472589.2153
+                1741317024098,
+                1732824023445.6587
             ],
             [
-                1740552684940,
-                1758341146362.0833
+                1741317336539,
+                1737306550886.951
             ],
             [
-                1740552970790,
-                1760379711493.1704
+                1741317679787,
+                1735761515973.8054
             ],
             [
-                1740553304961,
-                1760259320912.6382
+                1741318002158,
+                1732965570471.6042
             ],
             [
-                1740553550822,
-                1761276770018.358
+                1741318256493,
+                1735125857639.478
             ],
             [
-                1740553888220,
-                1760012857347.889
+                1741318565497,
+                1733031755384.208
             ],
             [
-                1740554138549,
-                1761178736432.0415
+                1741318910183,
+                1728274275944.2937
             ],
             [
-                1740554462124,
-                1764476720440.8064
+                1741319164836,
+                1728437457168.6062
             ],
             [
-                1740554808528,
-                1762789277871.0552
+                1741319497862,
+                1723794716426.2642
             ],
             [
-                1740555066222,
-                1763835377345.093
+                1741319738108,
+                1726857085973.5383
             ],
             [
-                1740555380966,
-                1757862817735.705
+                1741320065838,
+                1727163551320.673
             ],
             [
-                1740555690136,
-                1757862817735.705
+                1741320406582,
+                1724482221591.3972
             ],
             [
-                1740555960049,
-                1756060945748.1355
+                1741320644524,
+                1730024196863.2073
             ],
             [
-                1740556287225,
-                1754629944144.1572
+                1741320979182,
+                1728386331961.5264
             ],
             [
-                1740556551506,
-                1756398229588.9958
+                1741321228278,
+                1729917324489.5007
             ],
             [
-                1740556888238,
-                1757988255247.3652
+                1741321560125,
+                1732782555871.4875
             ],
             [
-                1740557209413,
-                1756982167132.5625
+                1741321889621,
+                1734161909250.5762
             ],
             [
-                1740557461605,
-                1756982167132.5625
+                1741322206171,
+                1737273956248.4277
             ],
             [
-                1740557770941,
-                1750288001553.5098
+                1741322448366,
+                1741493755896.114
             ],
             [
-                1740558096338,
-                1749452338949.3098
+                1741322795341,
+                1739738932827.9878
             ],
             [
-                1740558402149,
-                1750371995024.8699
+                1741323192267,
+                1738605784873.9412
             ],
             [
-                1740558660046,
-                1750371995024.8699
+                1741323340148,
+                1738605784873.9412
             ],
             [
-                1740558961556,
-                1750455694068.3704
+                1741323669295,
+                1739651353704.835
             ],
             [
-                1740559289177,
-                1751774247949.1467
+                1741324001662,
+                1739373064744.499
             ],
             [
-                1740559530780,
-                1751774247949.1467
+                1741324305423,
+                1744592516930.1155
             ],
             [
-                1740559839645,
-                1752769120705.8896
+                1741324536357,
+                1742881232475.7876
             ],
             [
-                1740560189918,
-                1754482903580.7585
+                1741324864229,
+                1743560485115.493
             ],
             [
-                1740560505328,
-                1753803671294.992
+                1741325197429,
+                1748480376122.8564
             ],
             [
-                1740560758070,
-                1753803671294.992
+                1741325426941,
+                1753338769332.8936
             ],
             [
-                1740561101890,
-                1756200166134.0918
+                1741325747012,
+                1748762414554.1401
             ],
             [
-                1740561375913,
-                1756173260086.8079
+                1741326106485,
+                1747626436074.4915
             ],
             [
-                1740561689252,
-                1759026837366.6306
+                1741326411652,
+                1752775877182.2144
             ],
             [
-                1740561952279,
-                1763447020890.6963
+                1741326701233,
+                1752792154419.2441
             ],
             [
-                1740562294654,
-                1762980227294.2793
+                1741326927257,
+                1751571436109.6116
             ],
             [
-                1740562547305,
-                1762284866149.5432
+                1741327546679,
+                1749331042569.9243
             ],
             [
-                1740562842801,
-                1764111884175.899
+                1741327880429,
+                1749331042569.9243
             ],
             [
-                1740563156685,
-                1765388145760.2856
+                1741328188510,
+                1746380758254.4617
             ],
             [
-                1740563424479,
-                1766160960642.9744
+                1741328507302,
+                1748030035645.8833
             ],
             [
-                1740563812505,
-                1765916889311.8296
+                1741328797486,
+                1746141311701.5212
             ],
             [
-                1740564078763,
-                1766310331847.1128
+                1741329110378,
+                1746338871634.8074
             ],
             [
-                1740564384131,
-                1763392581401.0278
+                1741329338308,
+                1746338871634.8074
             ],
             [
-                1740564662679,
-                1762910101413.8433
+                1741329664227,
+                1744998162588.1284
             ],
             [
-                1740564947045,
-                1764474440400.8223
+                1741329985404,
+                1744151090224.3064
             ],
             [
-                1740565311276,
-                1762608851107.1975
+                1741330279073,
+                1743778572800.6072
             ],
             [
-                1740565556156,
-                1762181514038.7002
+                1741330543375,
+                1750865568450.1973
             ],
             [
-                1740565936226,
-                1763141254089.932
+                1741331162942,
+                1749421306893.6548
             ],
             [
-                1740566171130,
-                1765614789025.3162
+                1741331465147,
+                1748215084278.1455
             ],
             [
-                1740566501966,
-                1767504491558.9453
+                1741331794251,
+                1756826548385.5007
             ],
             [
-                1740566791539,
-                1767803073193.015
+                1741332045684,
+                1756826548385.5007
             ],
             [
-                1740567103355,
-                1764887713276.528
+                1741332361705,
+                1755613375704.4067
             ],
             [
-                1740567407047,
-                1765013953939.7588
+                1741332693295,
+                1754055209665.717
             ],
             [
-                1740567699240,
-                1769331563832.426
+                1741332946575,
+                1754055209665.717
             ],
             [
-                1740567957674,
-                1768665910563.0076
+                1741333287677,
+                1748705781234.1123
             ],
             [
-                1740568231971,
-                1766522634769.3962
+                1741333602671,
+                1749041148925.9207
             ],
             [
-                1740568548010,
-                1767676443938.555
+                1741333833158,
+                1749041148925.9207
             ],
             [
-                1740568824752,
-                1767676443938.555
+                1741334159022,
+                1750431198907.654
             ],
             [
-                1740569128871,
-                1766754277173.2385
+                1741334485590,
+                1751699223864.2473
             ],
             [
-                1740569509014,
-                1761585345553.8577
+                1741334797301,
+                1751403339105.5737
             ],
             [
-                1740569751768,
-                1759499855113.18
+                1741335033167,
+                1751403339105.5737
             ],
             [
-                1740570087630,
-                1756898075528.82
+                1741335380515,
+                1747799901413.0664
             ],
             [
-                1740570359981,
-                1758601764213.9626
+                1741335690025,
+                1748316581521.9067
             ],
             [
-                1740570676019,
-                1758198688132.528
+                1741335928864,
+                1748316581521.9067
             ],
             [
-                1740571000858,
-                1757633775151.1416
+                1741336265673,
+                1747149333333.0718
             ],
             [
-                1740571248475,
-                1756834880108.749
+                1741336594495,
+                1746977826936.6072
             ],
             [
-                1740571571523,
-                1756834880108.749
+                1741336830460,
+                1746977826936.6072
             ],
             [
-                1740571897490,
-                1756834880108.749
+                1741337177870,
+                1746275202424.8826
             ],
             [
-                1740572168886,
-                1752207383343.6785
+                1741337490971,
+                1752802183664.7925
             ],
             [
-                1740572439890,
-                1752207383343.6785
+                1741337746307,
+                1752802183664.7925
             ],
             [
-                1740572785578,
-                1749317539579.9053
+                1741338079751,
+                1751044665379.5715
             ],
             [
-                1740573040342,
-                1750121001383.788
+                1741338394634,
+                1754107226264.054
             ],
             [
-                1740573355726,
-                1750739323148.7139
+                1741338624587,
+                1755927655964.2222
             ],
             [
-                1740573678280,
-                1750972930460.7734
+                1741338964414,
+                1755927815987.9497
             ],
             [
-                1740573956865,
-                1751724636681.9502
+                1741339305177,
+                1756553371410.3325
             ],
             [
-                1740574381164,
-                1743924189451.9075
+                1741339561667,
+                1759398825321.361
             ],
             [
-                1740574553777,
-                1743924189451.9075
+                1741339825699,
+                1762774314048.7637
             ],
             [
-                1740574903552,
-                1738783857371.4
+                1741340150036,
+                1772400207248.8337
             ],
             [
-                1740575131357,
-                1743305164365.68
+                1741340470317,
+                1770758033006.5056
             ],
             [
-                1740575480008,
-                1738028376746.9846
+                1741340723874,
+                1764278602104.966
             ],
             [
-                1740575723518,
-                1739953907194.6318
+                1741341052781,
+                1764643379450.9265
             ],
             [
-                1740576080416,
-                1738086260524.4856
+                1741341407013,
+                1767144439511.769
             ],
             [
-                1740576323527,
-                1734137092119.022
+                1741341638973,
+                1764370032098.5786
             ],
             [
-                1740576653743,
-                1741115637514.437
+                1741341989421,
+                1762639099780.7996
             ],
             [
-                1740577016755,
-                1738759326416.9194
+                1741342220332,
+                1765113776646.6963
             ],
             [
-                1740577262214,
-                1740756606600.574
+                1741342548545,
+                1764478951975.8433
             ],
             [
-                1740577544420,
-                1737396445266.924
+                1741342861125,
+                1764549030927.8052
             ],
             [
-                1740577892700,
-                1736146674499.108
+                1741343166562,
+                1764704347432.0889
             ],
             [
-                1740578144324,
-                1735368110007.3662
+                1741343487096,
+                1766460641744.8948
             ],
             [
-                1740578493809,
-                1729546825437.4866
+                1741343746942,
+                1767125317397.2644
             ],
             [
-                1740578741200,
-                1716820571171.4458
+                1741344071408,
+                1768651951458.801
             ],
             [
-                1740579151380,
-                1711430281567.7644
+                1741344330011,
+                1769591112599.4902
             ],
             [
-                1740579331768,
-                1712077339455.1616
+                1741344654132,
+                1769300717222.4236
             ],
             [
-                1740579680691,
-                1711127955796.3804
+                1741344999368,
+                1769384696919.969
             ],
             [
-                1740580016220,
-                1700014097057.5327
+                1741345276504,
+                1768868893093.7678
             ],
             [
-                1740580285919,
-                1695000329414.6858
+                1741345576475,
+                1769100087583.968
             ],
             [
-                1740580556532,
-                1705621450899.0625
+                1741345859395,
+                1767409195389.1555
             ],
             [
-                1740580896569,
-                1714818604652.757
+                1741346208984,
+                1772246144416.367
             ],
             [
-                1740581145614,
-                1714818604652.757
+                1741346445359,
+                1770450658571.509
             ],
             [
-                1740581512312,
-                1730464137712.1804
+                1741346805256,
+                1771637467223.328
             ],
             [
-                1740581778618,
-                1735029427538.761
+                1741347108467,
+                1768401424072.3647
             ],
             [
-                1740582057734,
-                1735567142513.7805
+                1741347366041,
+                1764672786335.0276
             ],
             [
-                1740582317409,
-                1735567142513.7805
+                1741347705550,
+                1765719398335.5544
             ],
             [
-                1740582656223,
-                1736536091561.703
+                1741347959616,
+                1764755665838.461
             ],
             [
-                1740583008470,
-                1743515985880.788
+                1741348282860,
+                1764754387560.268
             ],
             [
-                1740583278605,
-                1749424307669.4927
+                1741348609001,
+                1763352567979.0508
             ],
             [
-                1740583518886,
-                1744723116068.598
+                1741349224117,
+                1764627997227.6196
             ],
             [
-                1740583874846,
-                1740945187383.9548
+                1741349559461,
+                1764627997227.6196
             ],
             [
-                1740584217510,
-                1741306640890.5713
+                1741349739683,
+                1764627997227.6196
             ],
             [
-                1740584443438,
-                1741530807875.5408
+                1741350070192,
+                1768708383846.603
             ],
             [
-                1740584783916,
-                1742351874628.7126
+                1741350406470,
+                1765759434974.1145
             ],
             [
-                1740585090894,
-                1738269662866.0015
+                1741350636764,
+                1768234832696.1907
             ],
             [
-                1740585347794,
-                1737031670147.768
+                1741350979397,
+                1768531947575.8047
             ],
             [
-                1740585625061,
-                1735119363050.624
+                1741351306034,
+                1764357718678.5457
             ],
             [
-                1740585971649,
-                1734977249725.3286
+                1741351597561,
+                1755964595564.326
             ],
             [
-                1740586229720,
-                1735060711260.712
+                1741351828786,
+                1760036473478.617
             ],
             [
-                1740586576655,
-                1720470973411.1584
+                1741352181967,
+                1762223616245.1187
             ],
             [
-                1740586830011,
-                1715879345632.192
+                1741352463158,
+                1766457122177.5647
             ],
             [
-                1740587173101,
-                1717609863757.8862
+                1741352800732,
+                1768048967039.185
             ],
             [
-                1740587484340,
-                1720756757972.7515
+                1741353101776,
+                1771716082148.964
             ],
             [
-                1740587802674,
-                1718413706335.3777
+                1741353342138,
+                1781012421822.449
             ],
             [
-                1740588078427,
-                1719562796114.0024
+                1741353684292,
+                1772658868648.1062
             ],
             [
-                1740588364041,
-                1729637672796.4624
+                1741353998231,
+                1772014976213.7405
             ],
             [
-                1740588642626,
-                1725099704118.3684
+                1741354248429,
+                1769657700881.733
             ],
             [
-                1740588926284,
-                1721894734215.4321
+                1741354568439,
+                1781193273038.384
             ],
             [
-                1740589285652,
-                1721485928624.323
+                1741354823581,
+                1788440353190.5337
             ],
             [
-                1740589540451,
-                1719710792929.0088
+                1741355180721,
+                1785722981858.9614
             ],
             [
-                1740589905510,
-                1722186562407.367
+                1741355521267,
+                1781311092055.3694
             ],
             [
-                1740590178219,
-                1726549893113.827
+                1741355752387,
+                1780039960558.3052
             ],
             [
-                1740590510546,
-                1726686543999.649
+                1741356031791,
+                1774809630259.3186
             ],
             [
-                1740590777767,
-                1717398484482.3875
+                1741356356029,
+                1777232209209.256
             ],
             [
-                1740591047657,
-                1722011451287.4067
+                1741356694903,
+                1778263446892.9583
             ],
             [
-                1740591342365,
-                1720348960088.6887
+                1741356935694,
+                1776003610843.8086
             ],
             [
-                1740591648703,
-                1715412858985.4585
+                1741357260430,
+                1778043061367.0747
             ],
             [
-                1740591963261,
-                1712642966138.2153
+                1741357537139,
+                1769712883868.7056
             ],
             [
-                1740592292964,
-                1713025281290.1497
+                1741357830768,
+                1763627382414.676
             ],
             [
-                1740592551963,
-                1705868726275.1
+                1741358211769,
+                1764131578943.387
             ],
             [
-                1740592876379,
-                1697818285094.4844
+                1741358509862,
+                1765246820528.9785
             ],
             [
-                1740593209053,
-                1706085801935.0215
+                1741358792576,
+                1782561623465.979
             ],
             [
-                1740593550256,
-                1706085801935.0215
+                1741359112213,
+                1801653123020.2122
             ],
             [
-                1740593804623,
-                1706085801935.0215
+                1741359376681,
+                1805540950175.3608
             ],
             [
-                1740594065333,
-                1705810338185.612
+                1741359708432,
+                1799640579328.4185
             ],
             [
-                1740594318285,
-                1702856958563.0383
+                1741359997781,
+                1798402346933.8271
             ],
             [
-                1740594689746,
-                1693391655313.8855
+                1741360284392,
+                1796626878118.2905
             ],
             [
-                1740594919936,
-                1693391655313.8855
+                1741360558595,
+                1784662851089.7954
             ],
             [
-                1740595334294,
-                1653086017436.1843
-            ],
-            [
-                1740595555292,
-                1674395793949.3281
-            ],
-            [
-                1740595819564,
-                1674395793949.3281
-            ],
-            [
-                1740596181428,
-                1662505708876.6213
-            ],
-            [
-                1740596250000,
-                1662505708876.6213
+                1741360770000,
+                1784662851089.7954
             ]
         ],
         "total_volumes": [
             [
-                1740510028890,
-                93147708695.7248
+                1741274484939,
+                47769495954.1674
             ],
             [
-                1740510319335,
-                98232702255.31145
+                1741274765807,
+                45615930872.481735
             ],
             [
-                1740510646169,
-                96920720202.71542
+                1741275120032,
+                46087450599.30288
             ],
             [
-                1740510979437,
-                98309322661.95694
+                1741275344281,
+                45456742640.5468
             ],
             [
-                1740511244399,
-                98552778863.4212
+                1741275655242,
+                48165154920.12381
             ],
             [
-                1740511597955,
-                83973631051.58745
+                1741275937540,
+                42253054193.9164
             ],
             [
-                1740511830052,
-                98911298697.66621
+                1741276236749,
+                46243939286.40312
             ],
             [
-                1740512161499,
-                98966103563.2622
+                1741276574920,
+                47856281270.716484
             ],
             [
-                1740512477347,
-                99510981398.67384
+                1741276895492,
+                47518080627.188995
             ],
             [
-                1740512737228,
-                95287223481.76396
+                1741277166686,
+                47094202784.46353
             ],
             [
-                1740513056600,
-                99440659652.25583
+                1741277504612,
+                46908999062.6902
             ],
             [
-                1740513416539,
-                97736641493.79929
+                1741277782050,
+                46999625667.227264
             ],
             [
-                1740513666078,
-                94611962113.19905
+                1741278177546,
+                45102403851.29263
             ],
             [
-                1740514006277,
-                98763142348.3612
+                1741278365932,
+                46873566845.493996
             ],
             [
-                1740514263723,
-                85430503582.448
+                1741278703210,
+                46746345217.15114
             ],
             [
-                1740514570455,
-                95795501964.04366
+                1741278930670,
+                46069524521.95098
             ],
             [
-                1740514902333,
-                99899921750.7345
+                1741279242052,
+                42943051508.25225
             ],
             [
-                1740515178570,
-                102244010954.16028
+                1741279539048,
+                41921235541.84613
             ],
             [
-                1740515513605,
-                85882324387.1334
+                1741279832019,
+                46835600279.282265
             ],
             [
-                1740515750914,
-                90932616029.52916
+                1741280171216,
+                46769059836.33385
             ],
             [
-                1740516080180,
-                95471231258.34198
+                1741280500973,
+                46214714795.65545
             ],
             [
-                1740516368533,
-                97229929275.42445
+                1741280736528,
+                46030957638.49938
             ],
             [
-                1740516665114,
-                86434668925.81985
+                1741281061573,
+                38037995558.990105
             ],
             [
-                1740516952156,
-                97940079308.46568
+                1741281404838,
+                40227048216.68762
             ],
             [
-                1740517226118,
-                97912511332.68088
+                1741281648920,
+                40306101342.95033
             ],
             [
-                1740517571737,
-                98374409774.00287
+                1741281991396,
+                44917766151.94264
             ],
             [
-                1740517897470,
-                102299412922.18214
+                1741282222603,
+                44699351300.4345
             ],
             [
-                1740518124636,
-                76449630549.73714
+                1741282611162,
+                39813687534.642426
             ],
             [
-                1740518466557,
-                93226542428.28246
+                1741282835807,
+                44845153598.218636
             ],
             [
-                1740518792683,
-                98171171880.7502
+                1741283134529,
+                44903226604.12164
             ],
             [
-                1740519043360,
-                91088198247.50005
+                1741283450526,
+                45099113328.72946
             ],
             [
-                1740519325571,
-                92906298494.44048
+                1741283806095,
+                41228318358.98334
             ],
             [
-                1740519684567,
-                97687039403.93881
+                1741284110172,
+                41572135474.6574
             ],
             [
-                1740519941593,
-                103274300115.05501
+                1741284350381,
+                40079290568.47492
             ],
             [
-                1740520244300,
-                103264083474.47675
+                1741284688446,
+                45053784725.10682
             ],
             [
-                1740520596215,
-                100873315637.16675
+                1741285003696,
+                44765100366.74465
             ],
             [
-                1740520918651,
-                96119719648.17506
+                1741285263088,
+                44885694540.16064
             ],
             [
-                1740521162052,
-                103283525961.80804
+                1741285596899,
+                44392570026.25123
             ],
             [
-                1740521560693,
-                101954994376.54288
+                1741285843005,
+                46584955687.13374
             ],
             [
-                1740521809751,
-                102422611140.34932
+                1741286170139,
+                46725580604.69982
             ],
             [
-                1740522059535,
-                95787380225.43336
+                1741286492939,
+                46609648956.78521
             ],
             [
-                1740522396574,
-                99053418656.08623
+                1741286756062,
+                46592165523.19789
             ],
             [
-                1740522635353,
-                101208425298.9794
+                1741287097268,
+                43887300995.91699
             ],
             [
-                1740522953707,
-                100660038191.9277
+                1741287335255,
+                46717694814.66367
             ],
             [
-                1740523267275,
-                101646134942.52565
+                1741287667968,
+                46519870714.0301
             ],
             [
-                1740523547888,
-                101578152496.20694
+                1741287996559,
+                46506551886.85128
             ],
             [
-                1740523894586,
-                101702644792.47118
+                1741288287993,
+                45798168318.23743
             ],
             [
-                1740524175027,
-                78261059916.97185
+                1741288550901,
+                45746160279.16334
             ],
             [
-                1740524505551,
-                92003989327.7806
+                1741288890064,
+                46406051302.070465
             ],
             [
-                1740524821053,
-                79531697446.36389
+                1741289147662,
+                45741342636.242386
             ],
             [
-                1740525112895,
-                98599715688.5582
+                1741289431794,
+                45989072359.4379
             ],
             [
-                1740525358131,
-                85776764014.08507
+                1741289724271,
+                46246467856.550674
             ],
             [
-                1740525687244,
-                97926783433.03876
+                1741290041696,
+                46232746843.04403
             ],
             [
-                1740525931738,
-                84694188639.61821
+                1741290324832,
+                46975068480.444244
             ],
             [
-                1740526344870,
-                84028379893.63956
+                1741290683529,
+                47263468655.27638
             ],
             [
-                1740526613917,
-                95212241819.96878
+                1741290963752,
+                46919677969.90095
             ],
             [
-                1740526871115,
-                99384696291.76727
+                1741291527025,
+                46753099034.12817
             ],
             [
-                1740527138251,
-                99146084777.79883
+                1741291907046,
+                34920969116.07793
             ],
             [
-                1740527427364,
-                97782691990.16855
+                1741292115661,
+                47189909084.13117
             ],
             [
-                1740527792841,
-                96742453402.56294
+                1741292457295,
+                39710447359.7509
             ],
             [
-                1740528110990,
-                97946677555.97218
+                1741292796128,
+                47159627123.74164
             ],
             [
-                1740528349493,
-                97560110938.7967
+                1741293024573,
+                45315108921.62985
             ],
             [
-                1740528689036,
-                97375194560.65813
+                1741293377546,
+                47314330173.733955
             ],
             [
-                1740528964374,
-                97027827180.79936
+                1741293695314,
+                46768503615.75588
             ],
             [
-                1740529252756,
-                86092067471.27422
+                1741293946125,
+                47554262135.281296
             ],
             [
-                1740529581921,
-                95816331558.07027
+                1741294283854,
+                47742550248.99942
             ],
             [
-                1740529828956,
-                90696619794.93056
+                1741294592341,
+                47732331242.5425
             ],
             [
-                1740530130690,
-                91283672129.18173
+                1741294847948,
+                43299571692.75057
             ],
             [
-                1740530461726,
-                86913978254.31892
+                1741295181026,
+                42679026330.56788
             ],
             [
-                1740530758342,
-                90756004099.65614
+                1741295500072,
+                41842713611.9103
             ],
             [
-                1740531079770,
-                79659325790.19116
+                1741295801204,
+                48066330732.93685
             ],
             [
-                1740531322219,
-                77983964915.20116
+                1741296059694,
+                46801785608.47935
             ],
             [
-                1740531711078,
-                76478091028.73163
+                1741296388496,
+                40672422697.850365
             ],
             [
-                1740532072552,
-                88514880473.02888
+                1741296629078,
+                46904393211.58456
             ],
             [
-                1740532264127,
-                94022327694.3383
+                1741296931424,
+                47004491381.19663
             ],
             [
-                1740532591054,
-                77078408474.93361
+                1741297246416,
+                46310228515.38218
             ],
             [
-                1740532830522,
-                87213905167.20415
+                1741297561451,
+                47675028220.69541
             ],
             [
-                1740533172200,
-                88294620290.9291
+                1741297850504,
+                47534660811.76892
             ],
             [
-                1740533517377,
-                88776820877.09055
+                1741298191276,
+                47786181076.97362
             ],
             [
-                1740533744142,
-                89311765974.35172
+                1741298436964,
+                36403691192.21701
             ],
             [
-                1740534041501,
-                93329317026.7858
+                1741298772309,
+                28239723258.3391
             ],
             [
-                1740534331935,
-                87972616159.1464
+                1741299172891,
+                34237148304.26552
             ],
             [
-                1740534683047,
-                88180851852.23708
+                1741299409660,
+                24523824621.444607
             ],
             [
-                1740534990201,
-                93067462781.65448
+                1741299793480,
+                49162750827.41791
             ],
             [
-                1740535299659,
-                81820813903.36995
+                1741299983701,
+                45039488205.820496
             ],
             [
-                1740535523934,
-                88764412660.86574
+                1741300254919,
+                46188928993.78202
             ],
             [
-                1740535858608,
-                82648777805.90237
+                1741300525623,
+                48531217538.6778
             ],
             [
-                1740536161401,
-                88712310278.42053
+                1741300904383,
+                49750773838.64645
             ],
             [
-                1740536486359,
-                86160751863.4147
+                1741301122825,
+                49970385353.15099
             ],
             [
-                1740536800699,
-                85124960231.9706
+                1741301458869,
+                36523105029.85074
             ],
             [
-                1740537065113,
-                88856863926.48697
+                1741301804100,
+                41546529461.84668
             ],
             [
-                1740537381036,
-                92092054910.63516
+                1741302115371,
+                40919716429.093216
             ],
             [
-                1740537707550,
-                91620958993.89961
+                1741302342421,
+                44083082601.13379
             ],
             [
-                1740537960790,
-                92306310479.03815
+                1741302669973,
+                41455856976.91849
             ],
             [
-                1740538256350,
-                91426071065.96288
+                1741302992670,
+                42327174462.659485
             ],
             [
-                1740538592833,
-                91514377369.06429
+                1741303312918,
+                47916413734.42061
             ],
             [
-                1740538907511,
-                82404723239.43768
+                1741303534296,
+                44088348306.95314
             ],
             [
-                1740539212755,
-                79847591550.36002
+                1741303879182,
+                49689398941.8592
             ],
             [
-                1740539440059,
-                81005208340.26112
+                1741304166780,
+                46764034764.51358
             ],
             [
-                1740539766331,
-                78567711923.75365
+                1741304492422,
+                41067649123.72582
             ],
             [
-                1740540092407,
-                81668894039.77338
+                1741304737830,
+                49712451049.20092
             ],
             [
-                1740540315618,
-                89035591754.48454
+                1741305054016,
+                49599121104.432365
             ],
             [
-                1740540651810,
-                92012207591.06906
+                1741305375093,
+                47555759124.64708
             ],
             [
-                1740540981403,
-                91816102161.03474
+                1741305667775,
+                49087408455.31045
             ],
             [
-                1740541285832,
-                70506798667.82593
+                1741305945015,
+                49952602709.743164
             ],
             [
-                1740541529249,
-                71579712259.32271
+                1741306285006,
+                49433998632.89943
             ],
             [
-                1740541883358,
-                83458022607.61032
+                1741306611813,
+                47120939146.934166
             ],
             [
-                1740542200076,
-                82887090755.76927
+                1741306839130,
+                51027404110.5791
             ],
             [
-                1740542508430,
-                82812078368.20132
+                1741307158498,
+                44397328949.43657
             ],
             [
-                1740542736160,
-                82822628163.64062
+                1741307494762,
+                38806759757.348854
             ],
             [
-                1740543070472,
-                82968401710.61418
+                1741307715947,
+                42348274254.50738
             ],
             [
-                1740543323730,
-                87604586355.76984
+                1741308044433,
+                51551393181.40433
             ],
             [
-                1740543713497,
-                87536011788.06721
+                1741308364475,
+                41006886153.66357
             ],
             [
-                1740543990259,
-                87193126230.4898
+                1741308668175,
+                46484675063.45087
             ],
             [
-                1740544241020,
-                91298723665.67139
+                1741308996528,
+                53534660373.134094
             ],
             [
-                1740544541275,
-                85236164622.20378
+                1741309261244,
+                50945853938.72636
             ],
             [
-                1740544867736,
-                90808499726.53041
+                1741309572299,
+                51874128153.04768
             ],
             [
-                1740545158253,
-                82239814255.31407
+                1741309901913,
+                52526356889.9067
             ],
             [
-                1740545477285,
-                84774088585.97577
+                1741310141483,
+                51669815271.1191
             ],
             [
-                1740545814358,
-                91192160907.06868
+                1741310465144,
+                55601510200.14899
             ],
             [
-                1740546062698,
-                86379082671.62964
+                1741310721785,
+                56006867818.86111
             ],
             [
-                1740546359927,
-                85890705108.70973
+                1741311029955,
+                51978168030.84039
             ],
             [
-                1740546703905,
-                89098347418.9069
+                1741311413373,
+                59064793918.67621
             ],
             [
-                1740546941439,
-                85716519034.24355
+                1741311659931,
+                59955231743.11481
             ],
             [
-                1740547277327,
-                90543504332.99649
+                1741311983884,
+                61271694336.61875
             ],
             [
-                1740547577485,
-                90776773745.95203
+                1741312244653,
+                55530069476.97153
             ],
             [
-                1740547864846,
-                85828956627.60863
+                1741312548697,
+                56333722595.53687
             ],
             [
-                1740548196851,
-                89497964402.93246
+                1741312884368,
+                59455382731.29164
             ],
             [
-                1740548475975,
-                78341786258.37053
+                1741313152544,
+                60083976754.571365
             ],
             [
-                1740548741965,
-                90009489608.37675
+                1741313555956,
+                60073348895.84795
             ],
             [
-                1740549091086,
-                87957434140.85149
+                1741313759325,
+                60155075276.16431
             ],
             [
-                1740549405986,
-                90636376611.12383
+                1741314031233,
+                60094424622.147
             ],
             [
-                1740549649200,
-                90470966953.65767
+                1741314355891,
+                60433696294.11384
             ],
             [
-                1740549972494,
-                90739164298.0104
+                1741314676619,
+                52003096152.07095
             ],
             [
-                1740550231873,
-                89603344940.57108
+                1741314934508,
+                52078828652.91567
             ],
             [
-                1740550572860,
-                89250257224.35997
+                1741315230223,
+                61089805593.384705
             ],
             [
-                1740550903073,
-                90727528576.33887
+                1741315547074,
+                60884723673.504616
             ],
             [
-                1740551130244,
-                85213009601.88681
+                1741315878761,
+                60820475956.0269
             ],
             [
-                1740551488472,
-                79214182038.02591
+                1741316128254,
+                60722880770.323975
             ],
             [
-                1740551741593,
-                86266594277.90413
+                1741316445776,
+                58676154942.22805
             ],
             [
-                1740552101097,
-                89759115839.75833
+                1741316805538,
+                51679392861.04561
             ],
             [
-                1740552335942,
-                87057269743.97269
+                1741317024098,
+                49679833148.17598
             ],
             [
-                1740552684940,
-                89385007361.76207
+                1741317336539,
+                60654503161.07854
             ],
             [
-                1740552970790,
-                75837865002.2804
+                1741317679787,
+                59751054077.494415
             ],
             [
-                1740553304961,
-                88079805473.3062
+                1741318002158,
+                60802182554.248344
             ],
             [
-                1740553550822,
-                85642432018.19295
+                1741318256493,
+                59688883070.72238
             ],
             [
-                1740553888220,
-                65263803168.925026
+                1741318565497,
+                60782943891.63948
             ],
             [
-                1740554138549,
-                88188763649.60878
+                1741318910183,
+                60852074742.682686
             ],
             [
-                1740554462124,
-                79873594476.19896
+                1741319164836,
+                49644142224.693695
             ],
             [
-                1740554808528,
-                85480353297.15488
+                1741319497862,
+                57560336752.4154
             ],
             [
-                1740555066222,
-                83466467230.65964
+                1741319738108,
+                57030273318.7902
             ],
             [
-                1740555380966,
-                84026502947.196
+                1741320065838,
+                56981838643.444176
             ],
             [
-                1740555690136,
-                78606063381.45566
+                1741320406582,
+                57491714632.91844
             ],
             [
-                1740555960049,
-                81963895180.28453
+                1741320644524,
+                61271085795.51131
             ],
             [
-                1740556287225,
-                74030631172.85551
+                1741320979182,
+                57608815868.53165
             ],
             [
-                1740556551506,
-                79980507398.20363
+                1741321228278,
+                58482445772.53784
             ],
             [
-                1740556888238,
-                74596252668.6756
+                1741321560125,
+                61531191183.40797
             ],
             [
-                1740557209413,
-                78632895298.79765
+                1741321889621,
+                59480479016.63647
             ],
             [
-                1740557461605,
-                79005257497.44104
+                1741322206171,
+                46117552970.11674
             ],
             [
-                1740557770941,
-                62800420071.79086
+                1741322448366,
+                58356452094.99377
             ],
             [
-                1740558096338,
-                67969015800.300705
+                1741322795341,
+                53493231019.54728
             ],
             [
-                1740558402149,
-                69182574857.25328
+                1741323192267,
+                59240123396.433846
             ],
             [
-                1740558660046,
-                71001115290.65546
+                1741323340148,
+                59598404942.94755
             ],
             [
-                1740558961556,
-                74637607813.42377
+                1741323669295,
+                59566696173.142204
             ],
             [
-                1740559289177,
-                73675776795.95654
+                1741324001662,
+                58932579379.36283
             ],
             [
-                1740559530780,
-                74307888318.6464
+                1741324305423,
+                61597011959.05895
             ],
             [
-                1740559839645,
-                69536248798.57843
+                1741324536357,
+                57955420167.34509
             ],
             [
-                1740560189918,
-                72604685648.13983
+                1741324864229,
+                61575173327.832756
             ],
             [
-                1740560505328,
-                67872554863.41055
+                1741325197429,
+                61326399334.16726
             ],
             [
-                1740560758070,
-                76754938396.23196
+                1741325426941,
+                59486984875.76079
             ],
             [
-                1740561101890,
-                72376509056.38618
+                1741325747012,
+                50506564292.131645
             ],
             [
-                1740561375913,
-                75146483525.46632
+                1741326106485,
+                50837545916.020836
             ],
             [
-                1740561689252,
-                75810940112.06653
+                1741326411652,
+                61826005559.10426
             ],
             [
-                1740561952279,
-                72929879447.63756
+                1741326701233,
+                59227822155.08425
             ],
             [
-                1740562294654,
-                73006370548.05138
+                1741326927257,
+                57931561407.84056
             ],
             [
-                1740562547305,
-                73633229144.01357
+                1741327546679,
+                58954968561.144264
             ],
             [
-                1740562842801,
-                74154530945.0884
+                1741327880429,
+                57362776653.56071
             ],
             [
-                1740563156685,
-                74767706918.65605
+                1741328188510,
+                55949759309.6117
             ],
             [
-                1740563424479,
-                74243548547.96297
+                1741328507302,
+                60475135249.51595
             ],
             [
-                1740563812505,
-                71047157027.3588
+                1741328797486,
+                55454042311.10173
             ],
             [
-                1740564078763,
-                70293623842.77264
+                1741329110378,
+                59749494425.22286
             ],
             [
-                1740564384131,
-                68426597116.16367
+                1741329338308,
+                59071340158.54596
             ],
             [
-                1740564662679,
-                68744044606.98499
+                1741329664227,
+                60182708467.22757
             ],
             [
-                1740564947045,
-                67909381026.24583
+                1741329985404,
+                60527528172.314064
             ],
             [
-                1740565311276,
-                71510990002.32156
+                1741330279073,
+                61179474475.5525
             ],
             [
-                1740565556156,
-                68381260705.71562
+                1741330543375,
+                59720633109.9638
             ],
             [
-                1740565936226,
-                69644728687.6517
+                1741331162942,
+                56041542771.54872
             ],
             [
-                1740566171130,
-                69702876461.62256
+                1741331465147,
+                61196163134.65564
             ],
             [
-                1740566501966,
-                68850986420.33058
+                1741331794251,
+                54877359776.16928
             ],
             [
-                1740566791539,
-                68113791784.48234
+                1741332045684,
+                54786413159.08793
             ],
             [
-                1740567103355,
-                68301191051.15465
+                1741332361705,
+                55184037471.90681
             ],
             [
-                1740567407047,
-                68051323795.483604
+                1741332693295,
+                55594418396.9276
             ],
             [
-                1740567699240,
-                68047520048.90093
+                1741332946575,
+                60967668712.645325
             ],
             [
-                1740567957674,
-                63527165382.6005
+                1741333287677,
+                61128572427.78675
             ],
             [
-                1740568231971,
-                67144649213.63668
+                1741333602671,
+                54188699902.69989
             ],
             [
-                1740568548010,
-                67006214556.03149
+                1741333833158,
+                60803266357.13071
             ],
             [
-                1740568824752,
-                66479881602.15446
+                1741334159022,
+                56221525994.40138
             ],
             [
-                1740569128871,
-                62142547116.645966
+                1741334485590,
+                60541137865.366905
             ],
             [
-                1740569509014,
-                66504573384.1558
+                1741334797301,
+                55214388618.45623
             ],
             [
-                1740569751768,
-                63056570351.06751
+                1741335033167,
+                57377651791.784386
             ],
             [
-                1740570087630,
-                66119766494.77961
+                1741335380515,
+                60862842137.47164
             ],
             [
-                1740570359981,
-                62940176400.47969
+                1741335690025,
+                59591374742.47944
             ],
             [
-                1740570676019,
-                60932674617.65866
+                1741335928864,
+                60817787376.02956
             ],
             [
-                1740571000858,
-                61248315578.97122
+                1741336265673,
+                59316600303.11279
             ],
             [
-                1740571248475,
-                61183715592.494705
+                1741336594495,
+                59841782536.29623
             ],
             [
-                1740571571523,
-                61711928941.49403
+                1741336830460,
+                58964125345.39069
             ],
             [
-                1740571897490,
-                55269245260.87665
+                1741337177870,
+                60139611033.464836
             ],
             [
-                1740572168886,
-                56780761673.89137
+                1741337490971,
+                60916715169.01175
             ],
             [
-                1740572439890,
-                63922179269.96641
+                1741337746307,
+                60757912192.31101
             ],
             [
-                1740572785578,
-                63442533675.05024
+                1741338079751,
+                60849218235.053764
             ],
             [
-                1740573040342,
-                59616259695.08837
+                1741338394634,
+                60072928008.70594
             ],
             [
-                1740573355726,
-                63439406104.92321
+                1741338624587,
+                59532154899.044716
             ],
             [
-                1740573678280,
-                62515580334.88345
+                1741338964414,
+                60013746212.175385
             ],
             [
-                1740573956865,
-                63180776305.85052
+                1741339305177,
+                59505980202.76769
             ],
             [
-                1740574381164,
-                63053740201.661415
+                1741339561667,
+                60809015668.144104
             ],
             [
-                1740574553777,
-                63647422420.90095
+                1741339825699,
+                61005893510.31296
             ],
             [
-                1740574903552,
-                63290231245.27464
+                1741340150036,
+                50099760117.979866
             ],
             [
-                1740575131357,
-                59386059309.60007
+                1741340470317,
+                57907104889.312584
             ],
             [
-                1740575480008,
-                62143635046.64147
+                1741340723874,
+                61138557881.950035
             ],
             [
-                1740575723518,
-                61346176409.98664
+                1741341052781,
+                61090606790.84199
             ],
             [
-                1740576080416,
-                62742623037.25399
+                1741341407013,
+                60249248841.61072
             ],
             [
-                1740576323527,
-                63167970888.76127
+                1741341638973,
+                60226555002.24265
             ],
             [
-                1740576653743,
-                58987817240.3614
+                1741341989421,
+                60436302098.571594
             ],
             [
-                1740577016755,
-                62665766369.42143
+                1741342220332,
+                60961431732.21887
             ],
             [
-                1740577262214,
-                62337865366.50984
+                1741342548545,
+                51648277728.00558
             ],
             [
-                1740577544420,
-                59131725921.63252
+                1741342861125,
+                60721685502.39447
             ],
             [
-                1740577892700,
-                62619211586.034195
+                1741343166562,
+                60794430252.779976
             ],
             [
-                1740578144324,
-                61655323653.995125
+                1741343487096,
+                60746599926.57557
             ],
             [
-                1740578493809,
-                62880535383.686455
+                1741343746942,
+                60088863008.95906
             ],
             [
-                1740578741200,
-                62533086973.071434
+                1741344071408,
+                50434682988.94536
             ],
             [
-                1740579151380,
-                52240739857.46369
+                1741344330011,
+                52515572443.01638
             ],
             [
-                1740579331768,
-                55819893754.714455
+                1741344654132,
+                52617437752.23253
             ],
             [
-                1740579680691,
-                59120695866.97175
+                1741344999368,
+                55057516544.186905
             ],
             [
-                1740580016220,
-                63137134075.6688
+                1741345276504,
+                60084001949.23282
             ],
             [
-                1740580285919,
-                62890790884.12224
+                1741345576475,
+                60226653455.19818
             ],
             [
-                1740580556532,
-                63183802046.81776
+                1741345859395,
+                59282010373.27959
             ],
             [
-                1740580896569,
-                64512140671.17604
+                1741346208984,
+                60577387470.84883
             ],
             [
-                1740581145614,
-                59631328566.91249
+                1741346445359,
+                60067946711.57022
             ],
             [
-                1740581512312,
-                64642528306.586876
+                1741346805256,
+                60056911877.00203
             ],
             [
-                1740581778618,
-                61703249897.282326
+                1741347108467,
+                60545267608.82975
             ],
             [
-                1740582057734,
-                51125948986.23724
+                1741347366041,
+                60417830692.22443
             ],
             [
-                1740582317409,
-                50147349829.99926
+                1741347705550,
+                58240825619.26365
             ],
             [
-                1740582656223,
-                60211365694.59918
+                1741347959616,
+                58414533383.04047
             ],
             [
-                1740583008470,
-                58719766246.777504
+                1741348282860,
+                47764955313.50374
             ],
             [
-                1740583278605,
-                58766736243.9349
+                1741348609001,
+                59911985679.91203
             ],
             [
-                1740583518886,
-                59475859669.94604
+                1741349224117,
+                58735339477.22185
             ],
             [
-                1740583874846,
-                59150929479.6093
+                1741349559461,
+                60319815418.063835
             ],
             [
-                1740584217510,
-                52201353805.69162
+                1741349739683,
+                60486334591.273895
             ],
             [
-                1740584443438,
-                55653641164.122536
+                1741350070192,
+                60311516225.41838
             ],
             [
-                1740584783916,
-                57932708020.19971
+                1741350406470,
+                55930103143.87642
             ],
             [
-                1740585090894,
-                54867489329.40598
+                1741350636764,
+                60293644308.6989
             ],
             [
-                1740585347794,
-                57607463031.008934
+                1741350979397,
+                58283518160.31874
             ],
             [
-                1740585625061,
-                57610961506.69793
+                1741351306034,
+                60376023080.891975
             ],
             [
-                1740585971649,
-                56593268184.239655
+                1741351597561,
+                60358152497.510895
             ],
             [
-                1740586229720,
-                40599841470.338844
+                1741351828786,
+                60248792937.30053
             ],
             [
-                1740586576655,
-                50960143931.47152
+                1741352181967,
+                59652624746.24335
             ],
             [
-                1740586830011,
-                56119631783.60296
+                1741352463158,
+                59835466082.20887
             ],
             [
-                1740587173101,
-                53303147785.79003
+                1741352800732,
+                51986576669.10218
             ],
             [
-                1740587484340,
-                50370478047.290184
+                1741353101776,
+                60508367858.33232
             ],
             [
-                1740587802674,
-                53674879623.17469
+                1741353342138,
+                60486727993.807945
             ],
             [
-                1740588078427,
-                58169109874.703804
+                1741353684292,
+                48128183872.27824
             ],
             [
-                1740588364041,
-                50756488873.20608
+                1741353998231,
+                50693604233.4459
             ],
             [
-                1740588642626,
-                50778339635.21331
+                1741354248429,
+                56511795979.98556
             ],
             [
-                1740588926284,
-                55063777506.65872
+                1741354568439,
+                61322213173.095856
             ],
             [
-                1740589285652,
-                54485145225.08099
+                1741354823581,
+                61867851852.50871
             ],
             [
-                1740589540451,
-                57415516153.7707
+                1741355180721,
+                54530953730.3245
             ],
             [
-                1740589905510,
-                57330175665.35758
+                1741355521267,
+                58978328376.68948
             ],
             [
-                1740590178219,
-                50493572283.99048
+                1741355752387,
+                58398348713.0056
             ],
             [
-                1740590510546,
-                56824329593.97613
+                1741356031791,
+                62062565985.92941
             ],
             [
-                1740590777767,
-                57315953247.59683
+                1741356356029,
+                61890011543.11574
             ],
             [
-                1740591047657,
-                55857561274.0539
+                1741356694903,
+                59889201012.30391
             ],
             [
-                1740591342365,
-                57196367242.171776
+                1741356935694,
+                59222266197.81381
             ],
             [
-                1740591648703,
-                56692934668.05589
+                1741357260430,
+                59647105410.24745
             ],
             [
-                1740591963261,
-                54721088232.16354
+                1741357537139,
+                61998684714.23871
             ],
             [
-                1740592292964,
-                57248883877.34601
+                1741357830768,
+                61922526252.73917
             ],
             [
-                1740592551963,
-                57662764782.655304
+                1741358211769,
+                62030091365.12336
             ],
             [
-                1740592876379,
-                52898129275.70132
+                1741358509862,
+                61976903156.24023
             ],
             [
-                1740593209053,
-                49676123584.04728
+                1741358792576,
+                62619427084.74507
             ],
             [
-                1740593550256,
-                52790337841.14219
+                1741359112213,
+                49353290580.13113
             ],
             [
-                1740593804623,
-                54821680633.37967
+                1741359376681,
+                51959998792.73015
             ],
             [
-                1740594065333,
-                57579179792.20419
+                1741359708432,
+                63383393799.22364
             ],
             [
-                1740594318285,
-                55746578320.180145
+                1741359997781,
+                60013650573.982475
             ],
             [
-                1740594689746,
-                55857647259.929825
+                1741360284392,
+                57285822164.16061
             ],
             [
-                1740594919936,
-                56221872628.13524
+                1741360558595,
+                62622045284.54743
             ],
             [
-                1740595334294,
-                59975631962.872025
-            ],
-            [
-                1740595555292,
-                55667917698.92311
-            ],
-            [
-                1740595819564,
-                56785427128.9329
-            ],
-            [
-                1740596181428,
-                54754407407.14557
-            ],
-            [
-                1740596250000,
-                51858972104.80022
+                1741360770000,
+                63252636693.557
             ]
         ]
     },
@@ -3798,18 +3754,18 @@
             "name": "Bitcoin",
             "image": "https://coin-images.coingecko.com/coins/images/1/large/bitcoin.png?1696501400",
             "current_price": 1,
-            "market_cap": 19829468,
+            "market_cap": 19833525,
             "market_cap_rank": 1,
-            "fully_diluted_valuation": 19829468,
-            "total_volume": 618002,
+            "fully_diluted_valuation": 19833525,
+            "total_volume": 700166,
             "high_24h": 1,
             "low_24h": 1,
             "price_change_24h": 0,
             "price_change_percentage_24h": 0,
-            "market_cap_change_24h": 456,
-            "market_cap_change_percentage_24h": 0.0023,
-            "circulating_supply": 19829468,
-            "total_supply": 19829468,
+            "market_cap_change_24h": 491,
+            "market_cap_change_percentage_24h": 0.00248,
+            "circulating_supply": 19833525,
+            "total_supply": 19833525,
             "max_supply": 21000000,
             "ath": 1.003301,
             "ath_change_percentage": -0.32896,
@@ -3818,293 +3774,297 @@
             "atl_change_percentage": 0.10498,
             "atl_date": "2019-10-21T00:00:00.000Z",
             "roi": null,
-            "last_updated": "2025-02-26T18:57:36.875Z",
-            "price_change_percentage_1h_in_currency": 0,
-            "price_change_percentage_24h_in_currency": 0,
-            "price_change_percentage_7d_in_currency": 0
+            "last_updated": "2025-03-07T15:19:50.889Z",
+            "price_change_percentage_1H": "0.00",
+            "price_change_percentage_24H": "0.00",
+            "price_change_percentage_7D": "0.00"
         },
         {
             "id": "ethereum",
             "symbol": "eth",
             "name": "Ethereum",
             "image": "https://coin-images.coingecko.com/coins/images/279/large/ethereum.png?1696501628",
-            "current_price": 0.02720488,
-            "market_cap": 3280078,
+            "current_price": 0.02471198,
+            "market_cap": 2974036,
             "market_cap_rank": 2,
-            "fully_diluted_valuation": 3280078,
-            "total_volume": 302947,
-            "high_24h": 0.02833767,
-            "low_24h": 0.02717279,
-            "price_change_24h": -0.000599473056042327,
-            "price_change_percentage_24h": -2.15604,
-            "market_cap_change_24h": -69292.90884926682,
-            "market_cap_change_percentage_24h": -2.06883,
-            "circulating_supply": 120575923.6066293,
-            "total_supply": 120575923.6066293,
+            "fully_diluted_valuation": 2974036,
+            "total_volume": 250071,
+            "high_24h": 0.02498179,
+            "low_24h": 0.0244197,
+            "price_change_24h": -0.000125477840427886,
+            "price_change_percentage_24h": -0.5052,
+            "market_cap_change_24h": -20475.40741846431,
+            "market_cap_change_percentage_24h": -0.68376,
+            "circulating_supply": 120597393.2372512,
+            "total_supply": 120597393.2372512,
             "max_supply": null,
             "ath": 0.1474984,
-            "ath_change_percentage": -81.5917,
+            "ath_change_percentage": -83.32389,
             "ath_date": "2017-06-12T00:00:00.000Z",
             "atl": 0.00160204,
-            "atl_change_percentage": 1594.83152,
+            "atl_change_percentage": 1435.35112,
             "atl_date": "2015-10-20T00:00:00.000Z",
             "roi": {
-                "times": 35.37307235102924,
+                "times": 32.04005078130862,
                 "currency": "btc",
-                "percentage": 3537.307235102924
+                "percentage": 3204.005078130862
             },
-            "last_updated": "2025-02-26T18:57:37.733Z",
-            "price_change_percentage_1h_in_currency": -1.0856567077289498,
-            "price_change_percentage_24h_in_currency": -2.156040627184496,
-            "price_change_percentage_7d_in_currency": -3.2801793380640683
-        },
-        {
-            "id": "tether",
-            "symbol": "usdt",
-            "name": "Tether",
-            "image": "https://coin-images.coingecko.com/coins/images/325/large/Tether.png?1696501661",
-            "current_price": 0.0000119,
-            "market_cap": 1690044,
-            "market_cap_rank": 3,
-            "fully_diluted_valuation": 1690044,
-            "total_volume": 1135610,
-            "high_24h": 0.00001192,
-            "low_24h": 0.00001119,
-            "price_change_24h": 4.16863e-7,
-            "price_change_percentage_24h": 3.62903,
-            "market_cap_change_24h": 56831,
-            "market_cap_change_percentage_24h": 3.4797,
-            "circulating_supply": 142104224084.4939,
-            "total_supply": 142104224084.4939,
-            "max_supply": null,
-            "ath": 0.0051026,
-            "ath_change_percentage": -99.76771,
-            "ath_date": "2015-02-25T00:00:00.000Z",
-            "atl": 0.00000919,
-            "atl_change_percentage": 29.01542,
-            "atl_date": "2025-01-20T07:16:29.991Z",
-            "roi": null,
-            "last_updated": "2025-02-26T18:57:33.020Z",
-            "price_change_percentage_1h_in_currency": 2.3886108458527398,
-            "price_change_percentage_24h_in_currency": 3.629031681479158,
-            "price_change_percentage_7d_in_currency": 14.767372891167103
+            "last_updated": "2025-03-07T15:19:54.766Z",
+            "price_change_percentage_1H": "+0.85",
+            "price_change_percentage_24H": "-0.51",
+            "price_change_percentage_7D": "-6.43"
         },
         {
             "id": "ripple",
             "symbol": "xrp",
             "name": "XRP",
             "image": "https://coin-images.coingecko.com/coins/images/44/large/xrp-symbol-white-128.png?1696501442",
-            "current_price": 0.00002578,
-            "market_cap": 1494728,
-            "market_cap_rank": 4,
-            "fully_diluted_valuation": 2581762,
-            "total_volume": 82096,
-            "high_24h": 0.00002647,
-            "low_24h": 0.00002533,
-            "price_change_24h": 4.54068e-7,
-            "price_change_percentage_24h": 1.79292,
-            "market_cap_change_24h": 29389,
-            "market_cap_change_percentage_24h": 2.00558,
-            "circulating_supply": 57887806032,
-            "total_supply": 99986418374,
+            "current_price": 0.00002821,
+            "market_cap": 1632757,
+            "market_cap_rank": 3,
+            "fully_diluted_valuation": 2817156,
+            "total_volume": 77626,
+            "high_24h": 0.00002925,
+            "low_24h": 0.00002801,
+            "price_change_24h": -4.88673051403e-7,
+            "price_change_percentage_24h": -1.70266,
+            "market_cap_change_24h": -33892.07165640127,
+            "market_cap_change_percentage_24h": -2.03355,
+            "circulating_supply": 57949738512,
+            "total_supply": 99986390660,
             "max_supply": 100000000000,
             "ath": 0.00022465,
-            "ath_change_percentage": -88.50545,
+            "ath_change_percentage": -87.49697,
             "ath_date": "2017-05-17T00:00:00.000Z",
             "atl": 0.00000438,
-            "atl_change_percentage": 489.61042,
+            "atl_change_percentage": 541.33995,
             "atl_date": "2017-03-01T00:00:00.000Z",
             "roi": null,
-            "last_updated": "2025-02-26T18:57:40.296Z",
-            "price_change_percentage_1h_in_currency": 0.018001341854212698,
-            "price_change_percentage_24h_in_currency": 1.7929161033733272,
-            "price_change_percentage_7d_in_currency": -7.2792886599455455
+            "last_updated": "2025-03-07T15:19:49.727Z",
+            "price_change_percentage_1H": "+0.15",
+            "price_change_percentage_24H": "-1.70",
+            "price_change_percentage_7D": "+10.09"
+        },
+        {
+            "id": "tether",
+            "symbol": "usdt",
+            "name": "Tether",
+            "image": "https://coin-images.coingecko.com/coins/images/325/large/Tether.png?1696501661",
+            "current_price": 0.00001117,
+            "market_cap": 1585932,
+            "market_cap_rank": 4,
+            "fully_diluted_valuation": 1585932,
+            "total_volume": 510426,
+            "high_24h": 0.00001176,
+            "low_24h": 0.00001096,
+            "price_change_24h": 2.09897e-7,
+            "price_change_percentage_24h": 1.9148,
+            "market_cap_change_24h": 12997,
+            "market_cap_change_percentage_24h": 0.82632,
+            "circulating_supply": 142799794449.0176,
+            "total_supply": 142799794449.0176,
+            "max_supply": null,
+            "ath": 0.0051026,
+            "ath_change_percentage": -99.78341,
+            "ath_date": "2015-02-25T00:00:00.000Z",
+            "atl": 0.00000919,
+            "atl_change_percentage": 20.29232,
+            "atl_date": "2025-01-20T07:16:29.991Z",
+            "roi": null,
+            "last_updated": "2025-03-07T15:19:54.233Z",
+            "price_change_percentage_1H": "+0.14",
+            "price_change_percentage_24H": "+1.91",
+            "price_change_percentage_7D": "-8.39"
         },
         {
             "id": "binancecoin",
             "symbol": "bnb",
             "name": "BNB",
             "image": "https://coin-images.coingecko.com/coins/images/825/large/bnb-icon2_2x.png?1696501970",
-            "current_price": 0.00709908,
-            "market_cap": 1035257,
+            "current_price": 0.00674082,
+            "market_cap": 980985,
             "market_cap_rank": 5,
-            "fully_diluted_valuation": 1035257,
-            "total_volume": 13450,
-            "high_24h": 0.00715381,
-            "low_24h": 0.00699713,
-            "price_change_24h": 0.00007133,
-            "price_change_percentage_24h": 1.01502,
-            "market_cap_change_24h": 10575,
-            "market_cap_change_percentage_24h": 1.03199,
+            "fully_diluted_valuation": 980985,
+            "total_volume": 10426,
+            "high_24h": 0.00684138,
+            "low_24h": 0.00659118,
+            "price_change_24h": 0.00013508,
+            "price_change_percentage_24h": 2.04489,
+            "market_cap_change_24h": 17048,
+            "market_cap_change_percentage_24h": 1.76855,
             "circulating_supply": 145887575.79,
             "total_supply": 145887575.79,
             "max_supply": 200000000,
             "ath": 0.01916831,
-            "ath_change_percentage": -63.0185,
+            "ath_change_percentage": -65.05339,
             "ath_date": "2022-11-27T02:54:58.041Z",
             "atl": 0.00000699,
-            "atl_change_percentage": 101312.40774,
+            "atl_change_percentage": 95732.24695,
             "atl_date": "2017-10-19T00:00:00.000Z",
             "roi": null,
-            "last_updated": "2025-02-26T18:57:31.628Z",
-            "price_change_percentage_1h_in_currency": 0.358143890499167,
-            "price_change_percentage_24h_in_currency": 1.0150235945790569,
-            "price_change_percentage_7d_in_currency": 4.312034907765366
+            "last_updated": "2025-03-07T15:19:50.447Z",
+            "price_change_percentage_1H": "+0.20",
+            "price_change_percentage_24H": "+2.04",
+            "price_change_percentage_7D": "-5.20"
         },
         {
             "id": "solana",
             "symbol": "sol",
             "name": "Solana",
             "image": "https://coin-images.coingecko.com/coins/images/4128/large/solana.png?1718769756",
-            "current_price": 0.0015602,
-            "market_cap": 777931,
+            "current_price": 0.00162786,
+            "market_cap": 827427,
             "market_cap_rank": 6,
-            "fully_diluted_valuation": 928895,
-            "total_volume": 59096,
-            "high_24h": 0.00164912,
-            "low_24h": 0.00155488,
-            "price_change_24h": -0.000058935573208754,
-            "price_change_percentage_24h": -3.63993,
-            "market_cap_change_24h": -24247.6814182268,
-            "market_cap_change_percentage_24h": -3.02273,
-            "circulating_supply": 498287498.4407314,
-            "total_supply": 594984612.8212882,
+            "fully_diluted_valuation": 968742,
+            "total_volume": 66040,
+            "high_24h": 0.00164238,
+            "low_24h": 0.00158348,
+            "price_change_24h": -0.000006056233358229,
+            "price_change_percentage_24h": -0.37066,
+            "market_cap_change_24h": -2158.158589685452,
+            "market_cap_change_percentage_24h": -0.26015,
+            "circulating_supply": 508705760.5203175,
+            "total_supply": 595586798.3762153,
             "max_supply": null,
             "ath": 0.00460798,
-            "ath_change_percentage": -66.02088,
+            "ath_change_percentage": -64.80531,
             "ath_date": "2021-09-09T02:24:33.650Z",
             "atl": 0.00004553,
-            "atl_change_percentage": 3338.88401,
+            "atl_change_percentage": 3461.90675,
             "atl_date": "2020-12-27T11:19:57.793Z",
             "roi": null,
-            "last_updated": "2025-02-26T18:57:39.761Z",
-            "price_change_percentage_1h_in_currency": 0.15358313112710203,
-            "price_change_percentage_24h_in_currency": -3.6399346786736,
-            "price_change_percentage_7d_in_currency": -12.057004318388568
+            "last_updated": "2025-03-07T15:19:50.542Z",
+            "price_change_percentage_1H": "+0.90",
+            "price_change_percentage_24H": "-0.37",
+            "price_change_percentage_7D": "-7.47"
         },
         {
             "id": "usd-coin",
             "symbol": "usdc",
             "name": "USDC",
             "image": "https://coin-images.coingecko.com/coins/images/6319/large/usdc.png?1696506694",
-            "current_price": 0.00001191,
-            "market_cap": 667511,
+            "current_price": 0.00001117,
+            "market_cap": 640440,
             "market_cap_rank": 7,
-            "fully_diluted_valuation": 667571,
-            "total_volume": 148251,
-            "high_24h": 0.00001194,
-            "low_24h": 0.0000112,
-            "price_change_24h": 4.135e-7,
-            "price_change_percentage_24h": 3.59584,
-            "market_cap_change_24h": 21234,
-            "market_cap_change_percentage_24h": 3.28558,
-            "circulating_supply": 56163570715.30514,
-            "total_supply": 56168622922.46995,
+            "fully_diluted_valuation": 640505,
+            "total_volume": 103851,
+            "high_24h": 0.00001174,
+            "low_24h": 0.00001096,
+            "price_change_24h": 2.07661e-7,
+            "price_change_percentage_24h": 1.89438,
+            "market_cap_change_24h": 10523,
+            "market_cap_change_percentage_24h": 1.67061,
+            "circulating_supply": 57449511487.05565,
+            "total_supply": 57455409185.43099,
             "max_supply": null,
             "ath": 0.00033582,
-            "ath_change_percentage": -96.4452,
+            "ath_change_percentage": -96.70662,
             "ath_date": "2018-12-08T12:54:40.339Z",
             "atl": 0.00000919,
-            "atl_change_percentage": 29.83713,
+            "atl_change_percentage": 20.28878,
             "atl_date": "2025-01-20T09:15:41.793Z",
             "roi": null,
-            "last_updated": "2025-02-26T18:57:37.238Z",
-            "price_change_percentage_1h_in_currency": 2.349445161325437,
-            "price_change_percentage_24h_in_currency": 3.595841418299423,
-            "price_change_percentage_7d_in_currency": 14.850393923468856
-        },
-        {
-            "id": "dogecoin",
-            "symbol": "doge",
-            "name": "Dogecoin",
-            "image": "https://coin-images.coingecko.com/coins/images/5/large/dogecoin.png?1696501409",
-            "current_price": 0.00000235,
-            "market_cap": 348484,
-            "market_cap_rank": 8,
-            "fully_diluted_valuation": 348843,
-            "total_volume": 23557,
-            "high_24h": 0.0000024,
-            "low_24h": 0.00000234,
-            "price_change_24h": 4.661e-9,
-            "price_change_percentage_24h": 0.19896,
-            "market_cap_change_24h": 1143,
-            "market_cap_change_percentage_24h": 0.329,
-            "circulating_supply": 148057346383.7052,
-            "total_supply": 148209876383.7052,
-            "max_supply": null,
-            "ath": 0.00001264,
-            "ath_change_percentage": -81.36051,
-            "ath_date": "2021-05-07T23:04:53.026Z",
-            "atl": 1.50936e-7,
-            "atl_change_percentage": 1461.18405,
-            "atl_date": "2020-12-17T09:18:05.654Z",
-            "roi": null,
-            "last_updated": "2025-02-26T18:57:38.683Z",
-            "price_change_percentage_1h_in_currency": -0.1275935075739469,
-            "price_change_percentage_24h_in_currency": 0.19895988074301327,
-            "price_change_percentage_7d_in_currency": -10.706660802067908
+            "last_updated": "2025-03-07T15:19:53.973Z",
+            "price_change_percentage_1H": "+0.14",
+            "price_change_percentage_24H": "+1.89",
+            "price_change_percentage_7D": "-8.11"
         },
         {
             "id": "cardano",
             "symbol": "ada",
             "name": "Cardano",
             "image": "https://coin-images.coingecko.com/coins/images/975/large/cardano.png?1696502090",
-            "current_price": 0.00000762,
-            "market_cap": 273950,
-            "market_cap_rank": 9,
-            "fully_diluted_valuation": 343068,
-            "total_volume": 10257,
-            "high_24h": 0.00000779,
-            "low_24h": 0.00000757,
-            "price_change_24h": 4.4006e-8,
-            "price_change_percentage_24h": 0.58096,
-            "market_cap_change_24h": 1744,
-            "market_cap_change_percentage_24h": 0.64072,
-            "circulating_supply": 35933788312.87728,
+            "current_price": 0.00000975,
+            "market_cap": 350106,
+            "market_cap_rank": 8,
+            "fully_diluted_valuation": 438248,
+            "total_volume": 33192,
+            "high_24h": 0.00001029,
+            "low_24h": 0.00000966,
+            "price_change_24h": -5.14703835304e-7,
+            "price_change_percentage_24h": -5.01567,
+            "market_cap_change_24h": -17905.161597814877,
+            "market_cap_change_percentage_24h": -4.86538,
+            "circulating_supply": 35949488472.41836,
             "total_supply": 45000000000,
             "max_supply": 45000000000,
             "ath": 0.00007382,
-            "ath_change_percentage": -89.68617,
+            "ath_change_percentage": -86.82348,
             "ath_date": "2018-01-04T00:00:00.000Z",
             "atl": 0.00000295,
-            "atl_change_percentage": 158.08425,
+            "atl_change_percentage": 229.71764,
             "atl_date": "2017-11-04T00:00:00.000Z",
             "roi": null,
-            "last_updated": "2025-02-26T18:57:31.982Z",
-            "price_change_percentage_1h_in_currency": -0.27642230662697354,
-            "price_change_percentage_24h_in_currency": 0.5809586465723505,
-            "price_change_percentage_7d_in_currency": -4.298854929828681
+            "last_updated": "2025-03-07T15:19:52.097Z",
+            "price_change_percentage_1H": "+0.28",
+            "price_change_percentage_24H": "-5.02",
+            "price_change_percentage_7D": "+29.12"
         },
         {
-            "id": "staked-ether",
-            "symbol": "steth",
-            "name": "Lido Staked Ether",
-            "image": "https://coin-images.coingecko.com/coins/images/13442/large/steth_logo.png?1696513206",
-            "current_price": 0.02724371,
-            "market_cap": 255991,
-            "market_cap_rank": 10,
-            "fully_diluted_valuation": 255992,
-            "total_volume": 1779,
-            "high_24h": 0.0282636,
-            "low_24h": 0.02717397,
-            "price_change_24h": -0.000468342296439939,
-            "price_change_percentage_24h": -1.69003,
-            "market_cap_change_24h": -4233.111351425789,
-            "market_cap_change_percentage_24h": -1.62672,
-            "circulating_supply": 9397419.769834997,
-            "total_supply": 9397456.103587033,
+            "id": "dogecoin",
+            "symbol": "doge",
+            "name": "Dogecoin",
+            "image": "https://coin-images.coingecko.com/coins/images/5/large/dogecoin.png?1696501409",
+            "current_price": 0.00000229,
+            "market_cap": 339484,
+            "market_cap_rank": 9,
+            "fully_diluted_valuation": 339542,
+            "total_volume": 19600,
+            "high_24h": 0.0000023,
+            "low_24h": 0.00000224,
+            "price_change_24h": 1.7351e-8,
+            "price_change_percentage_24h": 0.76217,
+            "market_cap_change_24h": 2073,
+            "market_cap_change_percentage_24h": 0.61443,
+            "circulating_supply": 148305166383.7053,
+            "total_supply": 148330576383.7052,
             "max_supply": null,
-            "ath": 0.08759959,
-            "ath_change_percentage": -68.79646,
-            "ath_date": "2021-12-09T03:45:24.093Z",
-            "atl": 0.02099117,
-            "atl_change_percentage": 30.21749,
-            "atl_date": "2020-12-22T04:08:21.854Z",
+            "ath": 0.00001264,
+            "ath_change_percentage": -81.92724,
+            "ath_date": "2021-05-07T23:04:53.026Z",
+            "atl": 1.50936e-7,
+            "atl_change_percentage": 1413.71585,
+            "atl_date": "2020-12-17T09:18:05.654Z",
             "roi": null,
-            "last_updated": "2025-02-26T18:57:40.199Z",
-            "price_change_percentage_1h_in_currency": -0.9393820413418865,
-            "price_change_percentage_24h_in_currency": -1.6900307857563988,
-            "price_change_percentage_7d_in_currency": -3.1167265903262447
+            "last_updated": "2025-03-07T15:19:52.927Z",
+            "price_change_percentage_1H": "+0.02",
+            "price_change_percentage_24H": "+0.76",
+            "price_change_percentage_7D": "-2.37"
+        },
+        {
+            "id": "tron",
+            "symbol": "trx",
+            "name": "TRON",
+            "image": "https://coin-images.coingecko.com/coins/images/1094/large/tron-logo.png?1696502193",
+            "current_price": 0.00000273,
+            "market_cap": 234599,
+            "market_cap_rank": 10,
+            "fully_diluted_valuation": 234599,
+            "total_volume": 8028,
+            "high_24h": 0.00000276,
+            "low_24h": 0.00000265,
+            "price_change_24h": 7.6122e-8,
+            "price_change_percentage_24h": 2.86311,
+            "market_cap_change_24h": 5406,
+            "market_cap_change_percentage_24h": 2.35866,
+            "circulating_supply": 86048604077.19145,
+            "total_supply": 86048611022.19429,
+            "max_supply": null,
+            "ath": 0.00001367,
+            "ath_change_percentage": -80.15197,
+            "ath_date": "2018-01-04T00:00:00.000Z",
+            "atl": 1.75539e-7,
+            "atl_change_percentage": 1445.73277,
+            "atl_date": "2017-12-05T00:00:00.000Z",
+            "roi": {
+                "times": 127.85189764798994,
+                "currency": "usd",
+                "percentage": 12785.189764798995
+            },
+            "last_updated": "2025-03-07T15:19:52.927Z",
+            "price_change_percentage_1H": "+0.26",
+            "price_change_percentage_24H": "+2.86",
+            "price_change_percentage_7D": "-1.30"
         }
     ]
 }

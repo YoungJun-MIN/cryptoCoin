@@ -4,11 +4,9 @@ import { select, scaleTime, timeParse, extent, scaleLinear, min, max, line, area
 import priceData from "@api/price.json"
 import useResizeObserver from "@hooks/useResizeObserver"
 import styles from '@components/Chart/Chart.module.css';
-const selectPriceData = (state) => state.coinData;
+const selectPriceData = (state) => state.coinData.coinPrice.prices;
 export default function Chart() {
-  const coinData = useSelector(selectPriceData);
-  const {coinPrice, topCoinsUSD, topCoinsBTC} = coinData;
-  const {prices} = coinPrice;
+  const prices = useSelector(selectPriceData);
   const svgRef = useRef();
   const wrapperRef = useRef();
   const dimensions = useResizeObserver(wrapperRef);
@@ -63,7 +61,7 @@ export default function Chart() {
     svg
       .attr("width", width - margin.left)
       .attr("height", height - margin.top)
-      .attr("transform", `translate(${margin.left}, 0)`)
+      .attr("transform", `translate(${margin.left}, 20)`)
 
     // Axes
     const xAxis = axisBottom(xScale)
@@ -107,7 +105,7 @@ export default function Chart() {
     .attr("stroke-width", 2)
     .attr("fill", "none")
     .attr("d", lineGenerator)
-  }, [coinData, dimensions])
+  }, [dimensions])
   return (
     <>
       <div id="chart__wrapper" className={`${styles.chartWrapper}`} ref={wrapperRef}>

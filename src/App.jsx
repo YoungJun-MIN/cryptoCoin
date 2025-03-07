@@ -26,7 +26,7 @@ function App() {
     }
     // loadCoinData();
     console.log(testData);
-    dispatch(initializeCoinData(testData));
+    dispatch(initializeCoinData({...testData, 'age': 10}));
     setLoading(false);
   }, [])
   if(loading) return <p>Loading...</p>
