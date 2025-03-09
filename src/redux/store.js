@@ -1,15 +1,15 @@
 import { legacy_createStore } from "redux";
-export const INITIALIZE_COIN_DATA = "INITIALIZE_COIN_DATA";
-export const TEST = 'TEST';
+const INITIALIZE_COIN_DATA = "INITIALIZE_COIN_DATA";
+const COIN_PRICE_DATA = "COIN_PRICE_DATA";
 export const initializeCoinData = (data) => {
   return {
     type: INITIALIZE_COIN_DATA,
     payload: data
   }
 }
-export const test = (data) => {
+export const coinPriceData = (data) => {
   return {
-    type: TEST,
+    type: COIN_PRICE_DATA,
     payload: data
   }
 }
@@ -20,6 +20,14 @@ const reducer = (state = {}, action) => {
         ...state,
         coinData: action.payload
       };
+    case COIN_PRICE_DATA:
+        return {
+          ...state,
+          coinData: {
+            ...state.coinData,
+            coinPrice: action.payload
+          }
+        }
       default:
         return state;
   }

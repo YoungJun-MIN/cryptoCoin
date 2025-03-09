@@ -12,6 +12,7 @@ const useResizeObserver = (ref) => {
     const resizeObserver = new ResizeObserver(handleResize);
     resizeObserver.observe(observeTarget);
     return () => {
+      console.log(`unobserve`);
       resizeObserver.unobserve(observeTarget);
     }
   }, []);

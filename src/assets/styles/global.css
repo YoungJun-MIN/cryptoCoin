@@ -31,6 +31,7 @@
   display: grid;
   grid-template-rows: 60px 1fr;
   color: var(--text-color);
+  overflow: auto;
 }
 
 .dashboard {

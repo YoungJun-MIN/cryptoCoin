@@ -1,15 +1,17 @@
 import { useEffect, useRef } from "react"
 import { useSelector } from "react-redux"
 import { select, scaleTime, timeParse, extent, scaleLinear, min, max, line, area, curveLinear, axisBottom, axisLeft, timeFormat } from "d3";
-import priceData from "@api/price.json"
 import useResizeObserver from "@hooks/useResizeObserver"
 import styles from '@components/Chart/Chart.module.css';
 const selectPriceData = (state) => state.coinData.coinPrice.prices;
-export default function Chart() {
+export default function Chart({ selectedTime }) {
+  console.log(`selectedTime: `, selectedTime);
   const prices = useSelector(selectPriceData);
+  console.log(`prices: `, prices);
   const svgRef = useRef();
   const wrapperRef = useRef();
   const dimensions = useResizeObserver(wrapperRef);
+
   useEffect(() => {
     const svg = select(svgRef.current);
     const svgContent = svg.select(".chart__content");
@@ -105,7 +107,7 @@ export default function Chart() {
     .attr("stroke-width", 2)
     .attr("fill", "none")
     .attr("d", lineGenerator)
-  }, [dimensions])
+  }, [dimensions, prices])
   return (
     <>
       <div id="chart__wrapper" className={`${styles.chartWrapper}`} ref={wrapperRef}>

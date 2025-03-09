@@ -1,19 +1,18 @@
 import styles from "@components/CoinDetail/CoinDetail.module.css"
 import Chart from "@components/Chart/Chart"
-import { useSelector, shallowEqual } from "react-redux"
+import { useSelector, shallowEqual, useDispatch } from "react-redux"
 import { createSelector } from 'reselect'
-import { useState } from "react";
+import { useEffect, useRef, useState } from "react";
 import { formatCurrency } from "@/utils/formatCurrency";
-
+import { coinPriceData } from "@/redux/store";
+import Crypto from "@api/crypto";
 const selectTopCoins = (currency) => createSelector(
   (state) => state.coinData[`topCoins${currency}`],
   (topCoins) => Object.fromEntries(topCoins.map((coin) => [coin.id, coin]))
 )
-
-
 export default function CoinDetail({ selectedCoin }) {
   const [selectedTime, setSelectedTime] = useState('24H');
-  const timeOptions = ['1H', '24H'];
+  const timeOptions = ['24H', '7D'];
   const topCoinsBTC = useSelector(selectTopCoins("BTC"));
   const topCoinsUSD = useSelector(selectTopCoins("USD"));
   const selectedCoinBTC = topCoinsBTC[selectedCoin];
@@ -24,10 +23,26 @@ export default function CoinDetail({ selectedCoin }) {
   (selectedCoinUSD[`price_change_percentage_${selectedTime}`].includes("0.00")) ? `` : `price-up`;
   const btcChangeClass = (selectedCoinBTC[`price_change_percentage_${selectedTime}`].includes("-")) ? `price-down`: 
   (selectedCoinBTC[`price_change_percentage_${selectedTime}`].includes("0.00")) ? `` : `price-up`;
-  const handleButtonClick = (time) => {
-    if(selectedTime === time) return;
-    setSelectedTime(time);
-  }
+  const handleButtonClick = (time) => setSelectedTime(time);
+  const isFirstRender = useRef(true);
+  const dispatch = useDispatch();
+  console.log(`CoinDetail`);
+  useEffect(() => {
+    if(isFirstRender.current) {
+      isFirstRender.current = false;
+      return;
+    }
+    const fetchPriceData = async () => {
+      try {
+        const crypto = new Crypto();
+        const data = await crypto.fetchDaysDataForCoins(selectedCoin, selectedTime);
+        dispatch(coinPriceData(data));
+      } catch(error) {
+        console.log(`Error fetching data:`, error);
+      }
+    }
+    fetchPriceData();
+  }, [selectedTime, selectedCoin])
   return (
     <section className={`${styles.coinDetail} coinDetail`}>
       <header className={`${styles.coinDetailHeader} coinDetail__header`}>
@@ -67,7 +82,7 @@ export default function CoinDetail({ selectedCoin }) {
         </div>
       </nav>
       <article className={`coinDetail__chart ${styles.coinDetailChart}`}>
-        <Chart />
+        <Chart selectedTime={selectedTime}/>
       </article>
     </section>
   )

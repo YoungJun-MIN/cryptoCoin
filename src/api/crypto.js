@@ -24,6 +24,7 @@ export default class Crypto {
     const data = await response.json();
     return this.renameAndModifyPriceChanges(data);
   }
+
   renameAndModifyPriceChanges(data) {
     const modifedData = data.map((item) => {
       const { 
@@ -48,14 +49,18 @@ export default class Crypto {
     if(value <= 0) return value.toFixed(2);
     return `+${value.toFixed(2)}`;
   }
-  async fetchDaysDataForCoins(coinId = 'bitcoin', days = 1) {
+
+  async fetchDaysDataForCoins(coinId = 'bitcoin', days = "24H") {
     const api = {
       market_chart: "market_chart",
       vs_currency: "usd",
     }
+    const time = {'24H': '1', '7D': '7'};
+    days = time[days];
     const { market_chart, vs_currency } = api;
     const response = await fetch(`${this.httpClient}/${coinId}/market_chart?vs_currency=${vs_currency}&days=${days}`)
     const data = await response.json();
+    console.log(`coinData: `, data);
     return data;
   }
 }
