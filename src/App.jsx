@@ -8,26 +8,26 @@ import { initializeCoinData } from "@/redux/store";
 import { useEffect, useState } from "react";
 import { useDispatch } from "react-redux"
 import Crypto from "@api/crypto";
-import testData from "@api/testData"
+import testData from "@api/testData";
+import { useError } from "@/context/ErrorContext";
+
 function App() {
   const [loading, setLoading] = useState(true);
+  const { errorMessage, updateError } = useError();
   const dispatch = useDispatch();
+  console.log(`@@@@@@App리렌더`);
   useEffect(() => {
     const loadCoinData = async() => {
-      try {
-        const crypto = new Crypto();
-        const data = await crypto.fetchInitialData();
-        console.log(data);
-        dispatch(initializeCoinData(data));
-        setLoading(false);
-      } catch(error) {
-        console.error(`Error fetching data: `, error);
-      }
+      const crypto = new Crypto();
+      const data = await crypto.fetchInitialData();
+      console.log(data);
+      dispatch(initializeCoinData(data));
+      setLoading(false);
     }
-    // loadCoinData();
-    console.log(testData);
-    dispatch(initializeCoinData({...testData, 'age': 10}));
-    setLoading(false);
+    loadCoinData();
+    // console.log(testData);
+    // dispatch(initializeCoinData({...testData, 'age': 10}));
+    // setLoading(false);
   }, [])
   if(loading) return <p>Loading...</p>
   return (

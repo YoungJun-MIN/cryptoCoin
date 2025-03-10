@@ -1,12 +1,29 @@
+import { useError } from "@/context/ErrorContext";
 export default class Crypto {
-  constructor() {
+  constructor(setErrorMessage) {
     this.httpClient = `https://api.coingecko.com/api/v3/coins`;
+    this.setErrorMessage = setErrorMessage;
   }
   async fetchInitialData() {
     const topCoinsUSD = await this.#fetchTopCoins();
     const topCoinsBTC = await this.#fetchTopCoins("btc");
     const coinPrice = await this.fetchDaysDataForCoins();
     return {topCoinsUSD, coinPrice, topCoinsBTC};
+  }
+
+  async fetchDaysDataForCoins(coinId = 'bitcoin', days = "24H") {
+    const api = {
+      market_chart: "market_chart",
+      vs_currency: "usd",
+    }
+    const time = {'24H': '1', '7D': '7'};
+    days = time[days];
+    const { market_chart, vs_currency } = api;
+    const url = `${this.httpClient}/${coinId}/market_chart?vs_currency=${vs_currency}&days=${days}`
+    const data = await this.#fetchWithErrorHandling(url);
+    console.log(`coinData: `, data);
+    if(data === null) return null;
+    return data;
   }
 
   async #fetchTopCoins(currency = 'usd') {
@@ -19,13 +36,14 @@ export default class Crypto {
       price_change_percentage: "1h,24h,7d" 
     }
     const {markets, vs_currency, order, per_page, page, price_change_percentage} = api;
-    const response = await fetch(`${this.httpClient}/${markets}/?vs_currency=${vs_currency}&order=${order}&per_page=${per_page}&page=${page}&price_change_percentage=${price_change_percentage}`);
+    const url = `${this.httpClient}/${markets}/?vs_currency=${vs_currency}&order=${order}&per_page=${per_page}&page=${page}&price_change_percentage=${price_change_percentage}`;
     
-    const data = await response.json();
-    return this.renameAndModifyPriceChanges(data);
+    const data = await this.#fetchWithErrorHandling(url);
+    if(data === null) return null;
+    return this.#renameAndModifyPriceChanges(data);
   }
 
-  renameAndModifyPriceChanges(data) {
+  #renameAndModifyPriceChanges(data) {
     const modifedData = data.map((item) => {
       const { 
         price_change_percentage_1h_in_currency,
@@ -35,32 +53,36 @@ export default class Crypto {
       } = item;
       return {
         ...rest,
-        price_change_percentage_1H: this.formatWithSign(price_change_percentage_1h_in_currency),
-        price_change_percentage_24H: this.formatWithSign(price_change_percentage_24h_in_currency),
-        price_change_percentage_7D: this.formatWithSign(price_change_percentage_7d_in_currency),
+        price_change_percentage_1H: this.#formatWithSign(price_change_percentage_1h_in_currency),
+        price_change_percentage_24H: this.#formatWithSign(price_change_percentage_24h_in_currency),
+        price_change_percentage_7D: this.#formatWithSign(price_change_percentage_7d_in_currency),
       };
     })
 
     return modifedData;
   }
 
-  formatWithSign(value) {
+  #formatWithSign(value) {
     if(value.toString().includes("0.00")) return "0.00";
     if(value <= 0) return value.toFixed(2);
     return `+${value.toFixed(2)}`;
   }
 
-  async fetchDaysDataForCoins(coinId = 'bitcoin', days = "24H") {
-    const api = {
-      market_chart: "market_chart",
-      vs_currency: "usd",
+  async #fetchWithErrorHandling(url) {
+    try {
+      const response = await fetch(url);
+      if(!response.ok) {
+        if(response.status === 429) {
+          if (response.status === 429) {
+            throw new Error("Too many requests, please try again later.");
+          }
+          throw new Error(`Error: ${response.statusText}`);
+        }
+      }
+      return response.json();
+    } catch(error) {
+      this.setErrorMessage(error.message);
+      return null;
     }
-    const time = {'24H': '1', '7D': '7'};
-    days = time[days];
-    const { market_chart, vs_currency } = api;
-    const response = await fetch(`${this.httpClient}/${coinId}/market_chart?vs_currency=${vs_currency}&days=${days}`)
-    const data = await response.json();
-    console.log(`coinData: `, data);
-    return data;
   }
 }

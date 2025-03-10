@@ -6,11 +6,15 @@ import { useEffect, useRef, useState } from "react";
 import { formatCurrency } from "@/utils/formatCurrency";
 import { coinPriceData } from "@/redux/store";
 import Crypto from "@api/crypto";
+import { useError } from "@/context/ErrorContext";
+import Error from "@components/Error/Error";
+
 const selectTopCoins = (currency) => createSelector(
   (state) => state.coinData[`topCoins${currency}`],
   (topCoins) => Object.fromEntries(topCoins.map((coin) => [coin.id, coin]))
 )
 export default function CoinDetail({ selectedCoin }) {
+  const { errorMessage, updateError } = useError();
   const [selectedTime, setSelectedTime] = useState('24H');
   const timeOptions = ['24H', '7D'];
   const topCoinsBTC = useSelector(selectTopCoins("BTC"));
@@ -33,57 +37,57 @@ export default function CoinDetail({ selectedCoin }) {
       return;
     }
     const fetchPriceData = async () => {
-      try {
-        const crypto = new Crypto();
-        const data = await crypto.fetchDaysDataForCoins(selectedCoin, selectedTime);
-        dispatch(coinPriceData(data));
-      } catch(error) {
-        console.log(`Error fetching data:`, error);
-      }
+      const crypto = new Crypto(updateError);
+      const data = await crypto.fetchDaysDataForCoins(selectedCoin, selectedTime);
+      dispatch(coinPriceData(data));
     }
     fetchPriceData();
   }, [selectedTime, selectedCoin])
   return (
-    <section className={`${styles.coinDetail} coinDetail`}>
-      <header className={`${styles.coinDetailHeader} coinDetail__header`}>
-        <h2 className={`${styles.coinDetailTitle} coinDetail__title`}>{nameUSD} <span className={`${styles.coinDetailTicker} coinDetail__ticker`}>{symbolUSD}</span></h2>
-        <div className={`${styles.coinDetailPrice} coinDetail__price`}>
-          <div className={`${styles.priceWrapper} coinDetail__price-wrapper`}>
-            <h3 className={`${styles.priceValue} coinDetail__price-value`}>${formatCurrency(current_priceUSD)} USD</h3>
-            <span className={`${styles.priceChange} coinDetail__price-change`}>
-              <span className={`${styles.pricePercentage} ${priceChangeClass} coinDetail__price-percentage`}>
-                {selectedCoinUSD[`price_change_percentage_${selectedTime}`]}%
+    <>
+      {errorMessage ? <Error /> : 
+      <section className={`${styles.coinDetail} coinDetail`}>
+        <header className={`${styles.coinDetailHeader} coinDetail__header`}>
+          <h2 className={`${styles.coinDetailTitle} coinDetail__title`}>{nameUSD} <span className={`${styles.coinDetailTicker} coinDetail__ticker`}>{symbolUSD}</span></h2>
+          <div className={`${styles.coinDetailPrice} coinDetail__price`}>
+            <div className={`${styles.priceWrapper} coinDetail__price-wrapper`}>
+              <h3 className={`${styles.priceValue} coinDetail__price-value`}>${formatCurrency(current_priceUSD)} USD</h3>
+              <span className={`${styles.priceChange} coinDetail__price-change`}>
+                <span className={`${styles.pricePercentage} ${priceChangeClass} coinDetail__price-percentage`}>
+                  {selectedCoinUSD[`price_change_percentage_${selectedTime}`]}%
+                </span>
+                <span className={`${styles.priceTime} coinDetail__price-time`}>{`(${selectedTime})`}</span>
               </span>
-              <span className={`${styles.priceTime} coinDetail__price-time`}>{`(${selectedTime})`}</span>
-            </span>
+            </div>
+            <div className={`${styles.btcWrapper} coinDetail__btc-wrapper`}>
+              <span className={`${styles.btcValue} coinDetail__btc-value`}>{current_priceBTC} BTC</span>
+              <span className="coinDetail__btc-change">
+                <span className={`${styles.btcPercentage} ${btcChangeClass} coinDetail__btc-percentage`}>
+                  {selectedCoinBTC[`price_change_percentage_${selectedTime}`]}%</span> 
+                <span className={`${styles.btcTime} coinDetail__btc-time`}>{`(${selectedTime})`}</span>
+              </span>
+            </div>
           </div>
-          <div className={`${styles.btcWrapper} coinDetail__btc-wrapper`}>
-            <span className={`${styles.btcValue} coinDetail__btc-value`}>{current_priceBTC} BTC</span>
-            <span className="coinDetail__btc-change">
-              <span className={`${styles.btcPercentage} ${btcChangeClass} coinDetail__btc-percentage`}>
-                {selectedCoinBTC[`price_change_percentage_${selectedTime}`]}%</span> 
-              <span className={`${styles.btcTime} coinDetail__btc-time`}>{`(${selectedTime})`}</span>
-            </span>
+        </header>
+        <nav className={`${styles.timeframe} coinDetail__timeframe`}>
+          <h2>Bitcoin Price Chart (USD)</h2>
+          <div className="coinDetail__chart-time-buttons">
+          {timeOptions.map((time) => (
+            <button
+            key={time}
+              onClick={() => handleButtonClick(time)}
+              className={`${styles.chartTime} coinDetail__chart-time button-reset ${(selectedTime === time) ? 'active' : ''} `}
+            >
+              {time}
+            </button>
+          ))}
           </div>
-        </div>
-      </header>
-      <nav className={`${styles.timeframe} coinDetail__timeframe`}>
-        <h2>Bitcoin Price Chart (USD)</h2>
-        <div className="coinDetail__chart-time-buttons">
-        {timeOptions.map((time) => (
-          <button
-          key={time}
-            onClick={() => handleButtonClick(time)}
-            className={`${styles.chartTime} coinDetail__chart-time button-reset ${(selectedTime === time) ? 'active' : ''} `}
-          >
-            {time}
-          </button>
-        ))}
-        </div>
-      </nav>
-      <article className={`coinDetail__chart ${styles.coinDetailChart}`}>
-        <Chart selectedTime={selectedTime}/>
-      </article>
-    </section>
+        </nav>
+        <article className={`coinDetail__chart ${styles.coinDetailChart}`}>
+          <Chart selectedTime={selectedTime}/>
+        </article>
+      </section>
+    }
+    </>
   )
 }
