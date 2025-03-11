@@ -3,6 +3,7 @@ import { useSelector } from "react-redux"
 import { select, scaleTime, timeParse, extent, scaleLinear, min, max, line, area, curveLinear, axisBottom, axisLeft, timeFormat } from "d3";
 import useResizeObserver from "@hooks/useResizeObserver"
 import styles from '@components/Chart/Chart.module.css';
+
 const selectPriceData = (state) => state.coinData.coinPrice.prices;
 export default function Chart({ selectedTime }) {
   console.log(`selectedTime: `, selectedTime);
@@ -109,7 +110,7 @@ export default function Chart({ selectedTime }) {
     .attr("d", lineGenerator)
   }, [dimensions, prices])
   return (
-    <>
+    <> 
       <div id="chart__wrapper" className={`${styles.chartWrapper}`} ref={wrapperRef}>
         <svg ref={svgRef} className={`${styles.svg}`}>
           <defs>

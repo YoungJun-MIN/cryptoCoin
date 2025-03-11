@@ -8,14 +8,16 @@ import { coinPriceData } from "@/redux/store";
 import Crypto from "@api/crypto";
 import { useError } from "@/context/ErrorContext";
 import Error from "@components/Error/Error";
+import ChartLoading from "@components/ChartLoading/ChartLoading";
 
 const selectTopCoins = (currency) => createSelector(
   (state) => state.coinData[`topCoins${currency}`],
   (topCoins) => Object.fromEntries(topCoins.map((coin) => [coin.id, coin]))
 )
 export default function CoinDetail({ selectedCoin }) {
-  const { errorMessage, updateError } = useError();
   const [selectedTime, setSelectedTime] = useState('24H');
+  const [loading, setLoading] = useState(false);
+  const { errorMessage, updateError } = useError();
   const timeOptions = ['24H', '7D'];
   const topCoinsBTC = useSelector(selectTopCoins("BTC"));
   const topCoinsUSD = useSelector(selectTopCoins("USD"));
@@ -40,7 +42,10 @@ export default function CoinDetail({ selectedCoin }) {
       const crypto = new Crypto(updateError);
       const data = await crypto.fetchDaysDataForCoins(selectedCoin, selectedTime);
       dispatch(coinPriceData(data));
+      setLoading(false);
     }
+    console.log(`loading: `, loading);
+    setLoading(true);
     fetchPriceData();
   }, [selectedTime, selectedCoin])
   return (
@@ -84,7 +89,7 @@ export default function CoinDetail({ selectedCoin }) {
           </div>
         </nav>
         <article className={`coinDetail__chart ${styles.coinDetailChart}`}>
-          <Chart selectedTime={selectedTime}/>
+          {loading ? <ChartLoading /> : <Chart selectedTime={selectedTime}/>}
         </article>
       </section>
     }

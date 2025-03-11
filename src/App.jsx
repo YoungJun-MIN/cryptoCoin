@@ -10,7 +10,9 @@ import { useDispatch } from "react-redux"
 import Crypto from "@api/crypto";
 import testData from "@api/testData";
 import { useError } from "@/context/ErrorContext";
+import LoadingSpinner from "@components/LoadingSpinner/LoadingSpinner";
 
+LoadingSpinner
 function App() {
   const [loading, setLoading] = useState(true);
   const { errorMessage, updateError } = useError();
@@ -18,7 +20,7 @@ function App() {
   console.log(`@@@@@@App리렌더`);
   useEffect(() => {
     const loadCoinData = async() => {
-      const crypto = new Crypto();
+      const crypto = new Crypto(updateError);
       const data = await crypto.fetchInitialData();
       console.log(data);
       dispatch(initializeCoinData(data));
@@ -29,7 +31,7 @@ function App() {
     // dispatch(initializeCoinData({...testData, 'age': 10}));
     // setLoading(false);
   }, [])
-  if(loading) return <p>Loading...</p>
+  if(loading) return <LoadingSpinner />
   return (
     <>
       <Router>
