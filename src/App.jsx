@@ -26,10 +26,10 @@ function App() {
       dispatch(initializeCoinData(data));
       setLoading(false);
     }
-    loadCoinData();
-    // console.log(testData);
-    // dispatch(initializeCoinData({...testData, 'age': 10}));
-    // setLoading(false);
+    // loadCoinData();
+    console.log(testData);
+    dispatch(initializeCoinData({...testData, 'age': 10}));
+    setLoading(false);
   }, [])
   if(loading) return <LoadingSpinner />
   return (

@@ -6,14 +6,13 @@ import styles from '@components/Chart/Chart.module.css';
 
 const selectPriceData = (state) => state.coinData.coinPrice.prices;
 export default function Chart({ selectedTime }) {
-  console.log(`selectedTime: `, selectedTime);
   const prices = useSelector(selectPriceData);
-  console.log(`prices: `, prices);
   const svgRef = useRef();
   const wrapperRef = useRef();
   const dimensions = useResizeObserver(wrapperRef);
 
   useEffect(() => {
+    console.log(`dimensions: `, dimensions);
     const svg = select(svgRef.current);
     const svgContent = svg.select(".chart__content");
     const { width, height } = dimensions || wrapperRef.current.getBoundingClientRect();

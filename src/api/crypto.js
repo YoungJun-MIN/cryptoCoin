@@ -22,7 +22,6 @@ export default class Crypto {
     const url = `${this.httpClient}/${coinId}/market_chart?vs_currency=${vs_currency}&days=${days}`
     const data = await this.#fetchWithErrorHandling(url);
     console.log(`coinData: `, data);
-    if(data === null) return null;
     return data;
   }
 
@@ -39,7 +38,6 @@ export default class Crypto {
     const url = `${this.httpClient}/${markets}/?vs_currency=${vs_currency}&order=${order}&per_page=${per_page}&page=${page}&price_change_percentage=${price_change_percentage}`;
     
     const data = await this.#fetchWithErrorHandling(url);
-    if(data === null) return null;
     return this.#renameAndModifyPriceChanges(data);
   }
 
@@ -81,6 +79,7 @@ export default class Crypto {
       }
       return response.json();
     } catch(error) {
+      console.log(`error: `, error);
       this.setErrorMessage(error.message);
       return null;
     }

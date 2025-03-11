@@ -13,6 +13,8 @@
   --neutral-gray: #5D667B;
   /* Accent Colors */
   --accent-yellow: #FFC107; /* 예시로 추가한 것 */
+
+  --error-color: #FF7284;
 }
 
 [data-theme="light"] {

@@ -33,6 +33,7 @@ export default function CoinDetail({ selectedCoin }) {
   const isFirstRender = useRef(true);
   const dispatch = useDispatch();
   console.log(`CoinDetail`);
+  console.log(`errorMessage`);
   useEffect(() => {
     if(isFirstRender.current) {
       isFirstRender.current = false;
@@ -41,16 +42,15 @@ export default function CoinDetail({ selectedCoin }) {
     const fetchPriceData = async () => {
       const crypto = new Crypto(updateError);
       const data = await crypto.fetchDaysDataForCoins(selectedCoin, selectedTime);
-      dispatch(coinPriceData(data));
+      if(data !== null) dispatch(coinPriceData(data));
       setLoading(false);
     }
-    console.log(`loading: `, loading);
     setLoading(true);
     fetchPriceData();
   }, [selectedTime, selectedCoin])
   return (
     <>
-      {errorMessage ? <Error /> : 
+      {(errorMessage) && <Error />}
       <section className={`${styles.coinDetail} coinDetail`}>
         <header className={`${styles.coinDetailHeader} coinDetail__header`}>
           <h2 className={`${styles.coinDetailTitle} coinDetail__title`}>{nameUSD} <span className={`${styles.coinDetailTicker} coinDetail__ticker`}>{symbolUSD}</span></h2>
@@ -92,7 +92,6 @@ export default function CoinDetail({ selectedCoin }) {
           {loading ? <ChartLoading /> : <Chart selectedTime={selectedTime}/>}
         </article>
       </section>
-    }
     </>
   )
 }
