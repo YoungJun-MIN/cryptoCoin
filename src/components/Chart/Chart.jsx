@@ -12,7 +12,6 @@ export default function Chart({ selectedTime }) {
   const dimensions = useResizeObserver(wrapperRef);
 
   useEffect(() => {
-    console.log(`dimensions: `, dimensions);
     const svg = select(svgRef.current);
     const svgContent = svg.select(".chart__content");
     const { width, height } = dimensions || wrapperRef.current.getBoundingClientRect();

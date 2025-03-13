@@ -15,6 +15,7 @@ const selectTopCoins = (currency) => createSelector(
   (topCoins) => Object.fromEntries(topCoins.map((coin) => [coin.id, coin]))
 )
 export default function CoinDetail({ selectedCoin }) {
+  console.log(`CoinDetail@@@`)
   const [selectedTime, setSelectedTime] = useState('24H');
   const [loading, setLoading] = useState(false);
   const { errorMessage, updateError } = useError();
@@ -32,8 +33,6 @@ export default function CoinDetail({ selectedCoin }) {
   const handleButtonClick = (time) => setSelectedTime(time);
   const isFirstRender = useRef(true);
   const dispatch = useDispatch();
-  console.log(`CoinDetail`);
-  console.log(`errorMessage`);
   useEffect(() => {
     if(isFirstRender.current) {
       isFirstRender.current = false;

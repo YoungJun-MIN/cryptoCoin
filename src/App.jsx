@@ -5,19 +5,20 @@ import Dashboard from "@components/Main/Dashboard";
 import Profile from "@components/Main/Profile";
 import Trade from "@components/Main/Trade";
 import { initializeCoinData } from "@/redux/store";
-import { useEffect, useState } from "react";
+import { useEffect, useRef, useState } from "react";
 import { useDispatch } from "react-redux"
 import Crypto from "@api/crypto";
 import testData from "@api/testData";
 import { useError } from "@/context/ErrorContext";
 import LoadingSpinner from "@components/LoadingSpinner/LoadingSpinner";
+import useDeviceType from "@hooks/useDeviceType";
 
-LoadingSpinner
 function App() {
   const [loading, setLoading] = useState(true);
-  const { errorMessage, updateError } = useError();
+  const { updateError } = useError();
+  const dashboardRef = useRef();
   const dispatch = useDispatch();
-  console.log(`@@@@@@App리렌더`);
+  const deviceType = useDeviceType();
   useEffect(() => {
     const loadCoinData = async() => {
       const crypto = new Crypto(updateError);
@@ -31,13 +32,14 @@ function App() {
     dispatch(initializeCoinData({...testData, 'age': 10}));
     setLoading(false);
   }, [])
+  console.log(`deviceType: `, deviceType);
   if(loading) return <LoadingSpinner />
   return (
     <>
       <Router>
         <Header></Header>
-        <div className="dashboard">
-          <Sidebar></Sidebar>
+        <div className="dashboard" ref={dashboardRef}>
+          {(deviceType === `desktop`) && <Sidebar></Sidebar>}
           <main className="dashboard__main">
             <Routes>
               <Route path="/" element={<Dashboard />}></Route>

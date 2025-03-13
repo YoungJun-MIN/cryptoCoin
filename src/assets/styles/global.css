@@ -44,8 +44,9 @@
 
 .dashboard__main {
   display: grid;
-  grid-template-columns: 7fr 3fr;
+  grid-template-columns: 6.5fr 3.5fr;
 }
+
 .button-reset {
   cursor: pointer;
   font: inherit;
@@ -78,4 +79,66 @@ a:focus-visible, button:focus-visible {
 
 .price-down {
   color: #d32f2f; /* 빨간색 */
+}
+
+@media (max-width: 1024px) { 
+  /* iPad (태블릿) */
+
+  .dashboard {
+    margin-top: 20px;
+    display: block;
+  }
+
+  .dashboard__main {
+    display: block;
+  }
+}
+
+@media (max-width: 768px) { 
+  /* Phone (모바일) */
+  &__element {
+    font-size: 12px;
+  }
+}
+
+/* coinList__table */
+table {
+  border-collapse: collapse;
+  width: 100%;
+}
+
+th, td {
+  border-top: 1px solid #ccc;
+  border-bottom: 1px solid #ccc;
+  text-align: left;
+  white-space: nowrap;
+  padding: 12px;
+  vertical-align: middle;
+}
+
+th:first-child, td:first-child {
+  border-left: 1px solid #ccc; 
+  padding-left: 30px;
+}
+
+th:last-child, td:last-child {
+  border-right: 1px solid #ccc;
+  text-align: right;
+}
+
+.coinList__table img {
+  width: 20px;
+  height: 20px;
+  vertical-align: middle;
+  margin-right: 8px;
+}
+
+.coinList__table thead{
+  font-size: 0.8rem;
+  color: var(--neutral-gray);
+  font-weight: 600;
+}
+
+.coinList__table tr {
+  cursor: pointer;
 }
