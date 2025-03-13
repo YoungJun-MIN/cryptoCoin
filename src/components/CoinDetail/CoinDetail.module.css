@@ -90,6 +90,6 @@
 
 @media (max-width: 1024px) { 
   .coinDetailChart {
-    height: 600px;
+    height: 300px;
   }
 }

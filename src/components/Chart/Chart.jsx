@@ -25,7 +25,7 @@ export default function Chart({ selectedTime }) {
         }
       ))
       .range([0, innerWidth - 0]);
-
+    console.log(`dimension: `, dimensions);
     const yScale = scaleLinear()
       .domain([min(prices, (item) => {
           const [, price] = item;
