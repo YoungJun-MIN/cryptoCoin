@@ -1,6 +1,6 @@
 import { useEffect, useRef } from "react"
 import { useSelector } from "react-redux"
-import { select, scaleTime, timeParse, extent, scaleLinear, min, max, line, area, curveLinear, axisBottom, axisLeft, timeFormat } from "d3";
+import { select, scaleTime, extent, scaleLinear, min, max, line, area, curveLinear, axisBottom, axisLeft, timeFormat, timeDay, timeHour } from "d3";
 import useResizeObserver from "@hooks/useResizeObserver"
 import styles from '@components/Chart/Chart.module.css';
 
@@ -65,9 +65,17 @@ export default function Chart({ selectedTime }) {
       .attr("transform", `translate(${margin.left}, 20)`)
 
     // Axes
+    const day7Format = timeFormat("%d. %b");
+    const day1Format = (d) => {
+      console.log(`d: `, d);
+      const date = timeFormat("%d. %b")(d);
+      const time = timeFormat("%H:%M")(d);
+      return time === "00:00" ? date : time;
+    };
     const xAxis = axisBottom(xScale)
       .tickSizeOuter(0)
-      .tickFormat(timeFormat("%H:%M"));
+      .ticks(selectedTime === '7D' ? timeDay.every(1) : timeHour.every(3)) // 7D는 일 단위, 24H는 시간 단위
+      .tickFormat(selectedTime === '7D' ? day7Format : day1Format);
     svg
       .select(".x-axis")
       .attr("transform", `translate(0, ${innerHeight})`)
