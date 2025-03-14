@@ -65,7 +65,7 @@ export default function CoinDetail({ selectedCoin }) {
             </div>
             <div className={`${styles.btcWrapper} coinDetail__btc-wrapper`}>
               <span className={`${styles.btcValue} coinDetail__btc-value`}>{current_priceBTC} BTC</span>
-              <span className="coinDetail__btc-change">
+              <span className={`coinDetail__btc-change ${styles.btcChange}`}>
                 <span className={`${styles.btcPercentage} ${btcChangeClass} coinDetail__btc-percentage`}>
                   {selectedCoinBTC[`price_change_percentage_${selectedTime}`]}%</span> 
                 <span className={`${styles.btcTime} coinDetail__btc-time`}>{`(${selectedTime})`}</span>

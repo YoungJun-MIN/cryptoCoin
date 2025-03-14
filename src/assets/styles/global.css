@@ -15,6 +15,7 @@
   --accent-yellow: #FFC107; /* 예시로 추가한 것 */
 
   --error-color: #FF7284;
+  --table-border-color: #cccccc
 }
 
 [data-theme="light"] {
@@ -74,54 +75,34 @@ a:focus-visible, button:focus-visible {
 }
 
 .price-up {
-  color: #008000; /* 초록색 */
+  color: #008000; 
 }
 
 .price-down {
-  color: #d32f2f; /* 빨간색 */
+  color: #d32f2f;
 }
 
-@media (max-width: 1024px) { 
-  /* iPad (태블릿) */
-
+@media (max-width: 1024px) {
   #root {
-      min-height: inherit;
-      display: block;
-    }
+    display: block;
+  }
 
   .dashboard {
     position: relative;
     margin-top: 20px;
     display: block;
+    height: 100%;
   }
-  /*
+
   .dashboard__main {
     display: block;
-  } */
-}
-
-@media (max-width: 1023px) {
-  #root {
-    min-height: 100dvh;
-    display: block;
+    height: 100%;
   }
 
-.dashboard {
-  position: relative;
-  margin-top: 20px;
-  display: block;
 }
 
-.dashboard__main {
-  display: block;
-}
-
-}
 @media (max-width: 768px) { 
   /* Phone (모바일) */
-  &__element {
-    font-size: 12px;
-  }
 }
 
 /* coinList__table */
@@ -131,8 +112,8 @@ table {
 }
 
 th, td {
-  border-top: 1px solid #ccc;
-  border-bottom: 1px solid #ccc;
+  border-top: 1px solid var(--table-border-color);
+  border-bottom: 1px solid var(--table-border-color);
   text-align: left;
   white-space: nowrap;
   padding: 12px;
@@ -140,12 +121,12 @@ th, td {
 }
 
 th:first-child, td:first-child {
-  border-left: 1px solid #ccc; 
+  border-left: 1px solid var(--table-border-color);
   padding-left: 30px;
 }
 
 th:last-child, td:last-child {
-  border-right: 1px solid #ccc;
+  border-right: 1px solid var(--table-border-color);
   text-align: right;
 }
 

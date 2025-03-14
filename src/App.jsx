@@ -2,8 +2,6 @@ import Header from "@components/Header/Header"
 import Sidebar from "@components/Sidebar/Sidebar"
 import {BrowserRouter as Router, Routes, Route, Link } from "react-router-dom";
 import Dashboard from "@components/Main/Dashboard";
-import Profile from "@components/Main/Profile";
-import Trade from "@components/Main/Trade";
 import { initializeCoinData } from "@/redux/store";
 import { useEffect, useRef, useState } from "react";
 import { useDispatch } from "react-redux"
@@ -43,8 +41,6 @@ function App() {
           <main className="dashboard__main">
             <Routes>
               <Route path="/" element={<Dashboard />}></Route>
-              <Route path="/profile" element={<Profile />}></Route>
-              <Route path="/trade" element={<Trade />}></Route>
             </Routes>
           </main>
         </div>

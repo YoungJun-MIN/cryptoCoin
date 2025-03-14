@@ -8,12 +8,6 @@ export default function Sidebar() {
           <li className="dashboard__nav-item">
             <Link className={`${styles.dashboard__navLink} a-reset dashboard__nav-link`} to="/">Dashboard</Link>
           </li>
-          <li>
-            <Link className={`${styles.dashboard__navLink} a-reset dashboard__nav-link`} to="/profile">profile</Link>
-          </li>
-          <li>
-            <Link className={`${styles.dashboard__navLink} a-reset dashboard__nav-link`} to="/trade">Trade</Link>
-          </li>
         </ul>
       </nav>
     </>

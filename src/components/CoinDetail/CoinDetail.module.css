@@ -14,7 +14,6 @@
 .coinDetailHeader {
   display: flex;
   margin-right: 100px;
-  /* gap: 300px; */
 }
 
 .coinDetailTitle {
@@ -88,8 +87,56 @@
   color: var(--neutral-gray);
 }
 
-@media (max-width: 1024px) { 
+@media (max-width: 1024px) {
+  .coinDetail {
+    padding: 0px 20px;
+  } 
+  .coinDetailChart {
+    height: 400px;
+  }
+}
+
+@media (max-width: 766px) { 
   .coinDetailChart {
     height: 300px;
+  }
+
+  .coinDetailTitle {
+    font-size: 1.2rem;
+    flex-grow: 1;
+  }
+
+  .coinDetailHeader {
+    margin-right: 0px;
+  }
+
+  .priceValue {
+    font-size: 1rem;
+  }
+
+  .priceChange {
+    font-size: 1rem;
+  }
+
+  .btcPercentage {
+    font-size: 0.8rem;
+  }
+  
+  .btcValue {
+    font-size: 0.8rem;
+  }
+
+  .btcChange {
+    display: flex;
+  }
+}
+
+@media (max-width: 375px) {
+  .priceValue {
+    font-size: 0.9rem;
+  }
+
+  .priceChange {
+    font-size: 0.9rem;
   }
 }
