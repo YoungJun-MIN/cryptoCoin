@@ -21,16 +21,11 @@ function App() {
     const loadCoinData = async() => {
       const crypto = new Crypto(updateError);
       const data = await crypto.fetchInitialData();
-      console.log(data);
       dispatch(initializeCoinData(data));
       setLoading(false);
     }
-    // loadCoinData();
-    console.log(testData);
-    dispatch(initializeCoinData({...testData, 'age': 10}));
-    setLoading(false);
+    loadCoinData();
   }, [])
-  console.log(`deviceType: `, deviceType);
   if(loading) return <LoadingSpinner />
   return (
     <>

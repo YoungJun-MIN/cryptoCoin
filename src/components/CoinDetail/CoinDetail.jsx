@@ -15,7 +15,6 @@ const selectTopCoins = (currency) => createSelector(
   (topCoins) => Object.fromEntries(topCoins.map((coin) => [coin.id, coin]))
 )
 export default function CoinDetail({ selectedCoin }) {
-  console.log(`CoinDetail@@@`)
   const [selectedTime, setSelectedTime] = useState('24H');
   const [loading, setLoading] = useState(false);
   const { errorMessage, updateError } = useError();

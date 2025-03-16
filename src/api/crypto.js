@@ -21,7 +21,6 @@ export default class Crypto {
     const { market_chart, vs_currency } = api;
     const url = `${this.httpClient}/${coinId}/market_chart?vs_currency=${vs_currency}&days=${days}`
     const data = await this.#fetchWithErrorHandling(url);
-    console.log(`coinData: `, data);
     return data;
   }
 
